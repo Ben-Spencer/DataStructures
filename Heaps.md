@@ -1,4 +1,4 @@
-#Heaps
+# Heaps
 Heaps are implemented the same way as arrays. The benefit of storing a heap as an array, rather than a pointer-basaed binary tree is the following:</br>
 * Lower memory usage (only store data, rather than 3 additional pointers)</br>
 * Easier memory management (just one object elemented, rather than N)</br>
