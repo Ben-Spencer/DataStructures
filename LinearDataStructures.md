@@ -7,5 +7,5 @@
 | Search | Binary Search [O(log n)] | Linear Search [O(n)]
 | Memory Size | Fixed | Dynamic |
 | Storage Type | Consecutive | Random |
-| Data Cost | Less | More |
+| Data Cost | Less [Only data is stored] | More [Pointer(s) are stored, as well as data] |
 | Memory Utilization | Inefficient (due to fixed memory) | Efficient (due to dynamic memory) |
