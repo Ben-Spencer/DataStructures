@@ -17,3 +17,23 @@ Linear data structures share the following properties:<br>
 | Storage Type | Consecutive | Random |
 | Data Cost | Less [Only data is stored] | More [Pointer(s) are stored, as well as data] |
 | Memory Utilization | Inefficient (due to fixed memory) | Efficient (due to dynamic memory) |
+
+<br>
+<h2>Array Implementation</h2>
+<pre>
+class Array:
+  def __init__(self):
+    self.arr = []
+  def append(self, item):
+    self.arr.append(item)
+  def prepend(self, item):
+    self.arr.insert(0, item)
+  def __str__(self):
+    return str(self.arr)
+</pre>
+<br>
+<h2>Linked List Implementation</h2>
+<pre>
+
+</pre>
+
