@@ -2,7 +2,7 @@
 Linear data structures share the following properties:<br>
 * Data elements are sequentially connected and each element is traversable in a single run<br>
 * All elements are on one single level, rather than multi-level (such as trees)<br>
-* Do not use memory efficiently<br>
+* Generally, do not use memory efficiently<br>
 * Time complexity is normally at least O(n). There are exceptions, such as binary search.<br>
 <h2>Comparison Between Linear Data Structures</h2>
 
