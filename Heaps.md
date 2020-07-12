@@ -1,7 +1,8 @@
+#Heaps
 Heaps are implemented the same way as arrays. The benefit of storing a heap as an array, rather than a pointer-basaed binary tree is the following:
-Lower memory usage (only store data, rather than 3 additional pointers)
-Easier memory management (just one object elemented, rather than N)
-Better locality of memory (heap memory is contiguous due to array implementation; if binary tree is used, memory is scattered)
+*Lower memory usage (only store data, rather than 3 additional pointers)
+*Easier memory management (just one object elemented, rather than N)
+*Better locality of memory (heap memory is contiguous due to array implementation; if binary tree is used, memory is scattered)
 
 | Operation | Binary | Binomial | Fibonacci | Pairing | Brodal | Rank Pairing | Strict Fibonacci |
 | --------- | ------ | -------- | --------- | ------- | ------ | ------------ | ---------------- |
