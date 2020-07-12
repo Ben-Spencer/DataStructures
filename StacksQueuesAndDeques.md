@@ -29,6 +29,7 @@ class ArrayStack:<br>
   def __str__(self):<br>
     return str(self.items)
  </pre>
+ 
  <h3>Linked List Stack Implementation</h3>
  <br>
  <pre>
@@ -75,7 +76,8 @@ class LinkedListStack:<br>
       s = s + str(current.getData()) + " -> "<br>
       current = current.getNext()<br>
     return s + "None"
-    </pre>
+</pre>
+
 <h3>Array Queue Implementation</h3>
 <pre>
 class ArrayQueue:<br>
@@ -94,6 +96,7 @@ class ArrayQueue:<br>
   def __str__(self):<br>
     return str(self.items)
 </pre>
+
 <h3>Linked List Queue Implementation</h3>
  <br>
  <pre>
@@ -115,11 +118,11 @@ class LinkedListQueue:<br>
     self.head = None<br>
   def isEmpty(self):<br>
     return self.head == None<br>
-  def push(self, item):<br>
+  def enQueue(self, item):<br>
     new_node = Node(item)<br>
     new_node.setNext(self.head)<br>
     self.head = new_node<br>
-  def pop(self):<br>
+  def deQueue(self):<br>
     current = self.head<br>
     prev = None
     while current.getNext():<br>
@@ -131,6 +134,103 @@ class LinkedListQueue:<br>
     return popped_node.getData()<br>
   def peek(self):<br>
     return self.head.getData()<br>
+  def getSize(self):<br>
+    current = self.head<br>
+    count = 0<br>
+    while current:<br>
+      count += 1<br>
+      current = current.getNext()<br>
+    return count<br>
+  def __str__(self):<br>
+    s = ""<br>
+    current = self.head<br>
+    while current.getNext():<br>
+      s = s + str(current.getData()) + " -> "<br>
+      current = current.getNext()<br>
+    return s + "None"
+</pre>
+
+<h3>Array Deque Implementation</h3>
+<pre>
+class ArrayDeque:<br>
+  def __init__(self):<br>
+    self.items = []<br>
+  def isEmpty(self):<br>
+    return self.items == []<br>
+  def insertFront(self, item):<br>
+    self.items.insert(0, item)<br>
+  def insertBack(self, item):<br>
+    self.items.append(item)<br>
+  def removeFront(self):<br>
+    return self.items.pop(0)<br>
+  def removeBack(self):<br>
+    return self.items.pop()<br>
+  def peekFront(self):<br>
+    return self.items[0]<br>
+  def peekBack(self):<br>
+    return self.items[0]<br>
+  def getSize(self):<br>
+    return len(self.items)<br>
+  def __str__(self):<br>
+    return str(self.items)
+</pre>
+
+<h3>Linked List Deque Implementation</h3>
+ <br>
+ <pre>
+ class Node:<br>
+  def __init__(self, initdata):<br>
+    self.data = initdata<br>
+    self.next = None<br>
+  def getData(self):<br>
+    return self.data<br>
+  def getNext(self):<br>
+    return self.next<br>
+  def setData(self, newData):<br>
+    self.data = newData<br>
+  def setNext(self, newNext):<br>
+    self.next = newNext<br>
+<br>
+class LinkedListDeque:<br>
+  def __init__(self):<br>
+    self.head = None<br>
+  def isEmpty(self):<br>
+    return self.head == None<br>
+  def insertFront(self, item):<br>
+    new_node = Node(item)<br>
+    new_node.setNext(self.head)<br>
+    self.head = new_node<br>
+  def insertBack(self, item):<br>
+    new_node = Node(item)<br>
+    current = self.head<br>
+    if current:<br>
+      while current.getNext():<br>
+        current = current.getNext()<br>
+      current.setNext(new_node)<br>
+    else:<br>
+      self.head = new_node<br>
+  def removeFront(self):<br>
+    popped_item = self.head<br>
+    popped_item.getNext() = self.head<br>
+    popped_item.setNext(None)<br>
+    return popped_item<br>
+  def removeBack(self):<br>
+    current = self.head<br>
+    prev = None<br>
+    while current.getNext():<br>
+      prev = current<br>
+      current = current.getNext()<br>
+    popped_node = current<br>
+    prev.setNext(None)<br>
+    popped_node.setNext(None)<br>
+    return popped_node.getData()<br>
+  def peekFront(self):<br>
+    return self.head.getData()<br>
+  def peekBack(self):<br>
+    current = self.head<br>
+    while current.getNext():<br>
+      current = current.getNext()<br>
+    return current.getData()<br>
   def getSize(self):<br>
     current = self.head<br>
     count = 0<br>
