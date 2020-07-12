@@ -10,6 +10,7 @@ Linear data structures share the following properties:<br>
 |-| ------ | ----- |
 |Memory Access | Random Access Memory (through indexing) | Sequential Memory Access |
 | Append | Amortized O(1) | O(n) due to Traversal |
+| Prepend | O(n) | O(1) |
 | Insertion / Deletion | O(n) | O(1) |
 | Traversal | O(n) | O(n) |
 | Search | Binary Search [O(log n)] | Linear Search [O(n)]
