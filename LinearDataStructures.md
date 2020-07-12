@@ -33,7 +33,7 @@ class Array:
 </pre>
 <br>
 
-<h2>Types of Linked Lists
+<h2>Types of Linked Lists</h2>
   
 |  | Singly Linked List | Doubly Linked List | Circular Linked List | Doubly Circular Linked List |
 |--| ------------------ | ------------------ | -------------------- | --------------------------- |
