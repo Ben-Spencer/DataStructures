@@ -237,7 +237,7 @@ class DoublyLinkedList:<br>
 		return "None <-> " + s + "None" 
 </pre>
  
-<h2>Stacks, Queues, and Deques<h2>
+<h2>Stacks, Queues, and Deques</h2>
 
 Stacks, Queues, and Deques are linear data structures that force operations to be done at the front and/or back of the list. All three data structures can be implemented as both arrays (lists in Python) and linked lists; however, each implementation has different effects on the computational complexity. <br><br>
 For example, implementing a queue as a linked list would not necessarily be the best idea, as either the enQueue and deQueue function would have to traverse the entire list before inserting / removing the element. Also, linked lists use additional storage, as they store pointers along with data. 
