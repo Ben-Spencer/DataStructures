@@ -218,19 +218,16 @@ class DoublyLinkedList:<br>
 		new_node.setNext(current.getNext())<br>
 		current.setNext(new_node)<br>
 		current.getNext().setPrev(new_node)<br>
-	def addAtEnd(self, data):<br>
-		new_node = Node(data)<br>
+	def removeTarget(self, target):<br>
 		current = self.head<br>
-		if current:<br>
-			while current.getNext():<br>
-				current = current.getNext()<br>
-			current.setNext(new_node)<br>
-			new_node.setPrev(current)<br>
-			new_node.setNext(None)<br>
-		else:<br>
-			self.head = new_node<br>
-			new_node.setNext(None)<br>
-			new_node.setPrev(None)<br>
+		prev = None<br>
+		while current.getData() != target: <br>
+			prev = current<br>
+			current = current.getNext()<br>
+		removed_item = current<br>
+		prev.setNext(current.getNext())<br>
+		removed_item.setNext(None)<br>
+		return removed_item.getData()<br>
 	def __str__(self):<br>
 		s = ""<br>
 		current = self.head<br>
