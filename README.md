@@ -1,4 +1,4 @@
-#Things to Study
+# Things to Study
 ## Common Data Structures:
 * Arrays <br>
 * Stacks <br>
