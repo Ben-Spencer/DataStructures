@@ -168,7 +168,7 @@ class SinglyLinkedList:<br>
         s = s + "None"<br>
         return s
 </pre>
-<h2>Doubly Linked List</h2>
+<h2>Doubly Linked List Implementation</h2>
 <pre>
 class Node:<br>
 	def __init__(self, initdata):<br>
