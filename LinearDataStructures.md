@@ -4,7 +4,7 @@ Linear data structures share the following properties:<br>
 * All elements are on one single level, rather than multi-level (such as trees)<br>
 * Generally, do not use memory efficiently<br>
 * Time complexity is normally at least O(n). There are exceptions, such as binary search.<br>
-<h2>Comparison Between Linear Data Structures</h2>
+<h2>Comparison of Linear Data Structures</h2>
 
 | | Arrays | Lists |
 |-| ------ | ----- |
