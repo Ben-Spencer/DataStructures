@@ -32,8 +32,126 @@ class Array:
     return str(self.arr)
 </pre>
 <br>
-<h2>Linked List Implementation</h2>
+<h2>Singly Linked List Implementation</h2>
 <pre>
-
+class Node:<br>
+    def __init__(self, initdata):<br>
+        self.data = initdata<br>
+        self.next = None<br>
+    def getData(self):<br>
+        return self.data<br>
+    def getNext(self):<br>
+        return self.next<br>
+    def setData(self, newData):<br>
+        self.data = newData<br>
+    def setNext(self, newNext):<br>
+        self.next = newNext<br>
+<br>
+class SinglyLinkedList:<br>
+    def __init__(self):<br>
+        self.head = None<br>
+    def isEmpty(self):<br>
+        return self.head == None<br>
+    def prepend(self,item):<br>
+        temp = Node(item)<br>
+        temp.setNext(self.head)<br>
+        self.head = temp<br>
+    def append(self, item):<br>
+        temp = Node(item)<br>
+        current = self.head<br>
+        if current:<br>
+            while current.getNext() != None:<br>
+                current = current.getNext()<br>
+            current.setNext(temp)<br>
+        else:<br>
+            self.head = temp<br>
+    def size(self):<br>
+        current = self.head<br>
+        count = 0<br>
+        while current != None:<br>
+            count = count + 1<br>
+            current = current.getNext()<br>
+        return count<br>
+    def removeBackHalf(self):<br>
+        ls = self.listSize()<br>
+        mid = ls//2<br>
+        current = self.head<br>
+        count = 1<br>
+        while count < mid:<br>
+            count += 1<br>
+            current = current.getNext()<br>
+        current.setNext(None)<br>
+    def search(self,item):<br>
+        current = self.head<br>
+        found = False<br>
+        while current != None and found != True:<br>
+            if current.getData() == item:<br>
+                found = True<br>
+            else:<br>
+                current = current.getNext()<br>
+        return found<br>
+    def reverse(self):<br>
+        prev = None<br>
+        current = self.head<br>
+        while current:<br>
+            next = current.getNext()<br>
+            current.setNext(prev)<br>
+            prev = current<br>
+            current = next<br>
+        self.head = prev<br>
+    def remove(self,item):<br>
+        current = self.head<br>
+        previous = None<br>
+        found = False<br>
+        while found != True:<br>
+            if current.getData() == item:<br>
+                found = True<br>
+            else:<br>
+                previous = current<br>
+                current = current.getNext()<br>
+        if previous == None:<br>
+            self.head = current.getNext()<br>
+        else:<br>
+            previous.setNext(current.getNext())<br>
+    def sortedMerge(self, a, b): <br>
+        result = None<br>
+        if a == None: <br>
+            return b <br>
+        if b == None: <br>
+            return a <br>
+        if a.getData() <= b.getData():<br>
+            result = a <br>
+            result.setNext(self.sortedMerge(a.getNext(), b))<br> 
+        else: <br>
+            result = b <br>
+            result.setNext(self.sortedMerge(a, b.getNext()))<br>
+        return result <br>
+    def mergeSort(self, h): <br>
+        if h or h.getNext(): <br>
+            return h<br>
+        middle = self.getMiddle(h) <br>
+        nexttomiddle = middle.getNext()<br>
+        middle.setNext(None)<br>
+        left = self.mergeSort(h) <br>
+        right = self.mergeSort(nexttomiddle) <br>
+        sortedlist = self.sortedMerge(left, right) <br>
+        return sortedlist<br>
+    def getMiddle(self, head): <br>
+        if (head == None): <br>
+            return head <br>
+        slow = head <br>
+        fast = head <br>
+        while fast.getNext() and fast.getNext().getNext(): <br>
+            slow = slow.getNext()<br>
+            fast = fast.getNext().getNext()<br>
+        return slow<br>
+    def printList(self):<br>
+        current = self.head<br>
+        s = ""<br>
+        while current:<br>
+            s = s + str(current.getData()) + " -> "<br>
+            current = current.getNext()<br>
+        s = s + "None"<br>
+        return s
 </pre>
 
