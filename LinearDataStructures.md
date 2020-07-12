@@ -228,12 +228,12 @@ class DoublyLinkedList:<br>
 		prev.setNext(current.getNext())<br>
 		removed_item.setNext(None)<br>
 		return removed_item.getData()<br>
-	def __str__(self):<br>
-		s = ""<br>
-		current = self.head<br>
-		while current:<br>
-			s = s + str(current.getData()) + " <-> "<br>
-			current = current.getNext()<br>
+	def __str__(self):
+		s = ""
+		current = self.head
+		while current:
+			s = s + str(current.getData()) + " <-> "
+			current = current.getNext()
 		return "None <-> " + s + "None" 
 </pre>
  
