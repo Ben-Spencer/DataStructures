@@ -29,7 +29,6 @@ class ArrayStack:<br>
   def __str__(self):<br>
     return str(self.items)
  </pre>
- <br>
  <h3>Linked List Stack Implementation</h3>
  <br>
  <pre>
