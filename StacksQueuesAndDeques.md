@@ -11,7 +11,7 @@ In summation: queues and deques are best implemented as arrays. Stacks work best
 |Main Operations | isEmpty, Push, Pop, Peek, getSize | isEmpty, Enqueue, Dequeue, Peek, getSize | isEmpty, InsertFront, InsertBack, RemoveFront, RemoveBack, PeekFront, PeekBack, getSize | 
 | Data Structure | Array, Linked List | Array, Linked List | Array, Linked List |
 
-## Array Stack Implementation
+<h3>Array Stack Implementation</h3>
 <pre>
 class ArrayStack:<br>
   def __init__(self):<br>
@@ -30,7 +30,8 @@ class ArrayStack:<br>
     return str(self.items)
  </pre>
  <br>
- ## Singly Linked List Stack Implementation
+ <h3>Linked List Stack Implementation</h3>
+ <br>
  <pre>
  class Node:<br>
   def __init__(self, initdata):<br>
