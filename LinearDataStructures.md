@@ -9,9 +9,9 @@ Linear data structures share the following properties:<br>
 | | Arrays | Lists |
 |-| ------ | ----- |
 |Memory Access | Random Access Memory (through indexing) | Sequential Memory Access |
-| Append | Constant Complexity | Linear Complexity |
-| Insertion / Deletion | Linear Complexity | Constant Complexity |
-| Traversal | Linear Complexity | Linear Complexity |
+| Append | Amortized O(1) | O(n) due to Traversal |
+| Insertion / Deletion | O(n) | O(1) |
+| Traversal | O(n) | O(n) |
 | Search | Binary Search [O(log n)] | Linear Search [O(n)]
 | Memory Size | Fixed | Dynamic |
 | Storage Type | Consecutive | Random |
