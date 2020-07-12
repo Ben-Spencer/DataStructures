@@ -236,7 +236,24 @@ class DoublyLinkedList:<br>
 			current = current.getNext()<br>
 		return "None <-> " + s + "None" 
 </pre>
- 
+<h2>Circular Linked List Implementation</h2>
+class Node:
+	def __init__(self, initdata):
+		self.data = initdata
+		self.next = None
+	def getData(self):
+		return self.data
+	def getNext(self):
+		return self.next
+	def setData(self, newData):
+		self.data = newData
+	def setNet(self, newNext):
+		self.next = newNext
+	
+class CircularLinkedList:
+	def __init__(self):
+		self.last = None
+
 <h2>Stacks, Queues, and Deques</h2>
 
 Stacks, Queues, and Deques are linear data structures that force operations to be done at the front and/or back of the list. All three data structures can be implemented as both arrays (lists in Python) and linked lists; however, each implementation has different effects on the computational complexity. <br><br>
