@@ -1,14 +1,14 @@
 # Things to Study
 ## Common Data Structures:
 <h3>Linear Data Structures</h3>
-* Arrays <br> ✓
-* Stacks <br> ✓
-* Queues <br> ✓
-* Deques <br> ✓
-* Linked Lists <br> ✓
+* Arrays ✓ <br>
+* Stacks ✓ <br>
+* Queues ✓ <br>
+* Deques ✓ <br>
+* Linked Lists ✓ <br>
 
 <h3>Non-Linear Data Structures</h3>
-* Heaps <br> ✓
+* Heaps <br>
 * Trees <br>
 * Graphs <br>
 * Hash Tables <br>
