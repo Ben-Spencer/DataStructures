@@ -170,70 +170,70 @@ class SinglyLinkedList:<br>
 </pre>
 <h2>Doubly Linked List Implementation</h2>
 <pre>
-class Node:
-	def __init__(self, initdata):
-		self.data = initdata
-		self.next = None
-		self.prev = None
-	def getData(self):
-		return self.data
-	def getNext(self):
-		return self.next
-	def getPrev(self):
-		return self.prev
-	def setData(self, newData):
-		self.data = newData
-	def setNext(self, newNext):
-		self.next = newNext
-	def setPrev(self,newPrev):
-		self.prev = newPrev
-
-class DoublyLinkedList:
-	def __init__(self):
-		self.head = None
-	def isEmpty(self):
-		return self.head == None
-	def prepend(self, data):
-		new_node = Node(data)
-		new_node.setNext(self.head)
-		new_node.setPrev(None)
-		self.head = new_node
-	def append(self, data):
-		new_node = Node(data)
-		if current:
-			while current.getNext():
-				current = current.getNext()
-			current.setNext(new_node)
-			new_node.setPrev(current)
-			new_node.setNext(None)
-		else:
-			self.head = new_node
-			new_node.setPrev(None)
-	def addAfterTarget(self, target, data):
-		new_node = Node(data)
-		current = self.head
-		while current.getData() != target:
-			current = current.getNext()
-		new_node.setPrev(current)
-		new_node.setNext(current.getNext())
-		current.setNext(new_node)
-		current.getNext().setPrev(new_node)
-	def removeTarget(self, target):
-		current = self.head
-		prev = None
-		while current.getData() != target:
-			prev = current
-			current = current.getNext()
-		removed_item = current
-		prev.setNext(current.getNext())
-		removed_item.setNext(None)
-		return removed_item.getData()
-	def __str__(self):
-		s = ""
-		current = self.head
-		while current:
-			s = s + str(current.getData()) + " <-> "
-			current = current.getNext()
+class Node:<br>
+	def __init__(self, initdata):<br>
+		self.data = initdata<br>
+		self.next = None<br>
+		self.prev = None<br>
+	def getData(self):<br>
+		return self.data<br>
+	def getNext(self):<br>
+		return self.next<br>
+	def getPrev(self):<br>
+		return self.prev<br>
+	def setData(self, newData):<br>
+		self.data = newData<br>
+	def setNext(self, newNext):<br>
+		self.next = newNext<br>
+	def setPrev(self,newPrev):<br>
+		self.prev = newPrev<br>
+<br>
+class DoublyLinkedList:<br>
+	def __init__(self):<br>
+		self.head = None<br>
+	def isEmpty(self):<br>
+		return self.head == None<br>
+	def prepend(self, data):<br>
+		new_node = Node(data)<br>
+		new_node.setNext(self.head)<br>
+		new_node.setPrev(None)<br>
+		self.head = new_node<br>
+	def append(self, data):<br>
+		new_node = Node(data)<br>
+		if current:<br>
+			while current.getNext():<br>
+				current = current.getNext()<br>
+			current.setNext(new_node)<br>
+			new_node.setPrev(current)<br>
+			new_node.setNext(None)<br>
+		else:<br>
+			self.head = new_node<br>
+			new_node.setPrev(None)<br>
+	def addAfterTarget(self, target, data):<br>
+		new_node = Node(data)<br>
+		current = self.head<br>
+		while current.getData() != target:<br>
+			current = current.getNext()<br>
+		new_node.setPrev(current)<br>
+		new_node.setNext(current.getNext())<br>
+		current.setNext(new_node)<br>
+		current.getNext().setPrev(new_node)<br>
+	def removeTarget(self, target):<br>
+		current = self.head<br>
+		prev = None<br>
+		while current.getData() != target:<br>
+			prev = current<br>
+			current = current.getNext()<br>
+		removed_item = current<br>
+		prev.setNext(current.getNext())<br>
+		removed_item.setNext(None)<br>
+		return removed_item.getData()<br>
+	def __str__(self):<br>
+		s = ""<br>
+		current = self.head<br>
+		while current:<br>
+			s = s + str(current.getData()) + " <-> "<br>
+			current = current.getNext()<br>
 		return "None <-> " + s + "None" 
 </pre>
  
