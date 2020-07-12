@@ -168,4 +168,74 @@ class SinglyLinkedList:<br>
         s = s + "None"<br>
         return s
 </pre>
-
+<h2>Doubly Linked List</h2>
+<pre>
+class Node:<br>
+	def __init__(self, initdata):<br>
+		self.data = initdata<br>
+		self.next = None<br>
+		self.prev = None<br>
+	def getData(self):<br>
+		return self.data<br>
+	def getNext(self):<br>
+		return self.next<br>
+	def getPrev(self):<br>
+		return self.prev<br>
+	def setData(self, newData):<br>
+		self.data = newData<br>
+	def setNext(self, newNext):<br>
+		self.next = newNext<br>
+	def setPrev(self,newPrev):<br>
+		self.prev = newPrev<br>
+<br>
+class DoublyLinkedList:<br>
+	def __init__(self):<br>
+		self.head = None<br>
+	def isEmpty(self):<br>
+		return self.head == None<br>
+	def prepend(self, data):<br>
+		new_node = Node(data)<br>
+		new_node.setNext(self.head)<br>
+		new_node.setPrev(None)<br>
+		self.head = new_node<br>
+	def append(self, data):<br>
+		new_node = Node(data)<br>
+		if current:<br>
+			while current.getNext():<br>
+				current = current.getNext()<br>
+			current.setNext(new_node)<br>
+			new_node.setPrev(current)<br>
+			new_node.setNext(None)<br>
+		else:<br>
+			self.head = new_node<br>
+			new_node.setPrev(None)<br>
+	def addAfterTarget(self, target, data):<br>
+		new_node = Node(data)<br>
+		current = self.head<br>
+		while current.getData() != target:<br>
+			current = current.getNext()<br>
+		new_node.setPrev(current)<br>
+		new_node.setNext(current.getNext())<br>
+		current.setNext(new_node)<br>
+		current.getNext().setPrev(new_node)<br>
+	def addAtEnd(self, data):<br>
+		new_node = Node(data)<br>
+		current = self.head<br>
+		if current:<br>
+			while current.getNext():<br>
+				current = current.getNext()<br>
+			current.setNext(new_node)<br>
+			new_node.setPrev(current)<br>
+			new_node.setNext(None)<br>
+		else:<br>
+			self.head = new_node<br>
+			new_node.setNext(None)<br>
+			new_node.setPrev(None)<br>
+	def __str__(self):<br>
+		s = ""<br>
+		current = self.head<br>
+		while current:<br>
+			s = s + str(current.getData()) + " <-> "<br>
+			current = current.getNext()<br>
+		return "None <-> " + s + "None" 
+</pre>
