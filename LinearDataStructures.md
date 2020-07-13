@@ -524,7 +524,7 @@ Heap are stored as either max-heaps or min-heaps. <br><br>
 <b>Max heaps</b> have the greatest key at the root. In other words, the biggest number is on top. Parent node is always larger than children nodes.<br>
 <b>Min heaps</b> are the exact opposite. They have the lowest key at the root. Parent node is always smaller than children nodes.
 <br>
-<h3>Types of Heap</h3>
+<h3>Operation Time Complexity by Type of Heap</h3>
 
 | Operation | Binary | Binomial | Fibonacci | Pairing | Brodal | Rank Pairing | Strict Fibonacci |
 | --------- | ------ | -------- | --------- | ------- | ------ | ------------ | ---------------- |
