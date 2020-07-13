@@ -43,5 +43,22 @@ This repository contains all the knowledge I have accumulated about discrete mat
 </ul>
 <h2>Algorithms</h2>
 <h2>Problem Types</h2>
-
+<ul>
+  <li>Ad-Hoc</li>
+  <li>Greedy</li>
+  <li>Computational Geometry</li>
+  <li>Dynamic Programming</li>
+  <li>BigNums</li>
+  <li>Two-Dimensional</li>
+  <li>Eulerian Path</li>
+  <li>Minimum Spanning Tree</li>
+  <li>Knapsack</li>
+  <li>Network Flow</li>
+  <li>Flood Fill</li>
+  <li>Shortest Path</li>
+  <li>Approximate Search</li>
+  <li>Complete Search</li>
+  <li>Recursive Search Techniques</li>
+  <li>Heuristic Search</li>
+</ul>
 <h2>Systems Design</h2>
