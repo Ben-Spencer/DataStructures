@@ -506,11 +506,11 @@ class LinkedListDeque:<br>
 A priority queue is similar to the regular queue, except for the following:<br>
 * Every item has a priority associated with it<br>
 * Elements with higher priorities are deQueued before the other elements<br>
-* Elements with the same priority are deQueued in the order they were enQueued<br>
+* Elements with the same priority are deQueued in the order they were enQueued<br><br>
 Priority queues typically support the following operations:<br>
 * Insert(item, priority) - inserts an element with a priority<br>
 * getHighestPriority() - returns the element with the highest priority<br>
-* deleteHighestPriority() - deletes the element with the highest priority<br>
+* deleteHighestPriority() - deletes the element with the highest priority<br><br>
 Priority queues can be implemented as arrays, linked lists, or heaps; however, heaps are the preferred data strucure.<br>
 The reason for this is priority queue operations can be completed with lower computational complexity on heaps.<br>
 The exact computational complexity priority queues can achieve is dependent on the type of heap that is implemented.
