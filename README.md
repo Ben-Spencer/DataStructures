@@ -11,7 +11,6 @@ This repository contains all the knowledge I have accumulated about discrete mat
     <li>Stacks</li>
     <li>Queues</li>
     <li>Deques</li>
-    
   </ul>
   <li>Tree Data Structures</li>
   <ul>
