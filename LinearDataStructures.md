@@ -515,3 +515,23 @@ Priority queues can be implemented as arrays, linked lists, or heaps; however, h
 The reason for this is priority queue operations can be completed with lower computational complexity on heaps.<br>
 The exact computational complexity priority queues can achieve is dependent on the type of heap that is implemented.
 <h2>Heaps</h2>
+Heaps are special tree based data strucures that are implemented as arrays. The benefit of storing a heap as an array, rather than a pointer-based binary tree, is the following:</br>
+* Lower memory usage (only store data, rather than 3 additional pointers)</br>
+* Easier memory management (just one object elemented, rather than N)</br>
+* Better locality of memory (heap memory is contiguous due to array implementation; if binary tree is used, memory is scattered)</br>
+<br>
+Heaps can generally be of two-types: Max-heaps and min-heaps. <br><br>
+**Max heaps** have the greatest key at the root. In other words, the biggest number is on top. Parents node are always larger than its children nodes.
+**Min heaps** are the exact opposite. They have the lowest key at the root. Parents node are always smaller than children nodes.
+<br>
+<h3>Types of Heap</h3>
+| Operation | Binary | Binomial | Fibonacci | Pairing | Brodal | Rank Pairing | Strict Fibonacci |
+| --------- | ------ | -------- | --------- | ------- | ------ | ------------ | ---------------- |
+| Find-Min | O(1) | O(log n) | O(1) | O(1) | O(1) | O(1) | O(1) |
+| Delete-Min | O(log n) | O(log n) | O(log n) | O(log n) | O(log n) | O(log n) | O(log n) |
+| Insert | O(log n) | O(1) | O(1) | O(1) | O(1) | O(1) | O(1) |
+| Decrease Key | O(log n) | O(log n) | O(1) | O(log n) | O(1) | O(1) | O(1) |
+| Merge | O(n) | O(log n) | O(1) | O(1) | O(1) | O(1) | O(1) |
+
+<h2>Binary Heap</h2>
+Binary heaps 
