@@ -53,7 +53,7 @@ This repository contains all the knowledge I have accumulated about discrete mat
     <li>Hash List</li>
   </ul>
 </ul>
-<h2>Algorithm Problem Types</h2>
+<h2>Algorithm Problems</h2>
 <ul>
   <li>Ad-Hoc</li>
   <li>Greedy</li>
