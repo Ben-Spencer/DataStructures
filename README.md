@@ -72,6 +72,29 @@ This repository contains all the knowledge I have accumulated about discrete mat
   <li>Recursive Search Techniques</li>
   <li>Heuristic Search</li>
 </ul>
+<h2>Algorithmic Paradigms</h2>
+<ul>
+  <li>General</li>
+    <ul>
+      <li>Backtracking</li>
+      <li>Branch and bound</li>
+      <li>Brute-force search</li>
+      <li>Divide and conquer</li>
+      <li>Dynamic programming</li>
+      <li>Greedy algorithm</li>
+      <li>Prune and search</li>
+  <li>Parameterized complexity</li>
+    <ul>
+      <li>Kernelization</li>
+      <li>Iterative compression</li>
+    </ul>
+  <li>Computational geometry</li>
+    <ul>
+      <li>Sweep line algorithms</li>
+      <li>Rotating calipers</li>
+      <li>Randomized incremental construction</li>
+    </ul>
+</ul>
 <h2>Distributed and Parallel Systems Design</h2>
 <ul>
   
