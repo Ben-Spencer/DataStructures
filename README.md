@@ -83,6 +83,7 @@ This repository contains all the knowledge I have accumulated about discrete mat
       <li>Dynamic programming</li>
       <li>Greedy algorithm</li>
       <li>Prune and search</li>
+  </ul>
   <li>Parameterized complexity</li>
     <ul>
       <li>Kernelization</li>
