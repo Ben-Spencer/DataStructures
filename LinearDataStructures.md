@@ -520,7 +520,7 @@ Heaps are special tree based data strucures that are implemented as arrays. The 
 * Easier memory management (just one object elemented, rather than N)</br>
 * Better locality of memory (heap memory is contiguous due to array implementation; if binary tree is used, memory is scattered)</br>
 <br>
-Heaps can generally be of two-types: Max-heaps and min-heaps. <br><br>
+Heap are stored as either max-heaps or min-heaps. <br><br>
 <b>Max heaps</b> have the greatest key at the root. In other words, the biggest number is on top. Parent node is always larger than children nodes.<br>
 <b>Min heaps</b> are the exact opposite. They have the lowest key at the root. Parent node is always smaller than children nodes.
 <br>
