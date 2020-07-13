@@ -1,7 +1,18 @@
 # Read Me
 This repository contains all the knowledge I have accumulated about discrete mathematics, data structures, algorithms, problem types, and systems design in preparation for coding interviews. This following list is not complete with all information about the aforementioned topics, however, it is a great starting point.<br><br>
 <h2>Discrete Mathematics</h2>
-
+<ul>
+  <li>Logic and Boolean Algebra</li>
+  <li>Set Theory</li>
+  <li>Relations and Functions</li>
+  <li>Sequences and Series (or "Sums")</li>
+  <li>Algorithms and Theory of Computation</li>
+  <li>Number Theory</li>
+  <li>Matrix Theory</li>
+  <li>Induction and Recursion</li>
+  <li>Counting and Discrete Probability</li>
+  <li>Graph Theory (Including Trees)</li>
+</ul>
 <h2>Data Structures</h2>
 <ul>
   <li>Linear Data Structures</li>
