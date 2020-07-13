@@ -1,5 +1,5 @@
 # Read Me
-This repository contains all the knowledge I have accumulated about discrete mathematics, data structures, algorithms, problem types, and systems design in preparation for coding interviews. This following list is not complete with all information about the aforementioned topics, however, it is a great starting point.<br><br>
+This repository contains all the knowledge I have accumulated about discrete mathematics, data structures, algorithms, distributed and parallel system design, networking, and machine learning in preparation for coding interviews. This following list is not complete with all information about the aforementioned topics, however, it is a great starting point.<br><br>
 <h2>Discrete Mathematics</h2>
 <ul>
   <li>Logic and Boolean Algebra</li>
@@ -44,6 +44,7 @@ This repository contains all the knowledge I have accumulated about discrete mat
     <li>Adjacency List</li>
     <li>Adjacency Matrix</li>
     <li>Incidence matrix</li>
+    <li>Decision Tree</li>
   </ul>
   <li>Hash Data Structures</li>
   <ul>
@@ -51,11 +52,8 @@ This repository contains all the knowledge I have accumulated about discrete mat
     <li>Hash Trie</li>
     <li>Hash List</li>
   </ul>
-  
-  
 </ul>
-<h2>Algorithms</h2>
-<h2>Problem Types</h2>
+<h2>Algorithm Problem Types</h2>
 <ul>
   <li>Ad-Hoc</li>
   <li>Greedy</li>
@@ -74,7 +72,15 @@ This repository contains all the knowledge I have accumulated about discrete mat
   <li>Recursive Search Techniques</li>
   <li>Heuristic Search</li>
 </ul>
-<h2>Systems Design</h2>
+<h2>Distributed and Parallel Systems Design</h2>
+<ul>
+  
+</ul>
+<h2>Networking</h2>
+<ul>
+  
+</ul>
+<h2>Machine Learning</h2>
 <ul>
   
 </ul>
