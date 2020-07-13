@@ -521,10 +521,11 @@ Heaps are special tree based data strucures that are implemented as arrays. The 
 * Better locality of memory (heap memory is contiguous due to array implementation; if binary tree is used, memory is scattered)</br>
 <br>
 Heaps can generally be of two-types: Max-heaps and min-heaps. <br><br>
-**Max heaps** have the greatest key at the root. In other words, the biggest number is on top. Parents node are always larger than its children nodes.
-**Min heaps** are the exact opposite. They have the lowest key at the root. Parents node are always smaller than children nodes.
+<b>Max heaps</b> have the greatest key at the root. In other words, the biggest number is on top. Parents node are always larger than its children nodes.
+<b>Min heaps</b> are the exact opposite. They have the lowest key at the root. Parents node are always smaller than children nodes.
 <br>
 <h3>Types of Heap</h3>
+
 | Operation | Binary | Binomial | Fibonacci | Pairing | Brodal | Rank Pairing | Strict Fibonacci |
 | --------- | ------ | -------- | --------- | ------- | ------ | ------------ | ---------------- |
 | Find-Min | O(1) | O(log n) | O(1) | O(1) | O(1) | O(1) | O(1) |
