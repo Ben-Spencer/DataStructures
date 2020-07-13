@@ -1,5 +1,5 @@
 # Read Me
-This repository contains all the knowledge I have accumulated about discrete mathematics, data structures, algorithms, problem types, and systems design in preparation for coding interviews. There are additional data structures and algorithms that exist, however, understanding the following is a great starting point.<br><br>
+This repository contains all the knowledge I have accumulated about discrete mathematics, data structures, algorithms, problem types, and systems design in preparation for coding interviews. This following list is not complete with all information about the aforementioned topics, however, it is a great starting point.<br><br>
 <h2>Discrete Mathematics</h2>
 
 <h2>Data Structures</h2>
