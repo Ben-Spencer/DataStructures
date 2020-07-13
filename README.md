@@ -33,6 +33,8 @@ This repository contains all the knowledge I have accumulated about discrete mat
     <li>Binary Search Trees</li>
     <li>AVL Trees</li>
     <li>Red-Black Trees</li>
+    <li>KD-Trees</li>
+    <li>Suffix Trees</li>
     <li>Splay Trees</li>
     <li>B-Trees</li>
     <li>Radix Trees</li>
