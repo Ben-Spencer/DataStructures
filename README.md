@@ -11,11 +11,12 @@ This repository contains all the knowledge I have accumulated about discrete mat
     <li>Stacks</li>
     <li>Queues</li>
     <li>Deques</li>
-    <li>Priority Queues</li>
-    <li>Heaps</li>
+    
   </ul>
   <li>Tree Data Structures</li>
   <ul>
+    <li>Heaps</li>
+    <li>Priority Queues</li>
     <li>General Trees</li>
     <li>Binary Trees</li>
     <li>Binary Search Trees</li>
