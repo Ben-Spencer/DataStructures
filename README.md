@@ -24,6 +24,7 @@ This repository contains all the knowledge I have accumulated about discrete mat
     <li>Red-Black Trees</li>
     <li>Splay Trees</li>
     <li>B-Trees</li>
+    <li>Radix Trees</li>
     <li>Tries</li>
   </ul>
   <li>Graph Data Structures</li>
