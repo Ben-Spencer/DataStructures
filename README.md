@@ -7,6 +7,7 @@ This repository contains all the knowledge I have accumulated about discrete mat
   <li>Linear Data Structures</li>
   <ul>
     <li>Arrays</li>
+    <li>Strings</li>
     <li>Linked Lists</li>
     <li>Stacks</li>
     <li>Queues</li>
