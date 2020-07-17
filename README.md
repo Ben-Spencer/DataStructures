@@ -18,6 +18,10 @@ This repository contains all the knowledge I have accumulated about discrete mat
   <li>Linear Data Structures</li>
   <ul>
     <li>Arrays</li>
+    <ul>
+      <li>Static Arrays</li>
+      <li>Dynamic Arrays</li>
+    </ul>
     <li>Strings</li>
     <li>Linked Lists</li>
     <ul>
