@@ -19,8 +19,10 @@ This repository contains the knowledge I have accumulated about discrete mathema
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Data-Structures.md#definition">Definition</a></li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Data-Structures.md#why-learn-data-structures">Why Learn Data Structures?</a></li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Data-Structures.md#types-of-data-structures">Types of Data Structures</a></li>
-  <li>Primitive Data Structures</li>
-  <li>Non-Primitive Data Structures</li>
+  <ul>
+    <li>Primitive Data Structures</li>
+    <li>Non-Primitive Data Structures</li>
+  </ul>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Data-Structures.md#linear-data-structures">Linear Data Structures</a></li>
   <ul>
     <li>Arrays</li>
