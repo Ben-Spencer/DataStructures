@@ -1,6 +1,7 @@
 <h1>Data Structures</h1>
-Data structures optimze access and modification to data by organizing, managing, and storing data efficiently.<br>
-
+Data structures optimze data access and modification by organizing, managing, and storing data efficiently.<br>
+<h2>Why Learn Data Structures?</h2>
+The main reason to learn data structures is to improve the computational complexity of algorithms. 
 <h1>Linear Data Structures</h1>
 Linear data structures share the following properties:<br>
 * Data elements are sequentially connected and each element is traversable in a single run<br>
