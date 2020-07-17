@@ -14,7 +14,7 @@ This repository contains the knowledge I have accumulated about discrete mathema
   <li>Counting and Discrete Probability</li>
   <li>Graph Theory (Including Trees)</li>
 </ul>
-<h2><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Data-Structures.md">Data Structures</a></h2>
+<h2><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Data-Structures.md#data-structures">Data Structures</a></h2>
 <ul>
   <li>Why Learn Data Structures?</li>
   <li>Types of Data Structures</li>
