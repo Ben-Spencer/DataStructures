@@ -48,13 +48,16 @@ This repository contains the knowledge I have accumulated about discrete mathema
     <li>Heaps</li>
     <ul>
       <li>Priority Queues</li>
-      <li>Binary Heaps</li>
-      <li>Binomial Heaps</li>	
-      <li>Fibonacci	Heaps</li>
-      <li>Pairing Heaps</li>
-      <li>Brodal Heaps</li>
-      <li>Rank Pairing Heaps</li>
-      <li>Strict Fibonacci</li>
+      <li>Types of Heaps</li>
+      <ul>
+        <li>Binary Heaps</li>
+        <li>Binomial Heaps</li>	
+        <li>Fibonacci	Heaps</li>
+        <li>Pairing Heaps</li>
+        <li>Brodal Heaps</li>
+        <li>Rank Pairing Heaps</li>
+        <li>Strict Fibonacci Heaps</li>
+      </ul>
     </ul>
     <li>General Trees</li>
     <li>Binary Trees</li>
