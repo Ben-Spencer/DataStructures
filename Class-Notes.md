@@ -1,5 +1,5 @@
 
-
+ 
 <h1>Introduction to Computer Science and Programming in Python</h1>
 <h2>Lecture 1</h2>
 <p>Computers perform built-in and programmer-defined calculations and store results.<br>
