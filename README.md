@@ -1,5 +1,5 @@
 # Read Me
-This repository contains all the knowledge I have accumulated about discrete mathematics, data structures, algorithms, distributed and parallel system design, networking, and machine learning in preparation for coding interviews. This following list is not complete with all information about the aforementioned topics, however, it is a great starting point.<br><br>
+This repository contains all the knowledge I have accumulated about discrete mathematics, data structures, algorithms, distributed and parallel system design, networking, and machine learning in preparation for coding interviews. This following list is not complete with all information about the aforementioned topics, however, it is a great starting point to prepare for your interviews.<br><br>
 <h2>Discrete Mathematics</h2>
 <ul>
   <li>Logic and Boolean Algebra</li>
@@ -20,6 +20,12 @@ This repository contains all the knowledge I have accumulated about discrete mat
     <li>Arrays</li>
     <li>Strings</li>
     <li>Linked Lists</li>
+    <ul>
+      <li>Singly Linked List</li>
+      <li>Doubly Linked List</li>
+      <li>Circular Linked List</li>
+      <li>Doubly Circular Linked List</li>
+    </ul>
     <li>Stacks</li>
     <li>Queues</li>
     <li>Deques</li>
@@ -27,7 +33,9 @@ This repository contains all the knowledge I have accumulated about discrete mat
   <li>Tree Data Structures</li>
   <ul>
     <li>Heaps</li>
-    <li>Priority Queues</li>
+    <ul>
+      <li>Priority Queues</li>
+    </ul>
     <li>General Trees</li>
     <li>Binary Trees</li>
     <li>Binary Search Trees</li>
