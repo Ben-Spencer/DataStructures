@@ -1,5 +1,5 @@
 <h1>Tree Data Structure</h1>
-Trees are non-linear, hierarchical data structures. They are abstract data types (ADT), composed of the following:</br>
+Trees are non-linear, hierarchical data structures. They are a widely used abstract data type (ADT), composed of the following:</br>
 <ul>
   <li>Node: Nodes can contain data and pointers to other nodes.</li>
   <li>Edge: </li>
