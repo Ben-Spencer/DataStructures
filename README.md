@@ -34,6 +34,12 @@ This repository contains all the knowledge I have accumulated about discrete mat
     <li>Queues</li>
     <li>Deques</li>
   </ul>
+  <li>Hash Data Structures</li>
+  <ul>
+    <li>Hash Table</li>
+    <li>Hash Trie</li>
+    <li>Hash List</li>
+  </ul>
   <li>Tree Data Structures</li>
   <ul>
     <li>Heaps</li>
@@ -59,12 +65,6 @@ This repository contains all the knowledge I have accumulated about discrete mat
     <li>Adjacency Matrix</li>
     <li>Incidence matrix</li>
     <li>Decision Tree</li>
-  </ul>
-  <li>Hash Data Structures</li>
-  <ul>
-    <li>Hash Table</li>
-    <li>Hash Trie</li>
-    <li>Hash List</li>
   </ul>
 </ul>
 <h2>Algorithm Problems</h2>
