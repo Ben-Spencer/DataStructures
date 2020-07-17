@@ -2,8 +2,8 @@
 Data structures optimze data access and modification by efficiently organizing, managing, and storing the data.<br>
 <h2>Why Learn Data Structures?</h2>
 <ul>
-	<li>The main reason to learn data structures is to improve the computational complexity of algorithms. Computational complexity is the amount of time and space required to execute an algorithm. By improving the computational complexity, data structures can yield faster runtimes and less memory usage for users.</li>
-	<li>Another reason to learn data structures is that they are the main topic of technical interviews for large software companies.</li>
+	<li>To improve the computational complexity of algorithms. Computational complexity is the amount of time and space required to execute an algorithm. By improving the computational complexity, data structures can yield faster runtimes and less memory usage for users.</li>
+	<li>They are the main topic of technical interviews for large software companies.</li>
 </ul>
 <h2>Types of Data Structures</h2>
 
