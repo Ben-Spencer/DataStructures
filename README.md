@@ -34,6 +34,8 @@ This repository contains all the knowledge I have accumulated about discrete mat
     <li>Queues</li>
     <li>Deques</li>
   </ul>
+  <li>Non Linear Data Structures</li>
+  <ul>
   <li>Hash Data Structures</li>
   <ul>
     <li>Hash Table</li>
@@ -72,6 +74,7 @@ This repository contains all the knowledge I have accumulated about discrete mat
     <li>Decision Tree</li>
   </ul>
 </ul>
+  </ul>
 <h2>Algorithm Problems</h2>
 <ul>
   <li>Ad-Hoc</li>
