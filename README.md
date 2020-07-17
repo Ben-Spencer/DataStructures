@@ -15,7 +15,7 @@ This repository contains all the knowledge I have accumulated about discrete mat
 </ul>
 <h2>Data Structures</h2>
 <ul>
-  <li>Linear Data Structures</li>
+  <li>[Linear Data Structures](https://github.com/Ben-Spencer/Interview-Preparation/blob/master/LinearDataStructures.md#linear-data-structures)</li>
   <ul>
     <li>Arrays</li>
     <ul>
