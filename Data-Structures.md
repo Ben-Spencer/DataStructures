@@ -7,7 +7,14 @@
 	<li>They are part of the main topic of technical interviews, for large software companies.</li>
 </ul>
 <h2>Types of Data Structures</h2>
-
+<ul>
+	<li>Primitive</li>
+	<li>Non-Primitive</li>
+		<ul>
+			<li>Linear</li>
+			<li>Non-Linear</li>
+		</ul>
+</ul>
 <h1>Linear Data Structures</h1>
 Linear data structures share the following properties:<br>
 <ul>
