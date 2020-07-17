@@ -142,7 +142,7 @@ This repository contains the knowledge I have accumulated about discrete mathema
 </ul>
 <h2>Course Notes</h2>
 <ul>
-  <li>Introduction to Programming in Python</li>
+  <li>Introduction to Computer Science and Programming in Python</li>
   <li>Introduction to Computational...</li>
   <li>Introduction to Algorithms</li>
   <li>Algorithm Design and Analysis</li>
