@@ -13,7 +13,7 @@ This repository contains all the knowledge I have accumulated about discrete mat
   <li>Counting and Discrete Probability</li>
   <li>Graph Theory (Including Trees)</li>
 </ul>
-<h2>Data Structures</h2>
+<h2><a href="">Data Structures</a></h2>
 <ul>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/LinearDataStructures.md#linear-data-structures">Linear Data Structures</a></li>
   <ul>
