@@ -50,7 +50,9 @@ This repository contains all the knowledge I have accumulated about discrete mat
       <li>Binary Heaps</li>
       <li>Binomial Heaps</li>	
       <li>Fibonacci	Heaps</li>
-      Pairing	Brodal	Rank Pairing	
+      <li>Pairing Heaps</li>
+      <li>Brodal Heaps</li>
+      <li>Rank Pairing Heaps</li>
       <li>Strict Fibonacci</li>
     </ul>
     <li>General Trees</li>
