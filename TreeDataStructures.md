@@ -14,7 +14,7 @@ Trees are non-linear, hierarchical data structures. They are a widely used abstr
   <li>Forest: A set of trees</li>
 </ul>
 <h2>General Tree</h2>
-General trees are the most basic type of tree. General trees have the following rules that differentiate them from graphs:</br>
+General trees are the most basic type of tree. They have the following rules that differentiate them from graphs:</br>
 <ul>
   <li>There is exactly one root node and it has no parent node</li>
   <li>Each child node has exactly one parent node, meaning there are no cycles in trees</li>
