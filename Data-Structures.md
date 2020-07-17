@@ -1,5 +1,6 @@
 <h1>Data Structures</h1>
-Data structures are ways to organize, manage, and store data to allow efficient access and modifications to the data.<br>
+Data structures are ways to organize, manage, and store data to optimze access and modification efficiency to the data.<br>
+
 <h1>Linear Data Structures</h1>
 Linear data structures share the following properties:<br>
 * Data elements are sequentially connected and each element is traversable in a single run<br>
