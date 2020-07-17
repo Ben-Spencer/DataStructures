@@ -20,4 +20,8 @@ General trees are the most basic type of tree. They have the following rules tha
   <li>Each child node has exactly one parent node, meaning there are no cycles in trees</li>
 </ul>
 <h2>Binary Tree</h2>
-Binary trees are different from general trees in that each parent node is restricted to having 0, 1, or 2 children nodes.</br>
+Binary trees are different from general trees in that each parent node is restricted to having 0, 1, or 2 children nodes</br>
+<h2>Binary Search Tree</h2>
+Binary search trees are different from binary trees in that parent node values must be greater than left node values and less than right node values
+<h2>AVL Tree</h2>
+AVL Trees
