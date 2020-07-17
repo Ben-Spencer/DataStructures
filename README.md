@@ -45,6 +45,11 @@ This repository contains all the knowledge I have accumulated about discrete mat
     <li>Heaps</li>
     <ul>
       <li>Priority Queues</li>
+      <li>Binary Heaps</li>
+      <li>Binomial Heaps</li>	
+      <li>Fibonacci	Heaps</li>
+      Pairing	Brodal	Rank Pairing	
+      <li>Strict Fibonacci</li>
     </ul>
     <li>General Trees</li>
     <li>Binary Trees</li>
