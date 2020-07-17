@@ -9,8 +9,8 @@ Trees are non-linear, hierarchical data structures. They are a widely used abstr
   <li>Sibling Node: Two or more nodes that connect to one parent node</li>
   <li>Leaf Node: A node that has no children nodes</li>
   <li>Degree: The number of children had by a node</li>
-  <li>Depth: The number of edges on the path from a chosen node to the root. The root node has a depth of 0</li>
-  <li>Height: The longest path from a chosen node to a leaf</li>
+  <li>Depth: The number of edges on the longest path from a chosen node to the root. The root node has a depth of 0</li>
+  <li>Height: The number of edges on the longest path from a chosen node to a leaf. Leaf nodes have heights of 0</li>
   <li>Forest: A set of trees</li>
 </ul>
 <h2>General Tree</h2>
