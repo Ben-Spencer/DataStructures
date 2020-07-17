@@ -16,7 +16,7 @@ This repository contains the knowledge I have accumulated about discrete mathema
 </ul>
 <h2><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Data-Structures.md">Data Structures</a></h2>
 <ul>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/LinearDataStructures.md#linear-data-structures">Linear Data Structures</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Data-Structures.md#linear-data-structures">Linear Data Structures</a></li>
   <ul>
     <li>Arrays</li>
     <ul>
