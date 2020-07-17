@@ -1,5 +1,6 @@
 # Read Me
 This repository contains all the knowledge I have accumulated about discrete mathematics, data structures, algorithms, distributed and parallel system design, networking, and machine learning in preparation for coding interviews. This following list is not complete with all information about the aforementioned topics, however, it is a great starting point to prepare for your interviews.<br><br>
+<h1>Table of Contents</h1>
 <h2>Discrete Mathematics</h2>
 <ul>
   <li>Logic and Boolean Algebra</li>
