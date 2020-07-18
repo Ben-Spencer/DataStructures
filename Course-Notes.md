@@ -8,7 +8,7 @@ Courses are available at the following links:
  <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/">Advanced Data Structures</a></li>
  <li>Artificial Intelligence</li>
  <li>Computer Systems Security</li>
- <li>Coursera</li>
+ <li>Software Design and Architecture Specialization</li>
  <li>Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization</li>
 </ul>
 <br>
@@ -128,7 +128,7 @@ Courses are available at the following links:
  </ul><br>
  <li>Artificial Intelligence</li>
  <li>Computer Systems Security</li>
- <li>Coursera</li>
+ <li>Software Design and Architecture Specialization</li>
  <li>Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization</li>
 </ul>
  
