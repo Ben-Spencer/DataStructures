@@ -64,3 +64,6 @@ Open addressing, the simplest way to create a hash table, implements a hash tabl
   <li>One-Way Cryptographic Hash: given h(x) = Q --> The value of the hash, it is very hard to find x. Basically, it compares your hashed login password to the saved hash, rather than your password. If the two hashes don't match, than you can't login.</li>
  </ul>
 </ul>
+<br>
+
+<h2>Lesson 11: Integer Arithmetic, Karatsuba Multiplication</h2>
