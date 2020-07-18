@@ -131,7 +131,7 @@ This repository contains the knowledge I have accumulated about discrete mathema
       <li>Randomized incremental construction</li>
     </ul>
 </ul>
-<h2>Course Notes</h2>
+<h2><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md">Course Notes</a></h2>
 <ul>
   <li>MIT OpenCourseWare: Introduction to Computer Science and Programming in Python</li>
   <li>MIT OpenCourseWare: Introduction to Computational Thinking and Data Science</li>
