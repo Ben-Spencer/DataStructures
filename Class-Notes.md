@@ -48,6 +48,32 @@ The lectures are available at the following links:
   <li>Lecture 15: Statistical Sins and Wrap-Up</li>
  </ul>
  <li>Introduction to Algorithms</li>
+ <ul>
+  <li>Lecture 1: Algorithmic Thinking, Peak Finding</li>
+  <li>Lecture 2: Models of Computation, Document Distance</li>
+  <li>Lecture 3: Insertion Sort, Merge Sort</li>
+  <li>Lecture 4: Heaps and Heap Sort</li>
+  <li>Lecture 5: Binary Search Trees, BST Sort</li>
+  <li>Lecture 6: AVL Trees, AVL Sort</li>
+  <li>Lecture 7: Counting Sort, Radix Sort, Lower Bounds for Sorting</li>
+  <li>Lecture 8: Hashing with Chaining</li>
+  <li>Lecture 9: Table Doubling, Karp-Rabin</li>
+  <li>Lecture 10: Open Addressing, Cryptographic Hashing</li>
+  <li>Lecture 11: Integer Arithmatic, Karatsuba Multiplication</li>
+  <li>Lecture 12: Square Roots, Newton's Method</li>
+  <li>Lecture 13: Breadth First Search (BFS)</li>
+  <li>Lecture 14: Depth First Search (DFS), Topological Sort</li>
+  <li>Lecture 15: Single-Source Shortest Paths Problem</li>
+  <li>Lecture 16: Dijkstra</li>
+  <li>Lecture 17: Bellman-Ford</li>
+  <li>Lecture 18: Speeding Up Dijkstra</li>
+  <li>Lecture 19: Dynamic Programming I: Fibonacci, Shortest Paths</li>
+  <li>Lecture 20: Dynamic Programming II: Text Justification, Blackjack</li>
+  <li>Lecture 21: Dynamic Programming III: Parenthesization, Edit Distance, Knapsack</li>
+  <li>Lecture 22: Dynamic Programming IV: Guitar Fingering, Tetris, Super Mario Bros.</li>
+  <li>Lecture 23: Computational Complexity</li>
+  <li>Lecture 24: Topics in Algorithms Research</li>
+ </ul>
  <li>Design and Analysis of Algorithms</li>
  <li>Advanced Data Structures</li>
  <li>Artificial Intelligence</li>
