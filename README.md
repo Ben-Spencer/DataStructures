@@ -133,13 +133,15 @@ This repository contains the knowledge I have accumulated about discrete mathema
 </ul>
 <h2><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md">Course Notes</a></h2>
 <ul>
-  <li>MIT OpenCourseWare: Introduction to Computer Science and Programming in Python</li>
-  <li>MIT OpenCourseWare: Introduction to Computational Thinking and Data Science</li>
-  <li>MIT OpenCourseWare: Introduction to Algorithms</li>
-  <li>MIT OpenCourseWare: Design and Analysis of Algorithms</li>
-  <li>MIT OpenCourseWare: Advanced Data Structures</li>
-  <li>MIT OpenCourseWare: Artificial Intelligence</li>
-  <li>MIT OpenCourseWare: Computer Systems Security</li>
-  <li>Coursera: Software Design and Architecture Specialization</li>
-  <li>Coursera: Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization</li>
+  <li>Preface</li>
+  <li>Table of Contents</li>
+  <li>Introduction to Computer Science and Programming in Python</li>
+  <li>Introduction to Computational Thinking and Data Science</li>
+  <li>Introduction to Algorithms</li>
+  <li>Design and Analysis of Algorithms</li>
+  <li>Advanced Data Structures</li>
+  <li>Artificial Intelligence</li>
+  <li>Computer Systems Security</li>
+  <li>Software Design and Architecture Specialization</li>
+  <li>Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization</li>
 </ul>
