@@ -17,6 +17,13 @@ Courses are available at the following links:
   <li><a href="https://www.coursera.org/learn/service-oriented-architecture">Service Oriented Architecture</a></li>
  </ul>
  <li><a href="https://www.coursera.org/specializations/advanced-machine-learning-tensorflow-gcp">Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization</a></li>
+ <ul>
+  <li><a href="https://www.coursera.org/learn/end-to-end-ml-tensorflow-gcp?specialization=advanced-machine-learning-tensorflow-gcp">End-to-End Machine Learning with TensorFlow on GCP</a></li>
+  <li><a href="https://www.coursera.org/learn/gcp-production-ml-systems?specialization=advanced-machine-learning-tensorflow-gcp">Production Machine Learning Systems</a></li>
+  <li><a href="https://www.coursera.org/learn/image-understanding-tensorflow-gcp?specialization=advanced-machine-learning-tensorflow-gcp">Image Understanding with TensorFlow on GCP</a></li>
+  <li><a href="https://www.coursera.org/learn/sequence-models-tensorflow-gcp?specialization=advanced-machine-learning-tensorflow-gcp">Sequence Models for Time Series and Natural Language Processing</a></li>
+  <li><a href="https://www.coursera.org/learn/recommendation-models-gcp">Recommendation Systems with TensorFlow on GCP</a></li>
+ </ul>
 </ul>
 <br>
 <h1>Table of Contents</h1>
