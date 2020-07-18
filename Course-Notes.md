@@ -1,4 +1,4 @@
-<h1 style="font-size: 60px">Course Notes</h1>
+<h1 style="font-size: 1px">Course Notes</h1>
 <h1>Preface</h1>
 Courses are available at the following links:
 <ul>
