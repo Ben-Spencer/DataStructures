@@ -4,7 +4,7 @@ The lectures are available at the following links:
  <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/">Introduction to Computer Science and Programming in Python</a></li>
  <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/">Introduction to Computational Thinking and Data Science</a></li>
  <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/">Introduction to Algorithms</a></li>
- <li>Design and Analysis of Algorithms</li>
+ <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/">Design and Analysis of Algorithms</a></li>
  <li>Advanced Data Structures</li>
  <li>Artificial Intelligence</li>
  <li>Computer Systems Security</li>
@@ -75,6 +75,32 @@ The lectures are available at the following links:
   <li>Lecture 24: Topics in Algorithms Research</li>
  </ul><br>
  <li>Design and Analysis of Algorithms</li>
+ <ul>
+  <li>Lecture 1: Course Overview, Interval Scheduling</li>
+  <li>Lecture 2: Divide and Conquer: Convex Hull, Median Finding</li>
+  <li>Lecture 3: Divide and Conquer: FFT</li>
+  <li>Lecture 4: Divide and Conquer: van Emde Boas Trees</li>
+  <li>Lecture 5: Amortization: Amortized Analysis</li>
+  <li>Lecture 6: Randomization: Matrix Multiply, Quicksort</li>
+  <li>Lecture 7: Randomization: Skip Lists</li>
+  <li>Lecture 8: Randomization: Universal and Perfect Hashing</li>
+  <li>Lecture 9: Augmentation: Range Trees</li>
+  <li>Lecture 10: Dynamic Programming: Advanced DP</li>
+  <li>Lecture 11: Dynamic Programming: All-Pairs Shortest Path</li>
+  <li>Lecture 12: Greedy Algorithms: Minimum Spanning Tree</li>
+  <li>Lecture 13: Incremental Improvement: Max Flow, Min Cut</li>
+  <li>Lecture 14: Incremental Improvement: Matching</li>
+  <li>Lecture 15: Linear Programming: LP, reductions, Simplex</li>
+  <li>Lecture 16: Complexity: P, NP, NP-Completeness, Reductions</li>
+  <li>Lecture 17: Complexity: Approximation Algorithms</li>
+  <li>Lecture 18: Complexity: Fixed-Parameter Algorithms</li>
+  <li>Lecture 19: Synchronous Distributed Algorithms: Symmetry-Breaking, Shortest Paths Spanning Trees</li>
+  <li>Lecture 20: Asynchronous Distributed Algorithms: Shortest Paths Spanning Trees</li>
+  <li>Lecture 21: Cryptography: Hash Functions</li>
+  <li>Lecture 22: Cryptography: Encryption</li>
+  <li>Lecture 23: Cache-Oblivious Algorithms: Medians and Matrices</li>
+  <li>Lecture 24: Cache-Oblivious Algorithms: Searching and Sorting</li>
+ </ul><br>
  <li>Advanced Data Structures</li>
  <li>Artificial Intelligence</li>
  <li>Computer Systems Security</li>
