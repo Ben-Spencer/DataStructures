@@ -136,12 +136,12 @@ This repository contains the knowledge I have accumulated about discrete mathema
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#preface">Preface</a></li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#table-of-contents">Table of Contents</a></li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#introduction-to-computer-science-and-programming-in-python">Introduction to Computer Science and Programming in Python</a></li>
-  <li><a href="">Introduction to Computational Thinking and Data Science</a></li>
+  <li>Introduction to Computational Thinking and Data Science</li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#introduction-to-algorithms">Introduction to Algorithms</a></li>
-  <li><a href="">Design and Analysis of Algorithms</a></li>
-  <li><a href="">Advanced Data Structures</a></li>
-  <li><a href="">Artificial Intelligence</a></li>
-  <li><a href="">Computer Systems Security</a></li>
-  <li><a href="">Software Design and Architecture Specialization</a></li>
-  <li><a href="">Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization</a></li>
+  <li>Design and Analysis of Algorithms</li>
+  <li>Advanced Data Structures</li>
+  <li>Artificial Intelligence</li>
+  <li>Computer Systems Security</li>
+  <li>Software Design and Architecture Specialization</li>
+  <li>Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization</li>
 </ul>
