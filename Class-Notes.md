@@ -42,4 +42,11 @@ Open addressing, the simplest way to create a hash table, implements a hash tabl
   <li>Linear Probing: h(k,i) = (h'(k)+i) mod M. In other words, the initial hash function is random, however, if the slot is filled, it just adds 1 to the slot until it finds an empty slot. It satisfies permutation; however, clustering occurs</li>
   <ul>
    <li>Clustering is a consecutive group of occupied slots. This is bad for load balancing, as ideally the entire array would be used, rather than just small parts. It ruins the randomness of the hashing algorithm</li>
-   <li>Clusters cause the hash table to be O(n) rather than O(1).</li>
+   <li>The alpha (N/M), or load factor, is log(N) when linear probing is used. Clusters cause the hash table to be O(n) rather than O(1)</li>
+ </ul>
+ <li>Double Hashing: h(k,i) = (h1(k)+ih2(k)) mod M. h1 and h2 are ordinary hash functions. Double hashing works well compared to linear probing.</li>
+ <ul>
+  <li>If h2(k) is relatively prime to M, than it satisfies permutation</li>
+ </ul>
+</ul>
+<h3>Uniform Hashing Assumption</h3>
