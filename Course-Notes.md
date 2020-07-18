@@ -9,7 +9,13 @@ Courses are available at the following links:
  <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/">Advanced Data Structures</a></li>
  <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/">Artificial Intelligence</a></li>
  <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/">Computer Systems Security</a></li>
- <li>Software Design and Architecture Specialization</li>
+ <li><a href="https://www.coursera.org/specializations/software-design-architecture">Software Design and Architecture Specialization</a></li>
+ <ul>
+  <li><a href="https://www.coursera.org/learn/object-oriented-design">Object-Oriented Design</a></li>
+  <li><a href="https://www.coursera.org/learn/design-patterns">Design Patterns</a></li>
+  <li><a href="https://www.coursera.org/learn/software-architecture">Software Architecture</a></li>
+  <li><a href="https://www.coursera.org/learn/service-oriented-architecture">Service Oriented Architecture</a></li>
+ </ul>
  <li>Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization</li>
 </ul>
 <br>
