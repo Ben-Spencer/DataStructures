@@ -58,3 +58,9 @@ Open addressing, the simplest way to create a hash table, implements a hash tabl
  <li>Open addressing is less expensive, in terms of memory, than chaining tables, since there is no need to use pointers</li>
 </ul>
 <h3>Cryptographic Hashing</h3>
+<ul>
+ <li>Password Storage Problem: How do you store a password with nobody knowing it, including the system's admin?<li>
+ <ul>
+  <li>One-Way Cryptographic Hash: given h(x) = Q --> The value of the hash, it is very hard to find x. Basically, it compares your hashed login password to the saved hash, rather than your password. If the two hashes don't match, than you can't login.</li>
+ </ul>
+</ul>
