@@ -6,7 +6,7 @@ Courses are available at the following links:
  <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/">Introduction to Algorithms</a></li>
  <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/">Design and Analysis of Algorithms</a></li>
  <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/">Advanced Data Structures</a></li>
- <li>Artificial Intelligence</li>
+ <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/">Artificial Intelligence</a></li>
  <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/">Computer Systems Security</a></li>
  <li>Software Design and Architecture Specialization</li>
  <li>Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization</li>
