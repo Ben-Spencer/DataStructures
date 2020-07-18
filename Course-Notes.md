@@ -195,87 +195,87 @@ Courses are available at the following links:
  <ul>
   <li>Object-Oriented Design</li>
   <ul>
-   <li>Object-Oriented Analysis and Design</li>
-   <li>Object-Oriented Modeling</li>
-   <li>Design Principles</li>
-   <li>Capstone Challenge</li>
+   <li>Lecture 1: Object-Oriented Analysis and Design</li>
+   <li>Lecture 2: Object-Oriented Modeling</li>
+   <li>Lecture 3: Design Principles</li>
+   <li>Lecture 4: Capstone Challenge</li>
   </ul>
   <li>Design Patterns</li>
   <ul>
-   <li>Introduction to Design Patterns: Creational & Structural Patterns</li>
-   <li>Behavioural Design Patterns</li>
-   <li>Working with Design Patterns & Anti-patterns</li>
-   <li>Capstone Challenge</li>
+   <li>Lecture 1: Introduction to Design Patterns: Creational & Structural Patterns</li>
+   <li>Lecture 2: Behavioural Design Patterns</li>
+   <li>Lecture 3: Working with Design Patterns & Anti-patterns</li>
+   <li>Lecture 4: Capstone Challenge</li>
   </ul>
   <li>Software Architecture</li>
   <ul>
-   <li>UML Architecture Diagrams</li>
-   <li>Architectural Styles</li>
-   <li>Architecture in Practice</li>
-   <li>Capstone Challenge</li>
+   <li>Lecture 1: UML Architecture Diagrams</li>
+   <li>Lecture 2: Architectural Styles</li>
+   <li>Lecture 3: Architecture in Practice</li>
+   <li>Lecture 4: Capstone Challenge</li>
   </ul>
   <li>Service-Oriented Architecture</li>
   <ul>
-   <li>Web Technologies</li>
-   <li>Web Services</li>
-   <li>REST Architecture for SOA</li>
-   <li>Capstone Challenge</li>
+   <li>Lecture 1: Web Technologies</li>
+   <li>Lecture 2: Web Services</li>
+   <li>Lecture 3: REST Architecture for SOA</li>
+   <li>Lecture 4: Capstone Challenge</li>
   </ul>
  </ul><br>
  <li>Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization</li>
  <ul>
   <li>End-to-End Machine Learning with TensorFlow on GCP</li>
   <ul>
-   <li>Welcome to the Course</li>
-   <li>Machine Learning (ML) on Google Cloud Platform (GCP)</li> 
-   <li>Explore the Data</li>
-   <li>Create the Dataset</li> 
-   <li>Build the Model</li>
-   <li>Operationalize the Model</li>
-   <li>Course Summary</li>
+   <li>Lecture 1: Welcome to the Course</li>
+   <li>Lecture 2: Machine Learning (ML) on Google Cloud Platform (GCP)</li> 
+   <li>Lecture 3: Explore the Data</li>
+   <li>Lecture 4: Create the Dataset</li> 
+   <li>Lecture 5: Build the Model</li>
+   <li>Lecture 6: Operationalize the Model</li>
+   <li>Lecture 7: Course Summary</li>
   </ul>
   <li>Production Machine Learning Systems</li>
   <ul>
-   <li>Welcome to the Course</li>
-   <li>Architecting Production ML Systems</li>
-   <li>Ingesting Data for Cloud-Based Analytics and ML</li>
-   <li>Designing Adaptable ML Systems</li>
-   <li>Designing High-performance ML Systems</li>
-   <li>Hybrid ML Systems</li> 
-   <li>Course Summary</li>
+   <li>Lecture 1: Welcome to the Course</li>
+   <li>Lecture 2: Architecting Production ML Systems</li>
+   <li>Lecture 3: Ingesting Data for Cloud-Based Analytics and ML</li>
+   <li>Lecture 4: Designing Adaptable ML Systems</li>
+   <li>Lecture 5: Designing High-performance ML Systems</li>
+   <li>Lecture 6: Hybrid ML Systems</li> 
+   <li>Lecture 7: Course Summary</li>
   </ul>
   <li>Image Understanding with TensorFlow on GCP</li>
   <ul>
-   <li>Welcome to Image Understanding with TensorFlow on GCP</li>
-   <li>Linear and DNN Models</li>
-   <li>Convolutional Neural Networks (CNNs)</li>
-   <li>Dealing with Data Scarcity</li>
-   <li>Going Deeper Faster</li>
-   <li>Pre-built ML Models for Image Classification</li>
-   <li>Course Summary</li>
+   <li>Lecture 1: Welcome to Image Understanding with TensorFlow on GCP</li>
+   <li>Lecture 2: Linear and DNN Models</li>
+   <li>Lecture 3: Convolutional Neural Networks (CNNs)</li>
+   <li>Lecture 4: Dealing with Data Scarcity</li>
+   <li>Lecture 5: Going Deeper Faster</li>
+   <li>Lecture 6: Pre-built ML Models for Image Classification</li>
+   <li>Lecture 7: Course Summary</li>
   </ul>
   <li>Sequence Models for Time Series and Natural Language Processing</li>
   <ul>
-   <li>Working with Sequences</li>
-   <li>Recurrent Neural Networks</li>
-   <li>Dealing with Longer Sequences</li>
-   <li>Text Classification</li>
-   <li>Reusable Embeddings</li>
-   <li>Encoder-Decoder Models</li>
-   <li>Course Summary</li>
+   <li>Lecture 1: Working with Sequences</li>
+   <li>Lecture 2: Recurrent Neural Networks</li>
+   <li>Lecture 3: Dealing with Longer Sequences</li>
+   <li>Lecture 4: Text Classification</li>
+   <li>Lecture 5: Reusable Embeddings</li>
+   <li>Lecture 6: Encoder-Decoder Models</li>
+   <li>Lecture 7: Course Summary</li>
   </ul>
   <li>Recommendation Systems with TensorFlow on GCP</li>
   <ul>
-   <li>Recommendation Systems Overview</li>
-   <li>Content-Based Recommendation Systems</li>
-   <li>Collaborative Filtering Recommendation Systems</li>
-   <li>Neural Networks for Recommendation Systems</li>
-   <li>Building an End-to-End Recommendation System</li>
-   <li>Course Summary</li>
+   <li>Lecture 1: Recommendation Systems Overview</li>
+   <li>Lecture 2: Content-Based Recommendation Systems</li>
+   <li>Lecture 3: Collaborative Filtering Recommendation Systems</li>
+   <li>Lecture 4: Neural Networks for Recommendation Systems</li>
+   <li>Lecture 5: Building an End-to-End Recommendation System</li>
+   <li>Lecture 6: Course Summary</li>
   </ul>
  </ul>
 </ul>
- 
+
 <h1>Introduction to Computer Science and Programming in Python</h1>
 <h2>Lecture 1: What is Computation?</h2>
 <p>Computers perform built-in and programmer-defined calculations and store results.<br>
