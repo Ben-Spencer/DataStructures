@@ -15,3 +15,31 @@ You can use type() to find what type the object is. This is helpful in debugging
 
 <h1>Introduction to Algorithms</h1>
 <h2>Lesson 10: Open Addressing, Cryptographic Hashing</h2>
+Open addressing, the simplest way to create a hash table, implements a hash table using a single array, rather than chaining with linked lists. However, to get open addressing hash tables to be efficient, you have to be more careful than when making hash tables with chaining.<br>
+
+<h3>Open Addressing</h3>
+<ul>
+ <li>Open addressing is a way to implement hash tables without using chaining to deal with collisions</li>
+ <li>Open addressing stores keys and values in a single array, with at most one item per slot. This means there are no collisions, and thus no need for chaining</li>
+ <ul>
+  <li>To ensure no collisions will occur, M, or the number of slots, has to be greater than or equal to N, the number of items
+ </ul>
+ <li>To ensure the hash function does not collide with another element, open addressing uses probing. Probing alters the hash function and tests slots until it finds one that does not have another key-value pair. Probing is an iterative process</li>
+ <ul>
+  <li>To do probing, you need a hash function that specifies the order of slots to probe for a key (for insert, search, and delete)</li>
+  <li>The hash function takes in the universe of keys (U) and the trial count. Ultimately the hash function produces a number between 0 and M-1</li>
+  <li>Probing must ensure that all slots are permutations of 0, 1, ..., M-1; meaning all slots have the ability to be probed by the hash function</li>
+ </ul>
+ <li>Insertion: while the probing function is working the hash function looks like this: h(100,1) = 4. 100 is the value, 1 is the trial count, and 4 is the slot. If the slot of 4 is already occupied, it then becomes h(100,2) = 7. This continues until it finds an open slot (either DeleteMe or None)</li>
+ <li>Search: As long as the slot probed is not equal to the key (k), keep probing until you either encounter k or find an empty slot. Since you are using the same hash probing algorithm that would be used to insert, if it returns None, k does not exist. </li>
+ <ul>
+  <li>Search treats DeleteMe the same as an incorrect key, instead of None. Therefore it keeps going</li>
+ </ul>
+ <li>Delete: If you delete an early number and replace it with None, that messes up search. Instead, delete the element, then replace it with a DeleteMe flag, that is different than None. </li>
+ </ul>
+ <h3>Probing Strategies</h3>
+ <ul>
+  <li>Linear Probing: h(k,i) = (h'(k)+i) mod M. In other words, the initial hash function is random, however, if the slot is filled, it just adds 1 to the slot until it finds an empty slot. It satisfies permutation; however, clustering occurs</li>
+  <ul>
+   <li>Clustering is a consecutive group of occupied slots. This is bad for load balancing, as ideally the entire array would be used, rather than just small parts. It ruins the randomness of the hashing algorithm</li>
+   <li>Clusters cause the hash table to be O(n) rather than O(1).</li>
