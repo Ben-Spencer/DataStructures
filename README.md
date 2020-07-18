@@ -1,5 +1,5 @@
 # Read Me
-This repository contains the knowledge I have accumulated about discrete mathematics, data structures, algorithms, distributed & parallel system design, networking, and machine learning in preparation for coding interviews. This following list is not complete with all information about the aforementioned topics, however, it is a great starting point to prepare for your coding interviews.<br><br>
+This repository contains the knowledge I have accumulated about discrete mathematics, data structures, and algorithms in preparation for coding interviews. This following list is not complete with all information about the aforementioned topics, however, it is a great starting point to prepare for your coding interviews.<br><br>
 <h1>Table of Contents</h1>
 <h2>Discrete Mathematics</h2>
 <ul>
@@ -130,22 +130,6 @@ This repository contains the knowledge I have accumulated about discrete mathema
       <li>Rotating calipers</li>
       <li>Randomized incremental construction</li>
     </ul>
-</ul>
-<h2>Distributed and Parallel Systems Design</h2>
-<ul>
-  
-</ul>
-<h2>Networking</h2>
-<ul>
-  
-</ul>
-<h2>Machine Learning</h2>
-<ul>
-  
-</ul>
-<h2>Security Software</h2>
-<ul>
-  
 </ul>
 <h2>Course Notes</h2>
 <ul>
