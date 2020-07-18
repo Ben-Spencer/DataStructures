@@ -5,7 +5,7 @@ Courses are available at the following links:
  <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/">Introduction to Computational Thinking and Data Science</a></li>
  <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/">Introduction to Algorithms</a></li>
  <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/">Design and Analysis of Algorithms</a></li>
- <li>Advanced Data Structures</li>
+ <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/">Advanced Data Structures</a></li>
  <li>Artificial Intelligence</li>
  <li>Computer Systems Security</li>
  <li>Coursera</li>
@@ -102,6 +102,30 @@ Courses are available at the following links:
   <li>Lecture 24: Cache-Oblivious Algorithms: Searching and Sorting</li>
  </ul><br>
  <li>Advanced Data Structures</li>
+ <ul>
+  <li>Lecture 1: Persistent Data Structures</li>
+  <li>Lecture 2: Retroactive Data Structures</li>
+  <li>Lecture 3: Geometric Data Structures I</li>
+  <li>Lecture 4: Geometric Data Structures II</li>
+  <li>Lecture 5: Dynamic Optimality I</li>
+  <li>Lecture 6: Dynamic Optimality II</li>
+  <li>Lecture 7: Memory Hierarchy Models</li>
+  <li>Lecture 8: Cache-Oblivious Structures I</li>
+  <li>Lecture 9: Cache-Oblivious Structures II</li>
+  <li>Lecture 10: Dictionaries</li>
+  <li>Lecture 11: Integer Models</li>
+  <li>Lecture 12: Fusion Trees</li>
+  <li>Lecture 13: Integer Lower Bounds</li>
+  <li>Lecture 14: Sorting in Linear Time</li>
+  <li>Lecture 15: Static Trees</li>
+  <li>Lecture 16: Strings</li>
+  <li>Lecture 17: Succinct Structures I</li>
+  <li>Lecture 18: Succinct Structures II</li>
+  <li>Lecture 19: Dynamic Graphs I</li>
+  <li>Lecture 20: Dynamic Graphs II</li>
+  <li>Lecture 21: Dynamic Connectivity Lower Bound</li>
+  <li>Lecture 22: History of Memory Models</li>
+ </ul><br>
  <li>Artificial Intelligence</li>
  <li>Computer Systems Security</li>
  <li>Coursera</li>
