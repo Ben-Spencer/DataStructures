@@ -134,7 +134,7 @@ This repository contains the knowledge I have accumulated about discrete mathema
 <h2><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md">Course Notes</a></h2>
 <ul>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#preface">Preface</a></li>
-  <li><a href="">Table of Contents</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#table-of-contents">Table of Contents</a></li>
   <li><a href="">Introduction to Computer Science and Programming in Python</a></li>
   <li><a href="">Introduction to Computational Thinking and Data Science</a></li>
   <li><a href="">Introduction to Algorithms</a></li>
