@@ -50,3 +50,11 @@ Open addressing, the simplest way to create a hash table, implements a hash tabl
  </ul>
 </ul>
 <h3>Uniform Hashing Assumption</h3>
+<ul>
+ <li>Uniform hashing assumption is that each key is equally likely to have any one of the n factorial permutations as its probe sequence</li>
+ <ul><li>You can get close with double hashing, but nobody has discovered a perfect hash function to satisfy this property</li></ul>
+ <li>With uniform hashing assumption, you can prove that if alpha is N/M, the cost of operations, such as search, insert, and delete is <= 1 / (1-alpha)</li>
+  <li>In practice, when alpha gets to around .5, it is necessary to increase the size of M (add more slots) to ensure the cost of operations remains low. Otherwise, use a chaining table</li>
+ <li>Open addressing is less expensive, in terms of memory, than chaining tables, since there is no need to use pointers</li>
+</ul>
+<h3>Cryptographic Hashing</h3>
