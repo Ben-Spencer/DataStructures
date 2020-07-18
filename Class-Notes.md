@@ -1,5 +1,5 @@
 <h1>Preface</h1>
-The lectures are available at the following links:
+Courses are available at the following links:
 <ul>
  <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/">Introduction to Computer Science and Programming in Python</a></li>
  <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/">Introduction to Computational Thinking and Data Science</a></li>
