@@ -131,7 +131,7 @@ This repository contains the knowledge I have accumulated about discrete mathema
       <li>Randomized incremental construction</li>
     </ul>
 </ul>
-<h2><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md">Course Notes</a></h2>
+<h2><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#course-notes">Course Notes</a></h2>
 <ul>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#preface">Preface</a></li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#table-of-contents">Table of Contents</a></li>
