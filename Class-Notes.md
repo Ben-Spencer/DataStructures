@@ -14,7 +14,7 @@ Courses are available at the following links:
 <br>
 <h1>Table of Contents</h1>
 <ul>
- <li>Introduction to Computer Science and Programming in Python</li>
+ <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Class-Notes.md#introduction-to-computer-science-and-programming-in-python">Introduction to Computer Science and Programming in Python</a></li>
  <ul>
   <li>Lecture 1: What is Computation?</li>
   <li>Lecture 2: Branching and Iteration</li>
