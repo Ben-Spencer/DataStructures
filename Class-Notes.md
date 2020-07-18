@@ -28,7 +28,7 @@ The lectures are available at the following links:
   <li>Lecture 10: Understanding Program Efficiency, Part 1</li>
   <li>Lecture 11: Understanding Program Efficiency, Part 2</li>
   <li>Lecture 12: Searching and Sorting</li>
- </ul>
+ </ul><br>
  <li>Introduction to Computational Thinking and Data Science</li>
  <ul>
   <li>Lecture 1: Introduction, Optimization Problems</li>
@@ -46,7 +46,7 @@ The lectures are available at the following links:
   <li>Lecture 13: Classification</li>
   <li>Lecture 14: Classification and Statistical Sins</li>
   <li>Lecture 15: Statistical Sins and Wrap-Up</li>
- </ul>
+ </ul><br>
  <li>Introduction to Algorithms</li>
  <ul>
   <li>Lecture 1: Algorithmic Thinking, Peak Finding</li>
@@ -73,7 +73,7 @@ The lectures are available at the following links:
   <li>Lecture 22: Dynamic Programming IV: Guitar Fingering, Tetris, Super Mario Bros.</li>
   <li>Lecture 23: Computational Complexity</li>
   <li>Lecture 24: Topics in Algorithms Research</li>
- </ul>
+ </ul><br>
  <li>Design and Analysis of Algorithms</li>
  <li>Advanced Data Structures</li>
  <li>Artificial Intelligence</li>
