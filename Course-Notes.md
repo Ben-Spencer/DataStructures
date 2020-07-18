@@ -154,6 +154,30 @@ Courses are available at the following links:
   <li>Lecture 23: Model Merging, Cross-Modal Coupling, Course Summary</li>
  </ul><br>
  <li>Computer Systems Security</li>
+ <ul>
+  <li>Lecture 1: Introduction, Threat Models</li>
+  <li>Lecture 2: Control Hijacking Attacks</li>
+  <li>Lecture 3: Buffer Overflow Exploits and Defenses</li>
+  <li>Lecture 4: Privilege Separation</li>
+  <li>Lecture 5: Capabilities</li>
+  <li>Lecture 6: Sandboxing Native Code</li>
+  <li>Lecture 7: Web Security Model</li>
+  <li>Lecture 8: Securing Web Applications</li>
+  <li>Lecture 9: Symbolic Execution</li>
+  <li>Lecture 10: Ur/Web</li>
+  <li>Lecture 11: Network Security</li>
+  <li>Lecture 12: Network Protocols</li>
+  <li>Lecture 13: SSL and HTTPS</li>
+  <li>Lecture 14: Medical Software</li>
+  <li>Lecture 15: Side-Channel Attacks</li>
+  <li>Lecture 16: User Authentication</li>
+  <li>Lecture 17: Private Browsing</li>
+  <li>Lecture 18: Anonymous Communication</li>
+  <li>Lecture 19: Mobile Phone Security</li>
+  <li>Lecture 20: Data Tracking</li>
+  <li>Lecture 21: Guest Lecture by MIT IS&T</li>
+  <li>Lecture 22: Security Economics</li>
+ </ul><br>
  <li>Software Design and Architecture Specialization</li>
  <li>Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization</li>
 </ul>
