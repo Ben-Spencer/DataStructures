@@ -127,6 +127,31 @@ Courses are available at the following links:
   <li>Lecture 22: History of Memory Models</li>
  </ul><br>
  <li>Artificial Intelligence</li>
+ <ul>
+  <li>Lecture 1: Introduction and Scope</li>
+  <li>Lecture 2: Reasoning: Goal Trees and Problem Solving</li>
+  <li>Lecture 3: Reasoning: Goal Trees and Rule-Based Expert Systems</li>
+  <li>Lecture 4: Search: Depth-First, Hill Climbing, Beam</li>
+  <li>Lecture 5: Search: Optimal, Branch and Bound, A*</li>
+  <li>Lecture 6: Search: Games, Minimax, and Alpha-Beta</li>
+  <li>Lecture 7: Constraints: Interpreting Line Drawings</li>
+  <li>Lecture 8: Constraints: Search, Domain Reduction</li>
+  <li>Lecture 9: Constraints: Visual Object Recognition</li>
+  <li>Lecture 10: Introduction to Learning, Nearest Neighbors</li>
+  <li>Lecture 11: Learning: Identification Trees, Disorder</li>
+  <li>Lecture 12: Neural Nets</li>
+  <li>Lecture 13: Deep Neural Nets</li>
+  <li>Lecture 14: Learning: Genetic Algorithms</li>
+  <li>Lecture 15: Learning: Sparse Spaces, Phonology</li>
+  <li>Lecture 16: Learning: Near Misses, Felicity Conditions</li>
+  <li>Lecture 17: Learning: Support Vector Machines</li>
+  <li>Lecture 18: Learning: Boosting</li>
+  <li>Lecture 19: Representations: Classes, Trajectories, Transitions</li>
+  <li>Lecture 20: Architectures: GPS, SOAR, Subsumption, Society of Mind</li>
+  <li>Lecture 21: Probilistic Inference I</li>
+  <li>Lecture 22: Probilistic Inference II</li>
+  <li>Lecture 23: Model Merging, Cross-Modal Coupling, Course Summary</li>
+ </ul><br>
  <li>Computer Systems Security</li>
  <li>Software Design and Architecture Specialization</li>
  <li>Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization</li>
