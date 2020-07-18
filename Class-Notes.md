@@ -1,7 +1,63 @@
-
+<h1>Preface</h1>
+The lectures are available at the following links:
+<ul>
+ <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/">Introduction to Computer Science and Programming in Python</a></li>
+ <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/">Introduction to Computational Thinking and Data Science</a></li>
+ <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/">Introduction to Algorithms</a></li>
+ <li>Design and Analysis of Algorithms</li>
+ <li>Advanced Data Structures</li>
+ <li>Artificial Intelligence</li>
+ <li>Computer Systems Security</li>
+ <li>Coursera</li>
+ <li>Coursera</li>
+</ul>
+<br>
+<h1>Table of Contents</h1>
+<ul>
+ <li>Introduction to Computer Science and Programming in Python</li>
+ <ul>
+  <li>Lecture 1: What is Computation?</li>
+  <li>Lecture 2: Branching and Iteration</li>
+  <li>Lecture 3: String Manipulation, Guess and Check, Approximations, Bisection</li>
+  <li>Lecture 4: Decomposition, Abstraction, and Functions</li>
+  <li>Lecture 5: Tuples, Lists, Aliasing, Mutability, and Cloning</li>
+  <li>Lecture 6: Recursion and Dictionaries</li>
+  <li>Lecture 7: Testing, Debugging, Exceptions, and Assertions</li>
+  <li>Lecture 8: Object Oriented Programming</li>
+  <li>Lecture 9: Python Classes and Inheritance</li>
+  <li>Lecture 10: Understanding Program Efficiency, Part 1</li>
+  <li>Lecture 11: Understanding Program Efficiency, Part 2</li>
+  <li>Lecture 12: Searching and Sorting</li>
+ </ul>
+ <li>Introduction to Computational Thinking and Data Science</li>
+ <ul>
+  <li>Lecture 1: Introduction, Optimization Problems</li>
+  <li>Lecture 2: Optimization Problems</li>
+  <li>Lecture 3: Graph-Theoretic Models</li>
+  <li>Lecture 4: Stochastic Thinking</li>
+  <li>Lecture 5: Random Walks</li>
+  <li>Lecture 6: Monte Carlo Simulation</li>
+  <li>Lecture 7: Confidence Intervals</li>
+  <li>Lecture 8: Sampling and Standard Error</li>
+  <li>Lecture 9: Understanding Experimental Data, Part 1</li>
+  <li>Lecture 10: Understanding Experimental Data, Part 2</li>
+  <li>Lecture 11: Introduction to Machine Learning</li>
+  <li>Lecture 12: Clustering</li>
+  <li>Lecture 13: Classification</li>
+  <li>Lecture 14: Classification and Statistical Sins</li>
+  <li>Lecture 15: Statistical Sins and Wrap-Up</li>
+ </ul>
+ <li>Introduction to Algorithms</li>
+ <li>Design and Analysis of Algorithms</li>
+ <li>Advanced Data Structures</li>
+ <li>Artificial Intelligence</li>
+ <li>Computer Systems Security</li>
+ <li>Coursera</li>
+ <li>Coursera</li>
+</ul>
  
 <h1>Introduction to Computer Science and Programming in Python</h1>
-<h2>Lecture 1</h2>
+<h2>Lecture 1: What is Computation?</h2>
 <p>Computers perform built-in and programmer-defined calculations and store results.<br>
 Types of Knowledge: Declarative (statement of fact) and Imperative (sequence of steps)<br>
 An algorithm is a sequence of steps with a flow of control and a determined stopping point<br>
