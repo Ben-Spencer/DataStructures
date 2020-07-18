@@ -14,7 +14,7 @@ You can use type() to find what type the object is. This is helpful in debugging
 
 
 <h1>Introduction to Algorithms</h1>
-<h2>Lesson 10: Open Addressing, Cryptographic Hashing</h2>
+<h2>Lecture 10: Open Addressing, Cryptographic Hashing</h2>
 Open addressing, the simplest way to create a hash table, implements a hash table using a single array, rather than chaining with linked lists. However, to get open addressing hash tables to be efficient, you have to be more careful than when making hash tables with chaining.<br>
 
 <h3>Open Addressing</h3>
