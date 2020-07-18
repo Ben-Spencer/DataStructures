@@ -9,7 +9,7 @@ Courses are available at the following links:
  <li>Artificial Intelligence</li>
  <li>Computer Systems Security</li>
  <li>Coursera</li>
- <li>Coursera</li>
+ <li>Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization</li>
 </ul>
 <br>
 <h1>Table of Contents</h1>
