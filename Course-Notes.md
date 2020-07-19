@@ -37,7 +37,7 @@ Courses are available at the following links:
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-5-tuples-lists-aliasing-mutability-and-cloning">Lecture 5: Tuples, Lists, Aliasing, Mutability, and Cloning</a></li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-6-recursion-and-dictionaries">Lecture 6: Recursion and Dictionaries</a></li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-7-testing-debugging-exceptions-and-assertions">Lecture 7: Testing, Debugging, Exceptions, and Assertions</a></li>
-  <li>Lecture 8: Object Oriented Programming</li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-8-object-oriented-programming">Lecture 8: Object Oriented Programming</a></li>
   <li>Lecture 9: Python Classes and Inheritance</li>
   <li>Lecture 10: Understanding Program Efficiency, Part 1</li>
   <li>Lecture 11: Understanding Program Efficiency, Part 2</li>
