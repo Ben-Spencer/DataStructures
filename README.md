@@ -136,12 +136,24 @@ This repository contains the knowledge I have accumulated about discrete mathema
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#preface">Preface</a></li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#table-of-contents">Table of Contents</a></li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#introduction-to-computer-science-and-programming-in-python">Introduction to Computer Science and Programming in Python</a></li>
-  <li>Introduction to Computational Thinking and Data Science</li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#introduction-to-computational-thinking-and-data-science">Introduction to Computational Thinking and Data Science</a></li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#introduction-to-algorithms">Introduction to Algorithms</a></li>
-  <li>Design and Analysis of Algorithms</li>
-  <li>Advanced Data Structures</li>
-  <li>Artificial Intelligence</li>
-  <li>Computer Systems Security</li>
-  <li>Software Design and Architecture Specialization</li>
-  <li>Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization</li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#design-and-analysis-of-algorithms">Design and Analysis of Algorithms</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#advanced-data-structures">Advanced Data Structures</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#artificial-intelligence">Artificial Intelligence</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#computer-systems-security">Computer Systems Security</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#software-design-and-architecture-specialization">Software Design and Architecture Specialization</a></li>
+  <ul>
+    <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#object-oriented-design">Object Oriented Design</a></li>
+    <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#design-patterns">Design Patterns</a></li>
+    <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#software-architecture">Software Architecture</a></li>
+    <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#service-oriented-architecture">Service Oriented Architecture</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#advanced-machine-learning-with-tensorflow-on-google-cloud-platform-specialization">Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization</a></li>
+    <ul>
+      <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#end-to-end-machine-learning-with-tensorflow-on-gcp">End-to-End Machine Learning with TensorFlow on GCP</a></li>
+      <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#production-machine-learning-systems">Production Machine Learning Systems</a></li>
+      <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#image-understanding-with-tensorflow-on-gcp">Image Understanding with TensorFlow on GCP</a></li>
+      <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#sequence-models-for-time-series-and-natural-language-processing">Sequence Models for Time Series and Natural Language Processing</a></li>
+      <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#recommendation-systems-with-tensorflow-on-gcp">Recommendation Systems with TensorFlow on GCP</a></li>
+    </ul>
 </ul>
