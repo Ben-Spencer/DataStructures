@@ -297,7 +297,35 @@ You can use type() to find what type the object is. This is helpful in debugging
 <h2>Lecture 10: Understanding Program Efficiency, Part 1</h2>
 <h2>Lecture 11: Understanding Program Efficiency, Part 2</h2>
 <h2>Lecture 12: Searching and Sorting</h2>
+
+<h1>Introduction to Computational Thinking and Data Science</h1>
+<h2>Lecture 1: Introduction, Optimization Problems</h2>
+<h2>Lecture 2: Optimization Problems</h2>
+<h2>Lecture 3: Graph-Theoretic Models</h2>
+<h2>Lecture 4: Stochastic Thinking</h2>
+<h2>Lecture 5: Random Walks</h2>
+<h2>Lecture 6: Monte Carlo Simulation</h2>
+<h2>Lecture 7: Confidence Intervals</h2>
+<h2>Lecture 8: Sampling and Standard Error</h2>
+<h2>Lecture 9: Understanding Experimental Data, Part 1</h2>
+<h2>Lecture 10: Understanding Experimental Data, Part 2</h2>
+<h2>Lecture 11: Introduction to Machine Learning</h2>
+<h2>Lecture 12: Clustering</h2>
+<h2>Lecture 13: Classification</h2>
+<h2>Lecture 14: Classification and Statistical Sins</h2>
+<h2>Lecture 15: Statistical Sins and Wrap-Up</h2>
+
 <h1>Introduction to Algorithms</h1>
+<h2>Lecture 1: Algorithmic Thinking, Peak Finding</h2>
+<h2>Lecture 2: Models of Computation, Document Distance</h2>
+<h2>Lecture 3: Insertion Sort, Merge Sort</h2>
+<h2>Lecture 4: Heaps and Heap Sort</h2>
+<h2>Lecture 5: Binary Search Trees, BST Sort</h2>
+<h2>Lecture 6: AVL Trees, AVL Sort</h2>
+<h2>Lecture 7: Counting Sort, Radix Sort, Lower Bounds for Sorting</h2>
+<h2>Lecture 8: Hashing with Chaining</h2>
+<h2>Lecture 9: Table Doubling, Karp-Rabin</h2>
+
 <h2>Lecture 10: Open Addressing, Cryptographic Hashing</h2>
 Open addressing, the simplest way to create a hash table, implements a hash table using a single array, rather than chaining with linked lists. However, to get open addressing hash tables to be efficient, you have to be more careful than when making hash tables with chaining.<br>
 
@@ -351,3 +379,177 @@ Open addressing, the simplest way to create a hash table, implements a hash tabl
 <br>
 
 <h2>Lesson 11: Integer Arithmetic, Karatsuba Multiplication</h2>
+<h2>Lecture 12: Square Roots, Newton's Method</h2>
+<h2>Lecture 13: Breadth First Search (BFS)</h2>
+<h2>Lecture 14: Depth First Search (DFS), Topological Sort</h2>
+<h2>Lecture 15: Single-Source Shortest Paths Problem</h2>
+<h2>Lecture 16: Dijkstra</h2>
+<h2>Lecture 17: Bellman-Ford</h2>
+<h2>Lecture 18: Speeding Up Dijkstra</h2>
+<h2>Lecture 19: Dynamic Programming I: Fibonacci, Shortest Paths</h2>
+<h2>Lecture 20: Dynamic Programming II: Text Justification, Blackjack</h2>
+<h2>Lecture 21: Dynamic Programming III: Parenthesization, Edit Distance, Knapsack</h2>
+<h2>Lecture 22: Dynamic Programming IV: Guitar Fingering, Tetris, Super Mario Bros.</h2>
+<h2>Lecture 23: Computational Complexity</h2>
+<h2>Lecture 24: Topics in Algorithms Research</h2>
+
+<h1>Design and Analysis of Algorithms</h1>
+<h2>Lecture 1: Course Overview, Interval Scheduling</h2>
+<h2>Lecture 2: Divide and Conquer: Convex Hull, Median Finding</h2>
+<h2>Lecture 3: Divide and Conquer: FFT</h2>
+<h2>Lecture 4: Divide and Conquer: van Emde Boas Trees</h2>
+<h2>Lecture 5: Amortization: Amortized Analysis</h2>
+<h2>Lecture 6: Randomization: Matrix Multiply, Quicksort</h2>
+<h2>Lecture 7: Randomization: Skip Lists</h2>
+<h2>Lecture 8: Randomization: Universal and Perfect Hashing</h2>
+<h2>Lecture 9: Augmentation: Range Trees</h2>
+<h2>Lecture 10: Dynamic Programming: Advanced DP</h2>
+<h2>Lecture 11: Dynamic Programming: All-Pairs Shortest Path</h2>
+<h2>Lecture 12: Greedy Algorithms: Minimum Spanning Tree</h2>
+<h2>Lecture 13: Incremental Improvement: Max Flow, Min Cut</h2>
+<h2>Lecture 14: Incremental Improvement: Matching</h2>
+<h2>Lecture 15: Linear Programming: LP, reductions, Simplex</h2>
+<h2>Lecture 16: Complexity: P, NP, NP-Completeness, Reductions</h2>
+<h2>Lecture 17: Complexity: Approximation Algorithms</h2>
+<h2>Lecture 18: Complexity: Fixed-Parameter Algorithms</h2>
+<h2>Lecture 19: Synchronous Distributed Algorithms: Symmetry-Breaking, Shortest Paths Spanning Trees</h2>
+<h2>Lecture 20: Asynchronous Distributed Algorithms: Shortest Paths Spanning Trees</h2>
+<h2>Lecture 21: Cryptography: Hash Functions</h2>
+<h2>Lecture 22: Cryptography: Encryption</h2>
+<h2>Lecture 23: Cache-Oblivious Algorithms: Medians and Matrices</h2>
+<h2>Lecture 24: Cache-Oblivious Algorithms: Searching and Sorting</h2>
+
+<h1>Advanced Data Structures</h1>
+<h2>Lecture 1: Persistent Data Structures</h2>
+<h2>Lecture 2: Retroactive Data Structures</h2>
+<h2>Lecture 3: Geometric Data Structures I</h2>
+<h2>Lecture 4: Geometric Data Structures II</h2>
+<h2>Lecture 5: Dynamic Optimality I</h2>
+<h2>Lecture 6: Dynamic Optimality II</h2>
+<h2>Lecture 7: Memory Hierarchy Models</h2>
+<h2>Lecture 8: Cache-Oblivious Structures I</h2>
+<h2>Lecture 9: Cache-Oblivious Structures II</h2>
+<h2>Lecture 10: Dictionaries</h2>
+<h2>Lecture 11: Integer Models</h2>
+<h2>Lecture 12: Fusion Trees</h2>
+<h2>Lecture 13: Integer Lower Bounds</h2>
+<h2>Lecture 14: Sorting in Linear Time</h2>
+<h2>Lecture 15: Static Trees</h2>
+<h2>Lecture 16: Strings</h2>
+<h2>Lecture 17: Succinct Structures I</h2>
+<h2>Lecture 18: Succinct Structures II</h2>
+<h2>Lecture 19: Dynamic Graphs I</h2>
+<h2>Lecture 20: Dynamic Graphs II</h2>
+<h2>Lecture 21: Dynamic Connectivity Lower Bound</h2>
+<h2>Lecture 22: History of Memory Models</h2>
+
+<h1>Artificial Intelligence</h1>
+<h2>Lecture 1: Introduction and Scope</h2>
+<h2>Lecture 2: Reasoning: Goal Trees and Problem Solving</h2>
+<h2>Lecture 3: Reasoning: Goal Trees and Rule-Based Expert Systems</h2>
+<h2>Lecture 4: Search: Depth-First, Hill Climbing, Beam</h2>
+<h2>Lecture 5: Search: Optimal, Branch and Bound, A*</h2>
+<h2>Lecture 6: Search: Games, Minimax, and Alpha-Beta</h2>
+<h2>Lecture 7: Constraints: Interpreting Line Drawings</h2>
+<h2>Lecture 8: Constraints: Search, Domain Reduction</h2>
+<h2>Lecture 9: Constraints: Visual Object Recognition</h2>
+<h2>Lecture 10: Introduction to Learning, Nearest Neighbors</h2>
+<h2>Lecture 11: Learning: Identification Trees, Disorder</h2>
+<h2>Lecture 12: Neural Nets</h2>
+<h2>Lecture 13: Deep Neural Nets</h2>
+<h2>Lecture 14: Learning: Genetic Algorithms</h2>
+<h2>Lecture 15: Learning: Sparse Spaces, Phonology</h2>
+<h2>Lecture 16: Learning: Near Misses, Felicity Conditions</h2>
+<h2>Lecture 17: Learning: Support Vector Machines</h2>
+<h2>Lecture 18: Learning: Boosting</h2>
+<h2>Lecture 19: Representations: Classes, Trajectories, Transitions</h2>
+<h2>Lecture 20: Architectures: GPS, SOAR, Subsumption, Society of Mind</h2>
+<h2>Lecture 21: Probilistic Inference I</h2>
+<h2>Lecture 22: Probilistic Inference II</h2>
+<h2>Lecture 23: Model Merging, Cross-Modal Coupling, Course Summary</h2>
+
+<h1>Computer Systems Security</h1>
+<h2>Lecture 1: Introduction, Threat Models</h2>
+<h2>Lecture 2: Control Hijacking Attacks</h2>
+<h2>Lecture 3: Buffer Overflow Exploits and Defenses</h2>
+<h2>Lecture 4: Privilege Separation</h2>
+<h2>Lecture 5: Capabilities</h2>
+<h2>Lecture 6: Sandboxing Native Code</h2>
+<h2>Lecture 7: Web Security Model</h2>
+<h2>Lecture 8: Securing Web Applications</h2>
+<h2>Lecture 9: Symbolic Execution</h2>
+<h2>Lecture 10: Ur/Web</h2>
+<h2>Lecture 11: Network Security</h2>
+<h2>Lecture 12: Network Protocols</h2>
+<h2>Lecture 13: SSL and HTTPS</h2>
+<h2>Lecture 14: Medical Software</h2>
+<h2>Lecture 15: Side-Channel Attacks</h2>
+<h2>Lecture 16: User Authentication</h2>
+<h2>Lecture 17: Private Browsing</h2>
+<h2>Lecture 18: Anonymous Communication</h2>
+<h2>Lecture 19: Mobile Phone Security</h2>
+<h2>Lecture 20: Data Tracking</h2>
+<h2>Lecture 21: Guest Lecture by MIT IS&T</h2>
+<h2>Lecture 22: Security Economics</h2>
+
+<h1>Software Design and Architecture Specialization</h1>
+<h2>Object-Oriented Design</h2>
+<h3>Lecture 1: Object-Oriented Analysis and Design</h3>
+<h3>Lecture 2: Object-Oriented Modeling</h3>
+<h3>Lecture 3: Design Principles</h3>
+<h3>Lecture 4: Capstone Challenge</h3>
+<h2>Design Patterns</h2>
+<h3>Lecture 1: Introduction to Design Patterns: Creational & Structural Patterns</h3>
+<h3>Lecture 2: Behavioural Design Patterns</h3>
+<h3>Lecture 3: Working with Design Patterns & Anti-patterns</h3>
+<h3>Lecture 4: Capstone Challenge</h3>
+<h2>Software Architecture</h2>
+<h3>Lecture 1: UML Architecture Diagrams</h3>
+<h3>Lecture 2: Architectural Styles</h3>
+<h3>Lecture 3: Architecture in Practice</h3>
+<h3>Lecture 4: Capstone Challenge</h3>
+<h2>Service-Oriented Architecture</h2>
+<h3>Lecture 1: Web Technologies</h3>
+<h3>Lecture 2: Web Services</h3>
+<h3>Lecture 3: REST Architecture for SOA</h3>
+<h3>Lecture 4: Capstone Challenge</h3>
+<h1>Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization</h1>
+<h2>End-to-End Machine Learning with TensorFlow on GCP</h2>
+<h3>Lecture 1: Welcome to the Course</h3>
+<h3>Lecture 2: Machine Learning (ML) on Google Cloud Platform (GCP)</h3> 
+<h3>Lecture 3: Explore the Data</h3>
+<h3>Lecture 4: Create the Dataset</h3> 
+<h3>Lecture 5: Build the Model</h3>
+<h3>Lecture 6: Operationalize the Model</h3>
+<h3>Lecture 7: Course Summary</h3>
+<h2>Production Machine Learning Systems</h2>
+<h3>Lecture 1: Welcome to the Course</h3>
+<h3>Lecture 2: Architecting Production ML Systems</h3>
+<h3>Lecture 3: Ingesting Data for Cloud-Based Analytics and ML</h3>
+<h3>Lecture 4: Designing Adaptable ML Systems</h3>
+<h3>Lecture 5: Designing High-performance ML Systems</h3>
+<h3>Lecture 6: Hybrid ML Systems</h3> 
+<h3>Lecture 7: Course Summary</h3>
+<h2>Image Understanding with TensorFlow on GCP</h2>
+<h3>Lecture 1: Welcome to Image Understanding with TensorFlow on GCP</h3>
+<h3>Lecture 2: Linear and DNN Models</h3>
+<h3>Lecture 3: Convolutional Neural Networks (CNNs)</h3>
+<h3>Lecture 4: Dealing with Data Scarcity</h3>
+<h3>Lecture 5: Going Deeper Faster</h3>
+<h3>Lecture 6: Pre-built ML Models for Image Classification</h3>
+<h3>Lecture 7: Course Summary</h3>
+<h2>Sequence Models for Time Series and Natural Language Processing</h2>
+<h3>Lecture 1: Working with Sequences</h3>
+<h3>Lecture 2: Recurrent Neural Networks</h3>
+<h3>Lecture 3: Dealing with Longer Sequences</h3>
+<h3>Lecture 4: Text Classification</h3>
+<h3>Lecture 5: Reusable Embeddings</h3>
+<h3>Lecture 6: Encoder-Decoder Models</h3>
+<h3>Lecture 7: Course Summary</h3>
+<h2>Recommendation Systems with TensorFlow on GCP</h2>
+<h3>Lecture 1: Recommendation Systems Overview</h3>
+<h3>Lecture 2: Content-Based Recommendation Systems</h3>
+<h3>Lecture 3: Collaborative Filtering Recommendation Systems</h3>
+<h3>Lecture 4: Neural Networks for Recommendation Systems</h3>
+<h3>Lecture 5: Building an End-to-End Recommendation System</h3>
+<h3>Lecture 6: Course Summary</h3>
