@@ -31,7 +31,7 @@ Courses are available at the following links:
  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#introduction-to-computer-science-and-programming-in-python">Introduction to Computer Science and Programming in Python</a></li>
  <ul>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-1-what-is-computation">Lecture 1: What is Computation?</a></li>
-  <li>Lecture 2: Branching and Iteration</li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-2-branching-and-iteration">Lecture 2: Branching and Iteration</a></li>
   <li>Lecture 3: String Manipulation, Guess and Check, Approximations, Bisection</li>
   <li>Lecture 4: Decomposition, Abstraction, and Functions</li>
   <li>Lecture 5: Tuples, Lists, Aliasing, Mutability, and Cloning</li>
