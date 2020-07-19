@@ -147,7 +147,7 @@ This repository contains the knowledge I have accumulated about discrete mathema
     <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#object-oriented-design">Object Oriented Design</a></li>
     <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#design-patterns">Design Patterns</a></li>
     <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#software-architecture">Software Architecture</a></li>
-    <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#service-oriented-architecture">Service Oriented Architecture</a></li>
+    <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#service-oriented-architecture">Service Oriented Architecture</a>   </ul>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#advanced-machine-learning-with-tensorflow-on-google-cloud-platform-specialization">Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization</a></li>
     <ul>
       <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#end-to-end-machine-learning-with-tensorflow-on-gcp">End-to-End Machine Learning with TensorFlow on GCP</a></li>
