@@ -32,7 +32,7 @@ Courses are available at the following links:
  <ul>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-1-what-is-computation">Lecture 1: What is Computation?</a></li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-2-branching-and-iteration">Lecture 2: Branching and Iteration</a></li>
-  <li>Lecture 3: String Manipulation, Guess and Check, Approximations, Bisection</li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-3-string-manipulation-guess-and-check-approximations-bisection">Lecture 3: String Manipulation, Guess and Check, Approximations, Bisection</a></li>
   <li>Lecture 4: Decomposition, Abstraction, and Functions</li>
   <li>Lecture 5: Tuples, Lists, Aliasing, Mutability, and Cloning</li>
   <li>Lecture 6: Recursion and Dictionaries</li>
