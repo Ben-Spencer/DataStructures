@@ -41,7 +41,7 @@ Courses are available at the following links:
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-9-python-classes-and-inheritance">Lecture 9: Python Classes and Inheritance</a></li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-10-understanding-program-efficiency-part-1">Lecture 10: Understanding Program Efficiency, Part 1</a></li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-11-understanding-program-efficiency-part-2">Lecture 11: Understanding Program Efficiency, Part 2</a></li>
-  <li>Lecture 12: Searching and Sorting</li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-12-searching-and-sorting">Lecture 12: Searching and Sorting</a></li>
  </ul><br>
  <li>Introduction to Computational Thinking and Data Science</li>
  <ul>
