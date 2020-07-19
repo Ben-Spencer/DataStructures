@@ -89,32 +89,32 @@ Courses are available at the following links:
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-24-topics-in-algorithms-research
 ">Lecture 24: Topics in Algorithms Research</a></li>
  </ul><br>
- <li>Design and Analysis of Algorithms</li>
+ <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#design-and-analysis-of-algorithms">Design and Analysis of Algorithms</a></li>
  <ul>
-  <li>Lecture 1: Course Overview, Interval Scheduling</li>
-  <li>Lecture 2: Divide and Conquer: Convex Hull, Median Finding</li>
-  <li>Lecture 3: Divide and Conquer: FFT</li>
-  <li>Lecture 4: Divide and Conquer: van Emde Boas Trees</li>
-  <li>Lecture 5: Amortization: Amortized Analysis</li>
-  <li>Lecture 6: Randomization: Matrix Multiply, Quicksort</li>
-  <li>Lecture 7: Randomization: Skip Lists</li>
-  <li>Lecture 8: Randomization: Universal and Perfect Hashing</li>
-  <li>Lecture 9: Augmentation: Range Trees</li>
-  <li>Lecture 10: Dynamic Programming: Advanced DP</li>
-  <li>Lecture 11: Dynamic Programming: All-Pairs Shortest Path</li>
-  <li>Lecture 12: Greedy Algorithms: Minimum Spanning Tree</li>
-  <li>Lecture 13: Incremental Improvement: Max Flow, Min Cut</li>
-  <li>Lecture 14: Incremental Improvement: Matching</li>
-  <li>Lecture 15: Linear Programming: LP, reductions, Simplex</li>
-  <li>Lecture 16: Complexity: P, NP, NP-Completeness, Reductions</li>
-  <li>Lecture 17: Complexity: Approximation Algorithms</li>
-  <li>Lecture 18: Complexity: Fixed-Parameter Algorithms</li>
-  <li>Lecture 19: Synchronous Distributed Algorithms: Symmetry-Breaking, Shortest Paths Spanning Trees</li>
-  <li>Lecture 20: Asynchronous Distributed Algorithms: Shortest Paths Spanning Trees</li>
-  <li>Lecture 21: Cryptography: Hash Functions</li>
-  <li>Lecture 22: Cryptography: Encryption</li>
-  <li>Lecture 23: Cache-Oblivious Algorithms: Medians and Matrices</li>
-  <li>Lecture 24: Cache-Oblivious Algorithms: Searching and Sorting</li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-1-course-overview-interval-scheduling">Lecture 1: Course Overview, Interval Scheduling</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-2-divide-and-conquer-convex-hull-median-finding">Lecture 2: Divide and Conquer: Convex Hull, Median Finding</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-3-divide-and-conquer-fft">Lecture 3: Divide and Conquer: FFT</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-4-divide-and-conquer-van-emde-boas-trees">Lecture 4: Divide and Conquer: van Emde Boas Trees</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-5-amortization-amortized-analysis">Lecture 5: Amortization: Amortized Analysis</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-6-randomization-matrix-multiply-quicksort">Lecture 6: Randomization: Matrix Multiply, Quicksort</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-7-randomization-skip-lists">Lecture 7: Randomization: Skip Lists</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-8-randomization-universal-and-perfect-hashing">Lecture 8: Randomization: Universal and Perfect Hashing</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-9-augmentation-range-trees">Lecture 9: Augmentation: Range Trees</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-10-dynamic-programming-advanced-dp">Lecture 10: Dynamic Programming: Advanced DP</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-11-dynamic-programming-all-pairs-shortest-path">Lecture 11: Dynamic Programming: All-Pairs Shortest Path</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-12-greedy-algorithms-minimum-spanning-tree">Lecture 12: Greedy Algorithms: Minimum Spanning Tree</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-13-incremental-improvement-max-flow-min-cut">Lecture 13: Incremental Improvement: Max Flow, Min Cut</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-14-incremental-improvement-matching">Lecture 14: Incremental Improvement: Matching</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-15-linear-programming-lp-reductions-simplex">Lecture 15: Linear Programming: LP, reductions, Simplex</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-16-complexity-p-np-np-completeness-reductions">Lecture 16: Complexity: P, NP, NP-Completeness, Reductions</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-17-complexity-approximation-algorithms">Lecture 17: Complexity: Approximation Algorithms</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-18-complexity-fixed-parameter-algorithms">Lecture 18: Complexity: Fixed-Parameter Algorithms</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-19-synchronous-distributed-algorithms-symmetry-breaking-shortest-paths-spanning-trees">Lecture 19: Synchronous Distributed Algorithms: Symmetry-Breaking, Shortest Paths Spanning Trees</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-20-asynchronous-distributed-algorithms-shortest-paths-spanning-trees">Lecture 20: Asynchronous Distributed Algorithms: Shortest Paths Spanning Trees</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-21-cryptography-hash-functions">Lecture 21: Cryptography: Hash Functions</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-22-cryptography-encryption">Lecture 22: Cryptography: Encryption</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-23-cache-oblivious-algorithms-medians-and-matrices">Lecture 23: Cache-Oblivious Algorithms: Medians and Matrices</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-24-cache-oblivious-algorithms-searching-and-sorting">Lecture 24: Cache-Oblivious Algorithms: Searching and Sorting</a></li>
  </ul><br>
  <li>Advanced Data Structures</li>
  <ul>
