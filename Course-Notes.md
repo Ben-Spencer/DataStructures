@@ -286,9 +286,17 @@ Anything computable in one language is computable in every other language<br>
 Scalar Object: int, float, complex, bool, bytes, NoneType<br>
 Non-Scalar Object: strings, lists, tuples, dictionaries, sets, and user defined classes<br>
 You can use type() to find what type the object is. This is helpful in debugging<br></p>
-<h2>Lecture 2</h2>
-
-
+<h2>Lecture 2: Branching and Iteration</h2>
+<h2>Lecture 3: String Manipulation, Guess and Check, Approximations, Bisection</h2>
+<h2>Lecture 4: Decomposition, Abstraction, and Functions</h2>
+<h2>Lecture 5: Tuples, Lists, Aliasing, Mutability, and Cloning</h2>
+<h2>Lecture 6: Recursion and Dictionaries</h2>
+<h2>Lecture 7: Testing, Debugging, Exceptions, and Assertions</h2>
+<h2>Lecture 8: Object Oriented Programming</h2>
+<h2>Lecture 9: Python Classes and Inheritance</h2>
+<h2>Lecture 10: Understanding Program Efficiency, Part 1</h2>
+<h2>Lecture 11: Understanding Program Efficiency, Part 2</h2>
+<h2>Lecture 12: Searching and Sorting</h2>
 <h1>Introduction to Algorithms</h1>
 <h2>Lecture 10: Open Addressing, Cryptographic Hashing</h2>
 Open addressing, the simplest way to create a hash table, implements a hash table using a single array, rather than chaining with linked lists. However, to get open addressing hash tables to be efficient, you have to be more careful than when making hash tables with chaining.<br>
