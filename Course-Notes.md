@@ -61,32 +61,33 @@ Courses are available at the following links:
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-14-classification-and-statistical-sins">Lecture 14: Classification and Statistical Sins</a></li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-15-statistical-sins-and-wrap-up">Lecture 15: Statistical Sins and Wrap-Up</a></li>
  </ul><br>
- <li>Introduction to Algorithms</li>
+ <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#introduction-to-algorithms">Introduction to Algorithms</a></li>
  <ul>
-  <li>Lecture 1: Algorithmic Thinking, Peak Finding</li>
-  <li>Lecture 2: Models of Computation, Document Distance</li>
-  <li>Lecture 3: Insertion Sort, Merge Sort</li>
-  <li>Lecture 4: Heaps and Heap Sort</li>
-  <li>Lecture 5: Binary Search Trees, BST Sort</li>
-  <li>Lecture 6: AVL Trees, AVL Sort</li>
-  <li>Lecture 7: Counting Sort, Radix Sort, Lower Bounds for Sorting</li>
-  <li>Lecture 8: Hashing with Chaining</li>
-  <li>Lecture 9: Table Doubling, Karp-Rabin</li>
-  <li>Lecture 10: Open Addressing, Cryptographic Hashing</li>
-  <li>Lecture 11: Integer Arithmatic, Karatsuba Multiplication</li>
-  <li>Lecture 12: Square Roots, Newton's Method</li>
-  <li>Lecture 13: Breadth First Search (BFS)</li>
-  <li>Lecture 14: Depth First Search (DFS), Topological Sort</li>
-  <li>Lecture 15: Single-Source Shortest Paths Problem</li>
-  <li>Lecture 16: Dijkstra</li>
-  <li>Lecture 17: Bellman-Ford</li>
-  <li>Lecture 18: Speeding Up Dijkstra</li>
-  <li>Lecture 19: Dynamic Programming I: Fibonacci, Shortest Paths</li>
-  <li>Lecture 20: Dynamic Programming II: Text Justification, Blackjack</li>
-  <li>Lecture 21: Dynamic Programming III: Parenthesization, Edit Distance, Knapsack</li>
-  <li>Lecture 22: Dynamic Programming IV: Guitar Fingering, Tetris, Super Mario Bros.</li>
-  <li>Lecture 23: Computational Complexity</li>
-  <li>Lecture 24: Topics in Algorithms Research</li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-1-algorithmic-thinking-peak-finding">Lecture 1: Algorithmic Thinking, Peak Finding</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-2-models-of-computation-document-distance">Lecture 2: Models of Computation, Document Distance</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-3-insertion-sort-merge-sort">Lecture 3: Insertion Sort, Merge Sort</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-4-heaps-and-heap-sort">Lecture 4: Heaps and Heap Sort</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-5-binary-search-trees-bst-sort">Lecture 5: Binary Search Trees, BST Sort</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-6-avl-trees-avl-sort">Lecture 6: AVL Trees, AVL Sort</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-7-counting-sort-radix-sort-lower-bounds-for-sorting">Lecture 7: Counting Sort, Radix Sort, Lower Bounds for Sorting</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-8-hashing-with-chaining">Lecture 8: Hashing with Chaining</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-9-table-doubling-karp-rabin">Lecture 9: Table Doubling, Karp-Rabin</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-10-open-addressing-cryptographic-hashing">Lecture 10: Open Addressing, Cryptographic Hashing</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lesson-11-integer-arithmetic-karatsuba-multiplication">Lecture 11: Integer Arithmatic, Karatsuba Multiplication</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-12-square-roots-newtons-method">Lecture 12: Square Roots, Newton's Method</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-13-breadth-first-search-bfs">Lecture 13: Breadth First Search (BFS)</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-14-depth-first-search-dfs-topological-sort">Lecture 14: Depth First Search (DFS), Topological Sort</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-15-single-source-shortest-paths-problem">Lecture 15: Single-Source Shortest Paths Problem</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-16-dijkstra">Lecture 16: Dijkstra</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-17-bellman-ford">Lecture 17: Bellman-Ford</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-18-speeding-up-dijkstra">Lecture 18: Speeding Up Dijkstra</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-19-dynamic-programming-i-fibonacci-shortest-paths">Lecture 19: Dynamic Programming I: Fibonacci, Shortest Paths</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-20-dynamic-programming-ii-text-justification-blackjack">Lecture 20: Dynamic Programming II: Text Justification, Blackjack</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-21-dynamic-programming-iii-parenthesization-edit-distance-knapsack">Lecture 21: Dynamic Programming III: Parenthesization, Edit Distance, Knapsack</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-22-dynamic-programming-iv-guitar-fingering-tetris-super-mario-bros">Lecture 22: Dynamic Programming IV: Guitar Fingering, Tetris, Super Mario Bros.</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-23-computational-complexity">Lecture 23: Computational Complexity</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-24-topics-in-algorithms-research
+">Lecture 24: Topics in Algorithms Research</a></li>
  </ul><br>
  <li>Design and Analysis of Algorithms</li>
  <ul>
