@@ -116,163 +116,163 @@ Courses are available at the following links:
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-23-cache-oblivious-algorithms-medians-and-matrices">Lecture 23: Cache-Oblivious Algorithms: Medians and Matrices</a></li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-24-cache-oblivious-algorithms-searching-and-sorting">Lecture 24: Cache-Oblivious Algorithms: Searching and Sorting</a></li>
  </ul><br>
- <li>Advanced Data Structures</li>
+ <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#advanced-data-structures">Advanced Data Structures</a></li>
  <ul>
-  <li>Lecture 1: Persistent Data Structures</li>
-  <li>Lecture 2: Retroactive Data Structures</li>
-  <li>Lecture 3: Geometric Data Structures I</li>
-  <li>Lecture 4: Geometric Data Structures II</li>
-  <li>Lecture 5: Dynamic Optimality I</li>
-  <li>Lecture 6: Dynamic Optimality II</li>
-  <li>Lecture 7: Memory Hierarchy Models</li>
-  <li>Lecture 8: Cache-Oblivious Structures I</li>
-  <li>Lecture 9: Cache-Oblivious Structures II</li>
-  <li>Lecture 10: Dictionaries</li>
-  <li>Lecture 11: Integer Models</li>
-  <li>Lecture 12: Fusion Trees</li>
-  <li>Lecture 13: Integer Lower Bounds</li>
-  <li>Lecture 14: Sorting in Linear Time</li>
-  <li>Lecture 15: Static Trees</li>
-  <li>Lecture 16: Strings</li>
-  <li>Lecture 17: Succinct Structures I</li>
-  <li>Lecture 18: Succinct Structures II</li>
-  <li>Lecture 19: Dynamic Graphs I</li>
-  <li>Lecture 20: Dynamic Graphs II</li>
-  <li>Lecture 21: Dynamic Connectivity Lower Bound</li>
-  <li>Lecture 22: History of Memory Models</li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-1-persistent-data-structures">Lecture 1: Persistent Data Structures</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-2-retroactive-data-structures">Lecture 2: Retroactive Data Structures</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-3-geometric-data-structures-i">Lecture 3: Geometric Data Structures I</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-4-geometric-data-structures-ii">Lecture 4: Geometric Data Structures II</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-5-dynamic-optimality-i">Lecture 5: Dynamic Optimality I</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-6-dynamic-optimality-ii">Lecture 6: Dynamic Optimality II</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-7-memory-hierarchy-models">Lecture 7: Memory Hierarchy Models</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-8-cache-oblivious-structures-i">Lecture 8: Cache-Oblivious Structures I</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-9-cache-oblivious-structures-ii">Lecture 9: Cache-Oblivious Structures II</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-10-dictionaries">Lecture 10: Dictionaries</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-11-integer-models">Lecture 11: Integer Models</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-12-fusion-trees">Lecture 12: Fusion Trees</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-13-integer-lower-bounds">Lecture 13: Integer Lower Bounds</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-14-sorting-in-linear-time">Lecture 14: Sorting in Linear Time</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-15-static-trees">Lecture 15: Static Trees</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-16-strings">Lecture 16: Strings</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-17-succinct-structures-i">Lecture 17: Succinct Structures I</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-18-succinct-structures-ii">Lecture 18: Succinct Structures II</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-19-dynamic-graphs-i">Lecture 19: Dynamic Graphs I</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-20-dynamic-graphs-ii">Lecture 20: Dynamic Graphs II</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-21-dynamic-connectivity-lower-bound">Lecture 21: Dynamic Connectivity Lower Bound</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-22-history-of-memory-models">Lecture 22: History of Memory Models</a></li>
  </ul><br>
- <li>Artificial Intelligence</li>
+ <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#artificial-intelligence">Artificial Intelligence</a></li>
  <ul>
-  <li>Lecture 1: Introduction and Scope</li>
-  <li>Lecture 2: Reasoning: Goal Trees and Problem Solving</li>
-  <li>Lecture 3: Reasoning: Goal Trees and Rule-Based Expert Systems</li>
-  <li>Lecture 4: Search: Depth-First, Hill Climbing, Beam</li>
-  <li>Lecture 5: Search: Optimal, Branch and Bound, A*</li>
-  <li>Lecture 6: Search: Games, Minimax, and Alpha-Beta</li>
-  <li>Lecture 7: Constraints: Interpreting Line Drawings</li>
-  <li>Lecture 8: Constraints: Search, Domain Reduction</li>
-  <li>Lecture 9: Constraints: Visual Object Recognition</li>
-  <li>Lecture 10: Introduction to Learning, Nearest Neighbors</li>
-  <li>Lecture 11: Learning: Identification Trees, Disorder</li>
-  <li>Lecture 12: Neural Nets</li>
-  <li>Lecture 13: Deep Neural Nets</li>
-  <li>Lecture 14: Learning: Genetic Algorithms</li>
-  <li>Lecture 15: Learning: Sparse Spaces, Phonology</li>
-  <li>Lecture 16: Learning: Near Misses, Felicity Conditions</li>
-  <li>Lecture 17: Learning: Support Vector Machines</li>
-  <li>Lecture 18: Learning: Boosting</li>
-  <li>Lecture 19: Representations: Classes, Trajectories, Transitions</li>
-  <li>Lecture 20: Architectures: GPS, SOAR, Subsumption, Society of Mind</li>
-  <li>Lecture 21: Probilistic Inference I</li>
-  <li>Lecture 22: Probilistic Inference II</li>
-  <li>Lecture 23: Model Merging, Cross-Modal Coupling, Course Summary</li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-1-introduction-and-scope">Lecture 1: Introduction and Scope</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-2-reasoning-goal-trees-and-problem-solving">Lecture 2: Reasoning: Goal Trees and Problem Solving</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-3-reasoning-goal-trees-and-rule-based-expert-systems">Lecture 3: Reasoning: Goal Trees and Rule-Based Expert Systems</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-4-search-depth-first-hill-climbing-beam">Lecture 4: Search: Depth-First, Hill Climbing, Beam</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-5-search-optimal-branch-and-bound-a">Lecture 5: Search: Optimal, Branch and Bound, A*</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-6-search-games-minimax-and-alpha-beta">Lecture 6: Search: Games, Minimax, and Alpha-Beta</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-7-constraints-interpreting-line-drawings">Lecture 7: Constraints: Interpreting Line Drawings</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-8-constraints-search-domain-reduction">Lecture 8: Constraints: Search, Domain Reduction</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-9-constraints-visual-object-recognition">Lecture 9: Constraints: Visual Object Recognition</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-10-introduction-to-learning-nearest-neighbors">Lecture 10: Introduction to Learning, Nearest Neighbors</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-11-learning-identification-trees-disorder">Lecture 11: Learning: Identification Trees, Disorder</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-12-neural-nets">Lecture 12: Neural Nets</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-13-deep-neural-nets">Lecture 13: Deep Neural Nets</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-14-learning-genetic-algorithms">Lecture 14: Learning: Genetic Algorithms</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-15-learning-sparse-spaces-phonology">Lecture 15: Learning: Sparse Spaces, Phonology</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-16-learning-near-misses-felicity-conditions">Lecture 16: Learning: Near Misses, Felicity Conditions</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-17-learning-support-vector-machines">Lecture 17: Learning: Support Vector Machines</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-18-learning-boosting">Lecture 18: Learning: Boosting</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-19-representations-classes-trajectories-transitions">Lecture 19: Representations: Classes, Trajectories, Transitions</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-20-architectures-gps-soar-subsumption-society-of-mind">Lecture 20: Architectures: GPS, SOAR, Subsumption, Society of Mind</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-21-probilistic-inference-i">Lecture 21: Probilistic Inference I</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-22-probilistic-inference-ii">Lecture 22: Probilistic Inference II</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-23-model-merging-cross-modal-coupling-course-summary">Lecture 23: Model Merging, Cross-Modal Coupling, Course Summary</a></li>
  </ul><br>
- <li>Computer Systems Security</li>
+ <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#computer-systems-security">Computer Systems Security</a></li>
  <ul>
-  <li>Lecture 1: Introduction, Threat Models</li>
-  <li>Lecture 2: Control Hijacking Attacks</li>
-  <li>Lecture 3: Buffer Overflow Exploits and Defenses</li>
-  <li>Lecture 4: Privilege Separation</li>
-  <li>Lecture 5: Capabilities</li>
-  <li>Lecture 6: Sandboxing Native Code</li>
-  <li>Lecture 7: Web Security Model</li>
-  <li>Lecture 8: Securing Web Applications</li>
-  <li>Lecture 9: Symbolic Execution</li>
-  <li>Lecture 10: Ur/Web</li>
-  <li>Lecture 11: Network Security</li>
-  <li>Lecture 12: Network Protocols</li>
-  <li>Lecture 13: SSL and HTTPS</li>
-  <li>Lecture 14: Medical Software</li>
-  <li>Lecture 15: Side-Channel Attacks</li>
-  <li>Lecture 16: User Authentication</li>
-  <li>Lecture 17: Private Browsing</li>
-  <li>Lecture 18: Anonymous Communication</li>
-  <li>Lecture 19: Mobile Phone Security</li>
-  <li>Lecture 20: Data Tracking</li>
-  <li>Lecture 21: Guest Lecture by MIT IS&T</li>
-  <li>Lecture 22: Security Economics</li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-1-introduction-threat-models">Lecture 1: Introduction, Threat Models</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-2-control-hijacking-attacks">Lecture 2: Control Hijacking Attacks</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-3-buffer-overflow-exploits-and-defenses">Lecture 3: Buffer Overflow Exploits and Defenses</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-4-privilege-separation">Lecture 4: Privilege Separation</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-5-capabilities">Lecture 5: Capabilities</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-6-sandboxing-native-code">Lecture 6: Sandboxing Native Code</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-7-web-security-model">Lecture 7: Web Security Model</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-8-securing-web-applications">Lecture 8: Securing Web Applications</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-9-symbolic-execution">Lecture 9: Symbolic Execution</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-10-urweb">Lecture 10: Ur/Web</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-11-network-security">Lecture 11: Network Security</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-12-network-protocols">Lecture 12: Network Protocols</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-13-ssl-and-https">Lecture 13: SSL and HTTPS</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-14-medical-software">Lecture 14: Medical Software</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-15-side-channel-attacks">Lecture 15: Side-Channel Attacks</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-16-user-authentication">Lecture 16: User Authentication</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-17-private-browsing">Lecture 17: Private Browsing</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-18-anonymous-communication">Lecture 18: Anonymous Communication</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-19-mobile-phone-security">Lecture 19: Mobile Phone Security</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-20-data-tracking">Lecture 20: Data Tracking</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-21-guest-lecture-by-mit-ist">Lecture 21: Guest Lecture by MIT IS&T</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-22-security-economics">Lecture 22: Security Economics</a></li>
+</ul><br>
+<li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#software-design-and-architecture-specialization">Software Design and Architecture Specialization</a></li>
+ <ul>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#object-oriented-design">Object-Oriented Design</a></li>
+  <ul>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-1-object-oriented-analysis-and-design">Lecture 1: Object-Oriented Analysis and Design</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-2-object-oriented-modeling">Lecture 2: Object-Oriented Modeling</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-3-design-principles">Lecture 3: Design Principles</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-4-capstone-challenge">Lecture 4: Capstone Challenge</a></li>
+  </ul>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#design-patterns">Design Patterns</li>
+  <ul>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-1-introduction-to-design-patterns-creational--structural-patterns">Lecture 1: Introduction to Design Patterns: Creational & Structural Patterns</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-2-behavioural-design-patterns">Lecture 2: Behavioural Design Patterns</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-3-working-with-design-patterns--anti-patterns">Lecture 3: Working with Design Patterns & Anti-patterns</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-4-capstone-challenge-1">Lecture 4: Capstone Challenge</a></li>
+  </ul>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#software-architecture">Software Architecture</a></li>
+  <ul>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-1-uml-architecture-diagrams">Lecture 1: UML Architecture Diagrams</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-2-architectural-styles">Lecture 2: Architectural Styles</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-3-architecture-in-practice">Lecture 3: Architecture in Practice</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-4-capstone-challenge-2">Lecture 4: Capstone Challenge</a></li>
+  </ul>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#service-oriented-architecture">Service-Oriented Architecture</a></li>
+  <ul>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-1-web-technologies">Lecture 1: Web Technologies</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-2-web-services">Lecture 2: Web Services</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-3-rest-architecture-for-soa">Lecture 3: REST Architecture for SOA</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-4-capstone-challenge-3">Lecture 4: Capstone Challenge</a></li>
+  </ul>
  </ul><br>
- <li>Software Design and Architecture Specialization</li>
+ <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#advanced-machine-learning-with-tensorflow-on-google-cloud-platform-specialization">Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization</a></li>
  <ul>
-  <li>Object-Oriented Design</li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#end-to-end-machine-learning-with-tensorflow-on-gcp">End-to-End Machine Learning with TensorFlow on GCP</a></li>
   <ul>
-   <li>Lecture 1: Object-Oriented Analysis and Design</li>
-   <li>Lecture 2: Object-Oriented Modeling</li>
-   <li>Lecture 3: Design Principles</li>
-   <li>Lecture 4: Capstone Challenge</li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-1-welcome-to-the-course">Lecture 1: Welcome to the Course</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-2-machine-learning-ml-on-google-cloud-platform-gcp">Lecture 2: Machine Learning (ML) on Google Cloud Platform (GCP)</a></li> 
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-3-explore-the-data">Lecture 3: Explore the Data</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-4-create-the-dataset">Lecture 4: Create the Dataset</a></li> 
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-5-build-the-model">Lecture 5: Build the Model</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-6-operationalize-the-model">Lecture 6: Operationalize the Model</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-7-course-summary">Lecture 7: Course Summary</a></li>
   </ul>
-  <li>Design Patterns</li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#production-machine-learning-systems">Production Machine Learning Systems</a></li>
   <ul>
-   <li>Lecture 1: Introduction to Design Patterns: Creational & Structural Patterns</li>
-   <li>Lecture 2: Behavioural Design Patterns</li>
-   <li>Lecture 3: Working with Design Patterns & Anti-patterns</li>
-   <li>Lecture 4: Capstone Challenge</li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-1-welcome-to-the-course-1">Lecture 1: Welcome to the Course</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-2-architecting-production-ml-systems">Lecture 2: Architecting Production ML Systems</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-3-ingesting-data-for-cloud-based-analytics-and-ml">Lecture 3: Ingesting Data for Cloud-Based Analytics and ML</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-4-designing-adaptable-ml-systems">Lecture 4: Designing Adaptable ML Systems</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-5-designing-high-performance-ml-systems">Lecture 5: Designing High-performance ML Systems</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-6-hybrid-ml-systems">Lecture 6: Hybrid ML Systems</a></li> 
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-7-course-summary-1">Lecture 7: Course Summary</a></li>
   </ul>
-  <li>Software Architecture</li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#image-understanding-with-tensorflow-on-gcp">Image Understanding with TensorFlow on GCP</a></li>
   <ul>
-   <li>Lecture 1: UML Architecture Diagrams</li>
-   <li>Lecture 2: Architectural Styles</li>
-   <li>Lecture 3: Architecture in Practice</li>
-   <li>Lecture 4: Capstone Challenge</li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-1-welcome-to-image-understanding-with-tensorflow-on-gcp">Lecture 1: Welcome to Image Understanding with TensorFlow on GCP</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-2-linear-and-dnn-models">Lecture 2: Linear and DNN Models</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-3-convolutional-neural-networks-cnns">Lecture 3: Convolutional Neural Networks (CNNs)</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-4-dealing-with-data-scarcity">Lecture 4: Dealing with Data Scarcity</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-5-going-deeper-faster">Lecture 5: Going Deeper Faster</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-6-pre-built-ml-models-for-image-classification">Lecture 6: Pre-built ML Models for Image Classification</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-7-course-summary-2">Lecture 7: Course Summary</a></li>
   </ul>
-  <li>Service-Oriented Architecture</li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#sequence-models-for-time-series-and-natural-language-processing">Sequence Models for Time Series and Natural Language Processing</a></li>
   <ul>
-   <li>Lecture 1: Web Technologies</li>
-   <li>Lecture 2: Web Services</li>
-   <li>Lecture 3: REST Architecture for SOA</li>
-   <li>Lecture 4: Capstone Challenge</li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-1-working-with-sequences">Lecture 1: Working with Sequences</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-2-recurrent-neural-networks">Lecture 2: Recurrent Neural Networks</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-3-dealing-with-longer-sequences">Lecture 3: Dealing with Longer Sequences</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-4-text-classification">Lecture 4: Text Classification</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-5-reusable-embeddings">Lecture 5: Reusable Embeddings</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-6-encoder-decoder-models">Lecture 6: Encoder-Decoder Models</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-7-course-summary-3">Lecture 7: Course Summary</a></li>
   </ul>
- </ul><br>
- <li>Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization</li>
- <ul>
-  <li>End-to-End Machine Learning with TensorFlow on GCP</li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#recommendation-systems-with-tensorflow-on-gcp">Recommendation Systems with TensorFlow on GCP</a></li>
   <ul>
-   <li>Lecture 1: Welcome to the Course</li>
-   <li>Lecture 2: Machine Learning (ML) on Google Cloud Platform (GCP)</li> 
-   <li>Lecture 3: Explore the Data</li>
-   <li>Lecture 4: Create the Dataset</li> 
-   <li>Lecture 5: Build the Model</li>
-   <li>Lecture 6: Operationalize the Model</li>
-   <li>Lecture 7: Course Summary</li>
-  </ul>
-  <li>Production Machine Learning Systems</li>
-  <ul>
-   <li>Lecture 1: Welcome to the Course</li>
-   <li>Lecture 2: Architecting Production ML Systems</li>
-   <li>Lecture 3: Ingesting Data for Cloud-Based Analytics and ML</li>
-   <li>Lecture 4: Designing Adaptable ML Systems</li>
-   <li>Lecture 5: Designing High-performance ML Systems</li>
-   <li>Lecture 6: Hybrid ML Systems</li> 
-   <li>Lecture 7: Course Summary</li>
-  </ul>
-  <li>Image Understanding with TensorFlow on GCP</li>
-  <ul>
-   <li>Lecture 1: Welcome to Image Understanding with TensorFlow on GCP</li>
-   <li>Lecture 2: Linear and DNN Models</li>
-   <li>Lecture 3: Convolutional Neural Networks (CNNs)</li>
-   <li>Lecture 4: Dealing with Data Scarcity</li>
-   <li>Lecture 5: Going Deeper Faster</li>
-   <li>Lecture 6: Pre-built ML Models for Image Classification</li>
-   <li>Lecture 7: Course Summary</li>
-  </ul>
-  <li>Sequence Models for Time Series and Natural Language Processing</li>
-  <ul>
-   <li>Lecture 1: Working with Sequences</li>
-   <li>Lecture 2: Recurrent Neural Networks</li>
-   <li>Lecture 3: Dealing with Longer Sequences</li>
-   <li>Lecture 4: Text Classification</li>
-   <li>Lecture 5: Reusable Embeddings</li>
-   <li>Lecture 6: Encoder-Decoder Models</li>
-   <li>Lecture 7: Course Summary</li>
-  </ul>
-  <li>Recommendation Systems with TensorFlow on GCP</li>
-  <ul>
-   <li>Lecture 1: Recommendation Systems Overview</li>
-   <li>Lecture 2: Content-Based Recommendation Systems</li>
-   <li>Lecture 3: Collaborative Filtering Recommendation Systems</li>
-   <li>Lecture 4: Neural Networks for Recommendation Systems</li>
-   <li>Lecture 5: Building an End-to-End Recommendation System</li>
-   <li>Lecture 6: Course Summary</li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-1-recommendation-systems-overview">Lecture 1: Recommendation Systems Overview</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-2-content-based-recommendation-systems">Lecture 2: Content-Based Recommendation Systems</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-3-collaborative-filtering-recommendation-systems">Lecture 3: Collaborative Filtering Recommendation Systems</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-4-neural-networks-for-recommendation-systems">Lecture 4: Neural Networks for Recommendation Systems</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-5-building-an-end-to-end-recommendation-system">Lecture 5: Building an End-to-End Recommendation System</a></li>
+   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-6-course-summary">Lecture 6: Course Summary</a></li>
   </ul>
  </ul>
 </ul>
