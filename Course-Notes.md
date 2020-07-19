@@ -43,23 +43,23 @@ Courses are available at the following links:
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-11-understanding-program-efficiency-part-2">Lecture 11: Understanding Program Efficiency, Part 2</a></li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-12-searching-and-sorting">Lecture 12: Searching and Sorting</a></li>
  </ul><br>
- <li>Introduction to Computational Thinking and Data Science</li>
+ <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#introduction-to-computational-thinking-and-data-science">Introduction to Computational Thinking and Data Science</a></li>
  <ul>
-  <li>Lecture 1: Introduction, Optimization Problems</li>
-  <li>Lecture 2: Optimization Problems</li>
-  <li>Lecture 3: Graph-Theoretic Models</li>
-  <li>Lecture 4: Stochastic Thinking</li>
-  <li>Lecture 5: Random Walks</li>
-  <li>Lecture 6: Monte Carlo Simulation</li>
-  <li>Lecture 7: Confidence Intervals</li>
-  <li>Lecture 8: Sampling and Standard Error</li>
-  <li>Lecture 9: Understanding Experimental Data, Part 1</li>
-  <li>Lecture 10: Understanding Experimental Data, Part 2</li>
-  <li>Lecture 11: Introduction to Machine Learning</li>
-  <li>Lecture 12: Clustering</li>
-  <li>Lecture 13: Classification</li>
-  <li>Lecture 14: Classification and Statistical Sins</li>
-  <li>Lecture 15: Statistical Sins and Wrap-Up</li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-1-introduction-optimization-problems">Lecture 1: Introduction, Optimization Problems</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-2-optimization-problems">Lecture 2: Optimization Problems</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-3-graph-theoretic-models">Lecture 3: Graph-Theoretic Models</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-4-stochastic-thinking">Lecture 4: Stochastic Thinking</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-5-random-walks">Lecture 5: Random Walks</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-6-monte-carlo-simulation">Lecture 6: Monte Carlo Simulation</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-7-confidence-intervals">Lecture 7: Confidence Intervals</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-8-sampling-and-standard-error">Lecture 8: Sampling and Standard Error</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-9-understanding-experimental-data-part-1">Lecture 9: Understanding Experimental Data, Part 1</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-10-understanding-experimental-data-part-2">Lecture 10: Understanding Experimental Data, Part 2</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-11-introduction-to-machine-learning">Lecture 11: Introduction to Machine Learning</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-12-clustering">Lecture 12: Clustering</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-13-classification">Lecture 13: Classification</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-14-classification-and-statistical-sins">Lecture 14: Classification and Statistical Sins</a></li>
+  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-15-statistical-sins-and-wrap-up">Lecture 15: Statistical Sins and Wrap-Up</a></li>
  </ul><br>
  <li>Introduction to Algorithms</li>
  <ul>
