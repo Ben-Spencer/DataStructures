@@ -380,7 +380,7 @@ Open addressing, the simplest way to create a hash table, implements a hash tabl
 <br>
 
 <h2>Lecture 11: Integer Arithmetic, Karatsuba Multiplication</h2>
-A CPU, or central processing unit, takes instructions from a program or applicaton and performs a calculation. The instruction set, taken by the CPU, comes in __words__, or fixed-sized pieces of data. The most common word-size today is 64 bits. So, what happens if you can't store all the data in one word? What happens if you have to multiply words that are thousands of bits long? That's the purpose of this lecture.<br>
+A CPU, or central processing unit, takes instructions from a program or applicaton and performs a calculation. The instruction set, taken by the CPU, comes in <b>words</b>, or fixed-sized pieces of data. The most common word-size today is 64 bits. So, what happens if you can't store all the data in one word? What happens if you have to multiply words that are thousands of bits long? That's the purpose of this lecture.<br>
 <h3>Irrationals</h3>
 
 
