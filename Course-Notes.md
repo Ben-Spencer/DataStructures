@@ -393,6 +393,7 @@ A CPU, or central processing unit, takes instructions from a program or applicat
    <ul>
     <li>X0 is the first approximation. The equation for X1 is: X1 = X0 - (f(X0) ÷ f'(X0))</li>
   </ul>
+ </ul>
  <li>Catalan Numbers, or (2n)! ÷ ((2n+1)! * n!), can be solved recursively</li>
    
 </ul>
