@@ -1,19 +1,6 @@
 # Read Me
-This repository contains the knowledge I have accumulated about discrete mathematics, data structures, and algorithms in preparation for coding interviews. This following list is not complete with all information about the aforementioned topics, however, it is a great starting point to prepare for your coding interviews.<br><br>
+This repository contains the knowledge I have accumulated about data structures and algorithms in preparation for coding interviews. This following list is not complete with all information about the aforementioned topics, however, it is a great starting point to prepare for your coding interviews.<br><br>
 <h1>Table of Contents</h1>
-<h2>Discrete Mathematics</h2>
-<ul>
-  <li>Logic and Boolean Algebra</li>
-  <li>Set Theory</li>
-  <li>Relations and Functions</li>
-  <li>Sequences and Series (or "Sums")</li>
-  <li>Algorithms and Theory of Computation</li>
-  <li>Number Theory</li>
-  <li>Matrix Theory</li>
-  <li>Induction and Recursion</li>
-  <li>Counting and Discrete Probability</li>
-  <li>Graph Theory (Including Trees)</li>
-</ul>
 <h2><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Data-Structures.md#data-structures">Data Structures</a></h2>
 <ul>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Data-Structures.md#definition">Definition</a></li>
