@@ -382,8 +382,24 @@ Open addressing, the simplest way to create a hash table, implements a hash tabl
 <h2>Lecture 11: Integer Arithmetic, Karatsuba Multiplication</h2>
 A CPU, or central processing unit, takes instructions from a program or applicaton and performs a calculation. The instruction set, taken by the CPU, comes in <b>words</b>, or fixed-sized pieces of data. The most common word-size today is 64 bits. So, what happens if you can't store all the data in one word? What happens if you have to multiply words that are thousands of bits long? That's the purpose of this lecture.<br>
 <h3>Irrationals</h3>
-
-
+<ul>
+ <li>The pythagorean theorem, or A^2 + B^2 = C^2, leads to irrational numbers. If A and B are both size 1, C is sqrt(2)</li>
+ <li>Newton's Method: A root-finding algorithm that results in quadratic convergence of approximations around the root.</li>
+  <ul>
+   <li>Root: When the function attains the value of 0. (I.e. F(x) = x + 1 is 0 at x = -1)</li>
+   <li>Root-finding algorithm: An algorithm that finds the root of a function</li>
+   <li>Quadratic Convergence: Every new approximation of the root-finding algorithm results in 2X more decimals. For example, n(1) = 2; n(2) = 1.5; n(3) = 1.463; n(4) = 1.4628916</li>
+   <li>Newton's method equation: Xn+1 = Xn - (f(Xn) ÷ f'(Xn))</li>
+   <ul>
+    <li>X0 is the first approximation. The equation for X1 is: X1 = X0 - (f(X0) ÷ f'(X0))</li>
+  </ul>
+ <li>Catalan Numbers, or (2n)! ÷ ((2n+1)! * n!), can be solved recursively</li>
+   
+</ul>
+<h3>Karatsuba Multiplication</h3>
+<ul>
+ <li>
+</ul>
 
 <h2>Lecture 12: Square Roots, Newton's Method</h2>
 <h2>Lecture 13: Breadth First Search (BFS)</h2>
