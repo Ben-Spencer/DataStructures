@@ -462,12 +462,17 @@ Graph search is about exploring a graph. Both finding the shortest path from one
     for v in Adj[u]: #find all nodes reachable by each vertice...
      if v not in level: #and check to avoid duplicates, by checking to see if its in the dictionary
       level[v] = i #if its not in dict, add to dict
-      parent[v] = u #add parent to dict
+      parent[v] = u #create a pointer to the parent of each vertice and add to dictionary
       next.append(v) #append to next level
    frontier = next #set frontier to the next level
    i+=1 #increment the while loop
  </pre>
+ <li>If you follow parents all the way back, it will return the shortest path from a node to the starting (S) node</li>
+ <ul>
+  <li>The shortest path length will be equivalent to level[v]</li>
+ </ul>
 </ul>
+
 <h2>Lecture 14: Depth First Search (DFS), Topological Sort</h2>
 <h2>Lecture 15: Single-Source Shortest Paths Problem</h2>
 <h2>Lecture 16: Dijkstra</h2>
