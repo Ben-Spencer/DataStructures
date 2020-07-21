@@ -403,6 +403,7 @@ A CPU, or central processing unit, takes instructions from a program or applicat
 </ul>
 
 <h2>Lecture 12: Square Roots, Newton's Method</h2>
+
 <h2>Lecture 13: Breadth First Search (BFS)</h2>
 Graph search is about exploring a graph. Both finding the shortest path from one node to another and finding all end potential end points, are exploration problems. 
 <h3>Graph Composition Recap</h3>
@@ -471,9 +472,14 @@ Graph search is about exploring a graph. Both finding the shortest path from one
  <ul>
   <li>The shortest path length will be equivalent to level[v]</li>
  </ul>
-</ul>
+</ul><br>
 
 <h2>Lecture 14: Depth First Search (DFS), Topological Sort</h2>
+Input for each vertex is the neighbor verticies, that can be reached in one step via an edge. Goal in general is to explore a graph. 
+
+
+
+
 <h2>Lecture 15: Single-Source Shortest Paths Problem</h2>
 <h2>Lecture 16: Dijkstra</h2>
 <h2>Lecture 17: Bellman-Ford</h2>
