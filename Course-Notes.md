@@ -404,6 +404,70 @@ A CPU, or central processing unit, takes instructions from a program or applicat
 
 <h2>Lecture 12: Square Roots, Newton's Method</h2>
 <h2>Lecture 13: Breadth First Search (BFS)</h2>
+Graph search is about exploring a graph. Both finding the shortest path from one node to another and finding all end potential end points, are exploration problems. 
+<h3>Graph Composition Recap</h3>
+<ul>
+ <li>Graphs are composed of a set of vertices (V) and a set of edges (E)</li>
+ <ul>
+  <li>Edges are either unordered/undirected {v,w} or ordered/directed (v,w). Usually, there is only one type present in a given graph problem</li>
+ </ul>
+ <li>Example: Undirected: Vertices = {a,b,c,d}; Edges = {{a,b}, {a,c}, {b,c}, {b,d}, {c,d}}</li>
+ <li>Example: Directed: Vertices = (a,b,c); Edges = {(a,c), (b,c), (c,b), (b,a)}</li>
+</ul>
+<h3>Uses of Graph Search</h3>
+<li>Web crawling, social networking, network broadcast, garbage collection, model checking, puzzles / games</li>
+<h3>Pocket Rubix Cube: 2 x 2 x 2</h3>
+<ul>
+ <li>Verticies: 8! * 3^8 potential verticies. This includes every possible configuration of the cube</li>
+ <li>Edges can move in either direction, so they are undirected</li>
+ <li>Takes 11 moves to complete the cube from any state. This is found by doing breadth-first search (traversing a graph layer by layer)</li>
+ <li>For 3x3x3, it takes 20 moves to complete the cube</li>
+ <li>For NxNxN, it is approximately O(n^2 / log n)</li>
+</ul>
+<h3>Graph Representation</h3>
+<ul>
+ <li>Adjacency Lists: Array (Adj) of size V (length of verticies), with each element of the array being a pointer to a linked list</li>
+ <ul>
+  <li>For each vertex, u ∈ V, Adj(u) stores u's neighbors. This means the verticies you can reach are one layer down from each node</li>
+  <ul>
+   <li>Adj(u) is the set of all verticies (V) such that (u, v) is an edge</li>
+   <li>Adjacency Lists are O(V+E) in terms of run-time</li>
+  </ul>
+  <li>Example: From the directed graph above, Adj(a) = {c}; Adj(b) = {a, c}; Adj(c) = {b}</li>
+ </ul>
+ <li>Object-Oriented Graphs: v.neighbors = Adj[u]</li>
+ <ul>
+  <li>Used if only one graph. Use adjacency lists if multiple uses for same verticies. Is cleaner than adjacency lists</li>
+ </ul>
+ <li>Implicitly represented graphs: Adj[u] is a function; v.neighbors is a method of the class Vertex</li>
+ <ul>
+  <li>This means you don't store any neighbors, but rather have an equation that computes neighbors. Requires potentially 0 storage for individual verticies</li>
+  <li>This method would be used for Rubix cubes because you don't have to store 264,000,000+ (for a 2x2x2) different nodes</li>
+ </ul>
+</ul>
+<h3>Breadth-First Search</h3>
+<ul>
+ <li>Visit all nodes reachable from a given node(S) in O(V+E) time by looking at nodes reachable in 0 moves, 1 moves, 2 moves...</li>
+ <li>Be careful to avoid duplicate or revisiting verticies, as this would cause an infinite loop</li>
+ <pre>
+ # Breadth-First-Search Pseudocode
+ def BFS(s, Adj):
+  level = {S:0} #S is the starting node. Its level is 0, as it takes 0 moves to get from S to S
+  parent = {S:None} #Since S is the starting node, it has no parent
+  i = 1 #Set to 1 because just finished level 0 - identifying the start node
+  frontier = [S] #all the things you can reach using i-1 moves; set to S because S is what is reached at level 0
+  while frontier: #all the things you can reach using i moves
+   next = []
+   for u in frontier: #for all nodes in the current frontier...
+    for v in Adj[u]: #find all nodes reachable by each vertice...
+     if v not in level: #and check to avoid duplicates, by checking to see if its in the dictionary
+      level[v] = i #if its not in dict, add to dict
+      parent[v] = u #add parent to dict
+      next.append(v) #append to next level
+   frontier = next #set frontier to the next level
+   i+=1 #increment the while loop
+ </pre>
+</ul>
 <h2>Lecture 14: Depth First Search (DFS), Topological Sort</h2>
 <h2>Lecture 15: Single-Source Shortest Paths Problem</h2>
 <h2>Lecture 16: Dijkstra</h2>
