@@ -435,8 +435,26 @@ You can use type() to find what type the object is. This is helpful in debugging
   print(arr[-1]) => Returns 5
   print(arr[-3]) => Returns 3</pre>
  </ul>
- <li>Slicing: Extracts a portion of the list, rather than just 1 element</li>
+ <li>Slicing[start:stop:step] allows you to return a list of elements</li>
  <pre>
+ s = "abcdefgh"
+ print(s[3:6]) => Returns def
+ print(s[3:6:2]) => Returns df
+ print(s[::]) => Returns abcdefgh
+ print(s[::-1]) => Returns hgfedcba
+ print(s[4:1-2]) => Returns ec</pre>
+</ul>
+<h3>Mutable Vs. Immutable Objects</h3>
+<ul>
+ <li>Immutable objects are unable to be altered, without creating a new object</li>
+ <ul>
+  <li>Objects of built-in types like (int, float, bool, str, tuple, unicode) are immutable</li>
+ </ul>
+ <li>Mutable objects are able to be altered, without creating a new object</li>
+ <ul>
+  <li>Objects of built-in types like (list, set, dict) are mutable</li>
+  <li>Most custom built classes, like (linked lists, trees, graphs) are mutable</li>
+ </ul>
 </ul>
 <h2>Lecture 4: Decomposition, Abstraction, and Functions</h2>
 <h2>Lecture 5: Tuples, Lists, Aliasing, Mutability, and Cloning</h2>
