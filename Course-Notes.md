@@ -404,6 +404,40 @@ You can use type() to find what type the object is. This is helpful in debugging
  =>         Current var: 6</pre>
 </ul>
 <h2>Lecture 3: String Manipulation, Guess and Check, Approximations, Bisection</h2>
+<h3>Additional Built-In Functions</h3>
+<ul>
+ <li>Iterable Object: An object that can be iterated over (I.e. a list, string, array, etc.)</li>
+ <li>The len() function returns the length of an iterable object. The object may be a sequence (such as a string, bytes, tuple, list, or range) or a collection (such as a dictionary, set, or frozen set</li>
+ <pre>
+ print(len("abc")) => Returns 3
+ print(len([1,2,3,4,5])) => Returns 5</pre>
+ <li>The min() function returns the smallest item in an iterable</li>
+ <li>The max() function returns the largest item in an iterable</li>
+ <pre>
+ print(min([1,5,2,4,3])) => Returns 1
+ print(max([1,5,2,4,3])) => Returns 5</pre>
+ <li>The abs() function returns the absolute value of a number</li>
+ <pre>
+ print(abs(1)) => Returns 1
+ print(abs(-1)) => Returns 1</pre>
+</ul>
+<h3>Indexing & Slicing</h3>
+<ul>
+ <li>Indexing: Access elements in an array by using arr[0]. Index starts at 0 in python, so the end of the array is len(arr)-1</li>
+ <pre>
+ arr = [1,2,3,4,5]
+ print(arr[2]) => Returns 3
+ print(arr[0]) => Returns 1</pre>
+ <ul>
+  <li>Indexing can also be done with negative numbers, starting with -1 at the back of the list</li>
+  <pre>
+  arr = [1,2,3,4,5]
+  print(arr[-1]) => Returns 5
+  print(arr[-3]) => Returns 3</pre>
+ </ul>
+ <li>Slicing: Extracts a portion of the list, rather than just 1 element</li>
+ <pre>
+</ul>
 <h2>Lecture 4: Decomposition, Abstraction, and Functions</h2>
 <h2>Lecture 5: Tuples, Lists, Aliasing, Mutability, and Cloning</h2>
 <h2>Lecture 6: Recursion and Dictionaries</h2>
