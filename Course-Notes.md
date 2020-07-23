@@ -289,7 +289,8 @@ Non-Scalar Object: strings, lists, tuples, dictionaries, sets, and user defined 
 You can use type() to find what type the object is. This is helpful in debugging<br></p>
 <h2>Lecture 2: Branching and Iteration</h2>
 <ul>
- <li>String Concatenation: The merging of two or more strings together</li>
+ <h3>String Concatenation</h3>
+ <li>The merging of two or more strings together</li>
  <ul>
   <li>Concatenation is implemented in python using the + operator</li>
   <pre>
@@ -299,10 +300,12 @@ You can use type() to find what type the object is. This is helpful in debugging
   <pre>
    a = "Hello " + 5 => Returns TypeError due to combining string and int</pre>
  </ul>
- <li>String Comparison: Strings can be compared to each other, with A < B < C...</li>
+ <h3>String Comparison</h3>
+ <li>Strings can be compared to each other, with A < B < C...</li>
  <pre>
  print("a" < "b") => Returns True </pre>
- <li>String & Integer Concatenation: The merging of a string and an int object together</li>
+ <h3>String & Integer Concatenation</h3>
+ <li>The merging of a string and an int object together</li>
  <ul>
   <li>In print statement, a comma (,) can be used to concatenate a string and an int. Unlike the string concatenation with the + operator, using a comma adds a space in between the combined objects</li>
   <pre>
@@ -327,6 +330,7 @@ You can use type() to find what type the object is. This is helpful in debugging
    print(f'{s}{y}')</pre>
    </pre>
  </ul>
+ <h3>Receiving Input from Users</h3>
  <li>The input() function in Python always returns a string</li>
  <ul>
   <li>If the input is not a string, such as an int, convert the input string to a different data type using built-in functions</li>
