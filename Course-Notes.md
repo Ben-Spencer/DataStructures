@@ -348,6 +348,58 @@ You can use type() to find what type the object is. This is helpful in debugging
   print(b) => Returns 2
   print(c) => Returns 3</pre>
  </ul>
+ <li>Relational (<, <=, >=, >) and Equality Operators (==, !=) always create a True / False Boolean</li>
+ <pre>
+ print(1 < 2) => Returns True
+ print(1 > 2) => Returns False
+ print(1 <= 2) => Returns True
+ print(1 >= 2) => Returns False
+ print(1 == 2) => Returns False
+ print(1 != 2) => Returns True</pre>
+ <li>The modulo operator (%) is used to return the remainder of the left operand by the right operand</li>
+ <pre>
+ print(10%2) => Returns 0
+ print(11%2) => Returns 1</pre>
+ <li>If, Elif, and Else statements can be used to create branches within programs</li>
+ <pre>
+ a = 5
+ if a < 1:
+    print("A is less than 1")
+ elif a > 1 and a < 3:
+    print("A is less than 3 but greater than 1")
+ else:
+    print("A is greater than 3")
+ 
+ => Returns A is greater than 3</pre>
+</ul>
+<li>While loops are used if the number of iterations is unknown</li>
+<pre>
+  i = 10
+  count = 0
+  while i != 0:
+      if i % 2 == 0:
+          i -= 1
+          count += 1
+      else:
+          i //= 2
+          count += 1
+  print(count) => Returns 5</pre>
+<li>For loops are used if the number of iterations is known</li>
+<pre>
+ arr = []
+ for i in range(1,11):
+     arr.append(i)
+ print(arr) => Returns [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</pre>
+ <li>The break command is used to stop a loop</li>
+ <pre>
+ var = 7
+ while var > 0:              
+    print('Current var:', var)
+    var = var -1
+    if var == 5:
+       break
+ => Returns Current var: 7
+ =>         Current var: 6</pre>
 </ul>
 <h2>Lecture 3: String Manipulation, Guess and Check, Approximations, Bisection</h2>
 <h2>Lecture 4: Decomposition, Abstraction, and Functions</h2>
