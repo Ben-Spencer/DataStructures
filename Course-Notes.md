@@ -288,6 +288,43 @@ Scalar Object: int, float, complex, bool, bytes, NoneType<br>
 Non-Scalar Object: strings, lists, tuples, dictionaries, sets, and user defined classes<br>
 You can use type() to find what type the object is. This is helpful in debugging<br></p>
 <h2>Lecture 2: Branching and Iteration</h2>
+<ul>
+ <li>String Concatenation: The merging of two or more strings together</li>
+ <ul>
+  <li>Concatenation is implemented in python using the + operator</li>
+  <pre>
+  a = "Hello, " + "World!"
+  print(a) => Returns Hello, World!</pre>
+  <li>When a string and a number are concatenated, an error occurs</li>
+  <pre>
+   a = "Hello " + 5 => Returns TypeError due to combining string and int</pre>
+ </ul>
+ <li>String & Integer Concatenation: The merging of a string and an int object together</li>
+ <ul>
+  <li>In print statement, a comma (,) can be used to concatenate a string and an int. Unlike the string concatenation with the + operator, using a comma adds a space in between the combined objects</li>
+  <pre>
+   print("Hello",5) => Returns Hello 5</pre>
+  <li>Other ways to concatenate an integer and string are as follows:</li>
+  <ul>
+   <li>Use the str() operation to convert the integer into a string object</li>
+   <pre>
+   print("Hello " + str(5)) => Returns Hello 5</pre>
+   <li>Use the % Operator</li>
+   <pre>
+   s = "Hello "
+   y = 5
+   print("%s%s" % (s,y)) => Returns Hello 5</pre>
+   <li>Use the format function</li>
+   <pre>
+   print("{}{}".format("Hello ",5))</pre>
+   <li>Use f-Strings</li>
+   <pre>
+   s = "Hello "
+   y = 5
+   print(f'{s}{y}')</pre>
+   </pre>
+ </ul>
+</ul>
 <h2>Lecture 3: String Manipulation, Guess and Check, Approximations, Bisection</h2>
 <h2>Lecture 4: Decomposition, Abstraction, and Functions</h2>
 <h2>Lecture 5: Tuples, Lists, Aliasing, Mutability, and Cloning</h2>
