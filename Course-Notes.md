@@ -348,6 +348,7 @@ You can use type() to find what type the object is. This is helpful in debugging
   print(b) => Returns 2
   print(c) => Returns 3</pre>
  </ul>
+ <h3>Other Operators</h3>
  <li>Relational (<, <=, >=, >) and Equality Operators (==, !=) always create a True / False Boolean</li>
  <pre>
  print(1 < 2) => Returns True
@@ -360,6 +361,7 @@ You can use type() to find what type the object is. This is helpful in debugging
  <pre>
  print(10%2) => Returns 0
  print(11%2) => Returns 1</pre>
+ <h3>Loops</h3>
  <li>If, Elif, and Else statements can be used to create branches within programs</li>
  <pre>
  a = 5
