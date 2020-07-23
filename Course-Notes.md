@@ -457,6 +457,55 @@ You can use type() to find what type the object is. This is helpful in debugging
  </ul>
 </ul>
 <h2>Lecture 4: Decomposition, Abstraction, and Functions</h2>
+<h3>Decomposition</h3>
+<ul>
+ <li>Decomposition is the breaking down of a program into small, self-contained, reusable modules that keep code organized and coherent</li>
+ <ul>
+  <li>Classes and Functions are examples of decomposition</li>
+ </ul>
+</ul>
+<h3>Abstraction</h3>
+<ul>
+ <li>Abstraction is the process of hiding extraneous data about an object in order to reduce complexity and increase efficiency</li>
+ <ul>
+  <li>For example, you know what a projector does, but you don't know how it functions internally</li>
+  <li>Abstraction is achievable in programming by writing function specifications and docstrings</li>
+  <li>Abstraction is used for black-box testing</li>
+ </ul>
+</ul>
+<h3>Functions</h3>
+<ul>
+ <li>Functions are blocks of organized, reusable code that perform a single action</li>
+ <ul>
+  <li>The example function below shows how a function is organized</li>
+  <pre>
+  def functionName(parameters):
+     """DOCSTRING"""
+     Function Code
+     return [expression]</pre>
+  <li>The example function below shows a working function</li>
+  <pre>
+  def is_even(i):
+    """
+    Input: i - positive integer
+    Output: Returns True if i is even, otherwise False
+    """
+    return i%2 == 0</pre>
+ </ul>
+ <li>Functions are objects, like everything else in python. This means that functions can call other functions</li>
+ <pre>
+  def test():
+   """Do Something"""
+   test2()
+   return [expression]
+   
+  def test2():
+   """Do something else"""
+   return [expression]</pre>
+</ul>
+
+
+
 <h2>Lecture 5: Tuples, Lists, Aliasing, Mutability, and Cloning</h2>
 <h2>Lecture 6: Recursion and Dictionaries</h2>
 <h2>Lecture 7: Testing, Debugging, Exceptions, and Assertions</h2>
