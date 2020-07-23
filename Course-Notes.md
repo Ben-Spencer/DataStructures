@@ -328,7 +328,7 @@ You can use type() to find what type the object is. This is helpful in debugging
    s = "Hello "
    y = 5
    print(f'{s}{y}')</pre>
-   </pre>
+ </ul>
  </ul>
  <h3>Receiving Input from Users</h3>
  <li>The input() function in Python always returns a string</li>
