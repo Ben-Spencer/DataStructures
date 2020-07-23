@@ -299,6 +299,9 @@ You can use type() to find what type the object is. This is helpful in debugging
   <pre>
    a = "Hello " + 5 => Returns TypeError due to combining string and int</pre>
  </ul>
+ <li>String Comparison: Strings can be compared to each other, with A < B < C...</li>
+ <pre>
+ print("a" < "b") => Returns True </pre>
  <li>String & Integer Concatenation: The merging of a string and an int object together</li>
  <ul>
   <li>In print statement, a comma (,) can be used to concatenate a string and an int. Unlike the string concatenation with the + operator, using a comma adds a space in between the combined objects</li>
@@ -323,6 +326,23 @@ You can use type() to find what type the object is. This is helpful in debugging
    y = 5
    print(f'{s}{y}')</pre>
    </pre>
+ </ul>
+ <li>The input() function in Python always returns a string</li>
+ <ul>
+  <li>If the input is not a string, such as an int, convert the input string to a different data type using built-in functions</li>
+  <pre>
+  i = int(input())</pre>
+  <li>Sometimes, lists of input are given with spaces in-between. Making the input into a list requires the split() function</li>
+  <pre>
+  input = 1 2 3 4 5
+  input().split(" ") => Returns [1, 2, 3, 4, 5]</pre>
+  <li>Assigning two or more inputs is possible as well</li>
+  <pre>
+  input = 1 2 3
+  a,b,c = map(int, input().split(" "))
+  print(a) => Returns 1
+  print(b) => Returns 2
+  print(c) => Returns 3</pre>
  </ul>
 </ul>
 <h2>Lecture 3: String Manipulation, Guess and Check, Approximations, Bisection</h2>
