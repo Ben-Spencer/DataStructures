@@ -498,10 +498,10 @@ You can use type() to find what type the object is. This is helpful in debugging
    """Do Something"""
    test2()
    return [expression]
-   
-  def test2():
-   """Do something else"""
-   return [expression]</pre>
+   <br>
+   def test2():
+    """Do something else"""
+    return [expression]</pre>
 </ul>
 
 
