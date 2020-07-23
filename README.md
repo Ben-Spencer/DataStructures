@@ -1,5 +1,5 @@
 # Read Me
-This repository contains the knowledge I have accumulated about data structures and algorithms in preparation for coding interviews. This following list is not complete with all information about the aforementioned topics, however, it is a great starting point to prepare for your coding interviews.<br><br>
+This repository contains the knowledge I have accumulated about discrete mathemetics, data structures & algorithms, and artificial intelligence in preparation for coding interviews. This following list is not complete with all information about the aforementioned topics, however, it is a great starting point to prepare for your coding interviews.<br><br>
 <h1>Table of Contents</h1>
 <h2><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Data-Structures.md#data-structures">Data Structures</a></h2>
 <ul>
