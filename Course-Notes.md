@@ -692,7 +692,18 @@ Graph search is about exploring a graph. Both finding the shortest path from one
 
 <h2>Lecture 14: Depth First Search (DFS), Topological Sort</h2>
 Input for each vertex is the neighbor verticies, that can be reached in one step via an edge. Goal in general is to explore a graph. 
+Visit all the verticies in a specific order, only once. 
+DFS is used to explore the whole graph, rather than just the nodes reachable by the root node (s)
 
+<h3>Depth First Search</h3>
+Recursively explore a graph, backtracking when necessary and being careful not to repeat verticies
+<pre>
+parent = { s: None } #Setting up the parent node in the dictionary
+Dfs-Visit(Adj,s): #Visit all of the verticies surrounding a parent node (s)
+ for V in Adj[s]: #check for all verticies adjacent to (s)
+  if V not in parent: #check to see if vertice is already in dictionary; if not...
+   parent[V] = s #add the vertice to dictionary of seen verticies
+   Dfs-Visit(V,Adj,s) #call Dfs-Visit until there are no more unseen verticies</pre>
 
 
 
