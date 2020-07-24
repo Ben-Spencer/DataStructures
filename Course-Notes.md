@@ -696,7 +696,9 @@ Visit all the verticies in a specific order, only once.
 DFS is used to explore the whole graph, rather than just the nodes reachable by the root node (s)
 
 <h3>Depth First Search</h3>
-Recursively explore a graph, backtracking when necessary and being careful not to repeat verticies
+<ul>
+ <li>Depth-First Search is the recursive exploration of a graph, backtracking when necessary and ensuring not to repeat verticies</li>
+</ul>
 <pre>
 parent = { s: None } #Setting up the parent node in the dictionary
 Dfs-Visit(Adj,s): #Visit all of the verticies surrounding a parent node (s)
