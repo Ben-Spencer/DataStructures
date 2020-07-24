@@ -579,6 +579,84 @@ General trees are the most basic type of tree. They have the following rules tha
 </ul>
 <h2>Binary Tree</h2>
 Binary trees are different from general trees in that each parent node is restricted to having 0, 1, or 2 children nodes</br>
+<pre>
+class Node:
+	def __init__(self, initdata):
+		self.data = initdata
+		self.left = None
+		self.right = None
+		self.level = None
+
+class BinarySearchTree:
+	def __init__(self):
+		self.root = None
+	def insert(self, data):
+		new_node = Node(data)
+		if self.root == None:
+			self.root = new_node
+		else:
+			current = self.root
+			while 1:
+				if data < current.data:
+					if current.left:
+						current = current.left
+					else:
+						current.left = new_node
+						break
+				elif data > current.data:
+					if current.right:
+						current = current.right
+					else:
+						current.right = new_node
+						break
+				else:
+					break
+	def breadthFirstTraversal(self):
+		self.root.level = 0
+		queue = [self.root]
+		out = []
+		current_level = self.root.level
+		while len(queue) > 0:
+			current_node = queue.pop(0)
+			if current_node.level > current_level:
+				current_level += 1
+				out.append("\n")
+			out.append(str(current_node.data)+" ")
+			if current_node.left:
+				current_node.left.level = current_level + 1
+				queue.append(current_node.left)
+			if current_node.right:
+				current_node.right.level = current_level + 1
+				queue.append(current_node.right)
+		print("".join(out))
+	def inorder(self, node):
+		if node:
+			self.inorder(node.left)
+			print(node.data)
+			self.inorder(node.right)
+	def preorder(self, node):
+		if node:
+			print(node.data)
+			self.preorder(node.left)
+			self.preorder(node.right)
+	def postorder(self, node):
+		if node:
+			self.postorder(node.left)
+			self.postorder(node.right)
+			print(node.data)
+
+b = BinarySearchTree()
+arr = [8, 3, 10, 1, 6, 14, 4, 7, 13]
+for i in arr:
+	b.insert(i)
+print("Breadth First Traversal:")
+b.breadthFirstTraversal()
+print("\nInOrder:")
+b.inorder(b.root)
+print("\nPreOrder:")
+b.preorder(b.root)
+print("\nPostOrder:")
+b.postorder(b.root)</pre>
 <h2>Binary Search Tree</h2>
 Binary search trees are different from binary trees in that parent node values must be greater than left node values and less than right node values
 <h2>AVL Tree</h2>
