@@ -15,6 +15,9 @@
 			<li>Non-Linear</li>
 		</ul>
 </ul>
+<h1>Primitive Data Structures</h1>
+<h1>Non-Primitive Data Structures</h1>
+
 <h1>Linear Data Structures</h1>
 Linear data structures share the following properties:<br>
 <ul>
