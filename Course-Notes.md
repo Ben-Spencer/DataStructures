@@ -623,7 +623,7 @@ A CPU, or central processing unit, takes instructions from a program or applicat
 <ul>
  <li>The goal is to get the millionth digit of sqrt(2)</li>
  <ul>
-  <li>To compute this, work with integers: Floor(sqrt(2 * 10^(2d)). d is the number of digits of percision. Therefore, d = 6</li>
+  <li>To compute this, work with integers: Floor(sqrt(2 * 10^(2d)). d is the number of digits of precision. Therefore, d = 6</li>
   <li>Compute Floor(sqrt(a)) via Newton's method</li>
   <ul>
    <li>Newton's method works by iteratively approximating the slope of the line</li>
@@ -648,11 +648,27 @@ A CPU, or central processing unit, takes instructions from a program or applicat
   <li>The Toom-Cook method takes karatsuba multiplication and divides it into multiple parts. Toom-3 takes O(n^1.465) complexity</li>
   <li>Schönhege-Strassen method of multiplication takes O(n lgn lglgn) time using FFT</li>
   <li>Python gmpy package can be used to experiment with the different multiplication methods</li>
-  
+  <li>Furer method takes O(n logn 2^O(log*n)) in which O(log*n) is an iterated logarithm which is # of times log needs to be applied to get a result that is less than or equal to 1</li>
  </ul>
 </ul>
-
-
+<h3>High-Precision Division</h3>
+<ul>
+ <li>We want a high-precision rep of A divided by B</li>
+ <ul>
+  <li>To get this, we first get a high-precision rep of 1/B</li>
+  <ul>
+   <li>To get 1/B, we need to compute Floor(R/B) in which R is a large, easy-to-divide value</li>
+   <li>Use Newton's method to compute R/B; using the equation f(x) = (1/x) - (B/R) => This yields a 0 at R/B</li>
+   <li>Plugging it in to Newton's method gives the equation 2Xi - (BXi^2 / R)</li>
+   <li>Newton's method is quadratic convergence for both multiplication and division</li>
+  </ul>
+ </ul>
+ <li>Since division is quadratic convergence, to get (d) digits of precision, it takes log d iterations</li>
+ <li>Therefore, division is O(log n n^ā) in which ā is ≥ 1</li>
+ <li>The above complexity is high, as division uses quadratic rate of convergence</li>
+ <li>The actual complexity is O(2C*n^ā), or O(n^ā) which is the same as multiplication</li>
+ <li>That means the complexity of computing square roots is also O(n^ā)</li>
+</ul>
 
 <h2>Lecture 13: Breadth First Search (BFS)</h2>
 Graph search is about exploring a graph. Both finding the shortest path from one node to another and finding all end potential end points, are exploration problems. 
