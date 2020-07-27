@@ -619,6 +619,40 @@ A CPU, or central processing unit, takes instructions from a program or applicat
 </ul>
 
 <h2>Lecture 12: Square Roots, Newton's Method</h2>
+<h3>Review</h3>
+<ul>
+ <li>The goal is to get the millionth digit of sqrt(2)</li>
+ <ul>
+  <li>To compute this, work with integers: Floor(sqrt(2 * 10^(2d)). d is the number of digits of percision. Therefore, d = 6</li>
+  <li>Compute Floor(sqrt(a)) via Newton's method</li>
+  <ul>
+   <li>Newton's method works by iteratively approximating the slope of the line</li>
+   <li>X0 = 1 (initial guess); Xi+1 = (Xi + a/Xi)/2</li>
+   <li>Newton's method has a quadratic rate of convergence, meaning the number of correct digits multiplies by 2 every iteration</li>
+  </ul>
+ </ul>
+</ul>
+<h3>Error Analysis of Newton's Method</h3>
+<ul>
+ <li>Xn = sqrt(a)*(1+En) in which En may be + or -. En, as Xn becomes large, approaches 0</li>
+ <li>Xn+1 = sqrt(a)*((1+En^2)/(2*(1+En)). Therefore, En+1 = (En^2 / 2*(1+En))</li>
+ <li>This proves that Newton's method indeed has a quadratic rate of convergence</li>
+ <li>Therefore, to get to (d) digits, it takes log(d) iterations</li>
+</ul>
+<h3>Multiplication Algorithms</h3>
+<ul>
+ <li>Want to multiply (d) digit algorithms</li>
+ <ul>
+  <li>The naive divide and conquer way to do this provides O(n^2) complexity</li>
+  <li>Using karatsuba multiplication, it is possible to get O(n^1.58) complexity</li>
+  <li>The Toom-Cook method takes karatsuba multiplication and divides it into multiple parts. Toom-3 takes O(n^1.465) complexity</li>
+  <li>Schönhege-Strassen method of multiplication takes O(n lgn lglgn) time using FFT</li>
+  <li>Python gmpy package can be used to experiment with the different multiplication methods</li>
+  
+ </ul>
+</ul>
+
+
 
 <h2>Lecture 13: Breadth First Search (BFS)</h2>
 Graph search is about exploring a graph. Both finding the shortest path from one node to another and finding all end potential end points, are exploration problems. 
