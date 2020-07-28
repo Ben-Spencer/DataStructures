@@ -804,7 +804,6 @@ for s in V:
  <li>If the shortest path doesn't exist, as in there is no connection between the start and end node, the path is infinity</li>
  <li>Inside each node, track two things, predacessor node and the current weight to get to the node</li>
  <li>The predacessor node allows you to return the shortest path, and the current weight allows you to see the weight of the shortest path</li>
-  <br>
  <li>Negative weights can be used to demonstrate reverse tolls and social networks. Dijkstra's algorithm does not work with negative weights, however, Bellman-Ford algorithm does</li>
  <li>If there is a cycle that has a negative weight, for example, [1,4,-6], then there is the potential to create an infinite loop</li>
  <li>Bellman-Ford fixes this by outputing every number not affected by the negative loop, then marking the negative loops as -infinity</li>
