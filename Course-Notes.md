@@ -788,8 +788,19 @@ for s in V:
  <li>Since topological sort uses DFS, it has a linear runtime, O(V+E)</li>
 </ul>
  
- 
 <h2>Lecture 15: Single-Source Shortest Paths Problem</h2>
+<ul>
+ <li>Motivation for shortest path is to find the fastest way from getting from one location to another</li>
+ <li>For the next few lectures, we're going to be trying to minimize the computational complexity of G(V,E,W) -> Graph(verticies, edges, weights)</li>
+ <li>Two algorithms will be covered:</li>
+ <ul>
+  <li>Dijkstra's Algorithm: O(V log(V+E)). Dijkstra's algorithm is dominated by E and only works with positive edges</li>
+  <li>Bellman-Ford Algorithm: O(VE). Works with both positive and negative edges</li>
+ </ul>
+ <li>Path P is a sequence of verticies <v0, v1, ..., vk> in which (Vi, Vi+1) is contained in edges for 0 ≤ i < k</li>
+ <li>The weight of the path [W(p)] is the summation of the weight of traversed edges</li>
+ <li>The shortest path problem tries to find the path with the minimum weight</li>
+ <li>W, in the given parameters, does not exist in the complexity of both Dijkstra's and Bellman-Ford algorithms</li>
 <h2>Lecture 16: Dijkstra</h2>
 <h2>Lecture 17: Bellman-Ford</h2>
 <h2>Lecture 18: Speeding Up Dijkstra</h2>
