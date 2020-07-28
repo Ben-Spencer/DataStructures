@@ -801,6 +801,17 @@ for s in V:
  <li>The weight of the path [W(p)] is the summation of the weight of traversed edges</li>
  <li>The shortest path problem tries to find the path with the minimum weight</li>
  <li>W, in the given parameters, does not exist in the complexity of both Dijkstra's and Bellman-Ford algorithms</li>
+ <li>If the shortest path doesn't exist, as in there is no connection between the start and end node, the path is infinity</li>
+ <li>Inside each node, track two things, predacessor node and the current weight to get to the node</li>
+ <li>The predacessor node allows you to return the shortest path, and the current weight allows you to see the weight of the shortest path</li>
+  <br>
+ <li>Negative weights can be used to demonstrate reverse tolls and social networks. Dijkstra's algorithm does not work with negative weights, however, Bellman-Ford algorithm does</li>
+ <li>If there is a cycle that has a negative weight, for example, [1,4,-6], then there is the potential to create an infinite loop</li>
+ <li>Bellman-Ford fixes this by outputing every number not affected by the negative loop, then marking the negative loops as -infinity</li>
+  <li>Relaxation is a method of comparing the current weight of a node to the potential weight of the same node. If the new weight is less than the old weight, than the old weight is replaced by the new weight. Otherwise, nothing changes</li>
+  <li>Optimal Substructure: Subpaths of a shortest path are shortest paths</li>
+</ul>
+
 <h2>Lecture 16: Dijkstra</h2>
 <h2>Lecture 17: Bellman-Ford</h2>
 <h2>Lecture 18: Speeding Up Dijkstra</h2>
