@@ -812,6 +812,48 @@ for s in V:
 </ul>
 
 <h2>Lecture 16: Dijkstra</h2>
+<h3>Review</h3>
+<ul>
+ <li>The numbers inside the vertices are priority values, or the length of the current shortest path from the source S to V</li>
+ <li>Initially, S has a priority value of 0 and all other vertices have priority values of infinity</li>
+ <li>The delta value of S to V is the length of the shortest path</li>
+ <li>π[V] is the predacessor of V in the shortest path from S to V. Follow the predacessor chain back to create the shorest path</li>
+</ul>
+<h3>Relaxation</h3>
+<ul>
+ <pre>
+ def Relax(u, v, w):
+  if d[v] > d[u] + w[u,v]:
+   d[v] = d[u] + w[u,v]
+   π[v] = u</pre>
+ <li>Relaxation is safe, the lemma below says that there is no way to get a lower delta than d value</li>
+ <li>Lemma: The relaxation operation maintains the invariant that d[v] ≥ delta(s,v) for v ∈ V</li>
+ <li>The triangle inequality says that it is not possible to have a shorter delta(s,u); delta(u,v) than just delta(s,v) becuase delta(s,v) is by definition the shortest path between s and v</li>
+</ul>
+<h3>Directed Acyclic Graphs (DAGs)</h3>
+<ul>
+ <li>Can't have cycles (or negative cycles)</li>
+ <li>Allowed to have both positive and negative edges</li>
+ <li>1) Topological sort the DAG, the path from u to v implies that u is before v in the ordering</li>
+ <li>2) One pass over verticies in topologically sorted order relaxing each edge that leaves each vertex</li>
+ <li>DAG special case shortest path algorithm is O(V+E) time</li>
+ <li>DAGs can always be drawn in a straight line, as there are no cycles</li>
+</ul>
+<h3>Dijkstra's Algorithm</h3>
+<pre>
+Dijkstra(g, w, s): => g is a graph, w is the weights, s is the starting vertex
+ Initialize (g,s) => Mark s as the starting vertex; d[s] = 0
+ S is a set with the value null
+ Q is a set with the entire set of verticies; Q is a priority queue in which the priorities are d() values
+ While Q != Null:
+  u <- Extract min from Q (deletes u from Q)
+  for each vertex for each adjacent u:
+   Relax(u,v,w)</pre>
+<li>Dijkstra's algorithm is greedy, becuase the extract-min step</li>
+<li>In other words, it starts with a breadth-first search from the starting node. Then it compares all the values and chooses the minimum. Next, it does breadth-first search from the second vertice, etc.</li>
+<li>Using an array to implement the priority queue makes Dijkstra's O(V^2)</li>
+<li>Using a binary min-heap to implement the priority queue makes Dijkstra's O(VlgV + ElgV)</li>
+<li>Using a fibonacci heap to implement the priority queue makes Dijkstra's O(VlgV + E)</li>
 <h2>Lecture 17: Bellman-Ford</h2>
 <h2>Lecture 18: Speeding Up Dijkstra</h2>
 <h2>Lecture 19: Dynamic Programming I: Fibonacci, Shortest Paths</h2>
