@@ -751,14 +751,44 @@ DFS is used to explore the whole graph, rather than just the nodes reachable by 
 </ul>
 <pre>
 parent = { s: None } #Setting up the parent node in the dictionary
-Dfs-Visit(Adj,s): #Visit all of the verticies surrounding a parent node (s)
+Dfs-Visit(V, Adj,s): #Visit all of the verticies surrounding a parent node (s)
  for V in Adj[s]: #check for all verticies adjacent to (s)
   if V not in parent: #check to see if vertice is already in dictionary; if not...
    parent[V] = s #add the vertice to dictionary of seen verticies
    Dfs-Visit(V,Adj,s) #call Dfs-Visit until there are no more unseen verticies</pre>
-
-
-
+<pre>
+DFS(V, Adj): #Visit all verticies
+parent = {} #Parent stores seen elements
+for s in V:
+ if s not in parent: #If the element has not been seen
+  parent[s] = None
+  Dfs-Visit(V, Adj, s) #Find all verticies of the element</pre>
+<ul>
+ <li>Time complexity is O(V+E)</li>
+ <ul>
+  <li>The reason for this is you visit every vertex and edge once throughout the algorithm</li>
+ </ul>
+</ul>
+<h3>Edge Classification</h3>
+<ul>
+ <li>Tree edges: An edge that leads to an unvisited vertice</li>
+ <li>Forward edges: An edge that extends from a parent to a visited child vertice</li>
+ <li>Backward edges: An edge from a child that extends to a parent vertice</li>
+ <li>Cross edges: An edge between non-ancestors</li>
+<br>
+ <li>In undirected graphs, only tree edges and backward edges can exist, not forward or cross edges</li>
+ <li>Edges are useful for cycle-detection and topological sort</li>
+ <li>Graph G has a cycle if and only if Depth-First Search of G has a back edge</li>
+</ul>
+<h3>Topological Sort</h3>
+<ul>
+ <li>Job Scheduling Problem: Given a directed acyclic graph (DAG). Want to order the verticies so that all edges point from lower order to higher order</li>
+ <li>Run Depth-First Search and output the reverse of finishing times of verticies</li>
+ <li>This works because DFS completes in-order, so by reversing that order you go from lower order to higher orders</li>
+ <li>Since topological sort uses DFS, it has a linear runtime, O(V+E)</li>
+</ul>
+ 
+ 
 <h2>Lecture 15: Single-Source Shortest Paths Problem</h2>
 <h2>Lecture 16: Dijkstra</h2>
 <h2>Lecture 17: Bellman-Ford</h2>
