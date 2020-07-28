@@ -806,7 +806,7 @@ for s in V:
  <li>The predacessor node allows you to return the shortest path, and the current weight allows you to see the weight of the shortest path</li>
  <li>Negative weights can be used to demonstrate reverse tolls and social networks. Dijkstra's algorithm does not work with negative weights, however, Bellman-Ford algorithm does</li>
  <li>If there is a cycle that has a negative weight, for example, [1,4,-6], then there is the potential to create an infinite loop</li>
- <li>Bellman-Ford fixes this by outputing every number not affected by the negative loop, then marking the negative loops as -infinity</li>
+ <li>Bellman-Ford fixes this by outputing every number not affected by the negative loop, then marking the negative loops as negative infinity</li>
   <li>Relaxation is a method of comparing the current weight of a node to the potential weight of the same node. If the new weight is less than the old weight, than the old weight is replaced by the new weight. Otherwise, nothing changes</li>
   <li>Optimal Substructure: Subpaths of a shortest path are shortest paths</li>
 </ul>
