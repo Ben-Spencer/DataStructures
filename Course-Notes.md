@@ -854,7 +854,44 @@ Dijkstra(g, w, s): => g is a graph, w is the weights, s is the starting vertex
 <li>Using an array to implement the priority queue makes Dijkstra's O(V^2)</li>
 <li>Using a binary min-heap to implement the priority queue makes Dijkstra's O(VlgV + ElgV)</li>
 <li>Using a fibonacci heap to implement the priority queue makes Dijkstra's O(VlgV + E)</li>
+</ul>
 <h2>Lecture 17: Bellman-Ford</h2>
+<ul>
+ <li>Bellman-Ford algorithm is able to find the shortest path with any type of graph, including those with negative cycles</li>
+ <li>If there is a negative cycle present in the graph, Bellman-Ford marks it, and every following vertex, as undefined or negative infinity</li>
+</ul>
+<h3>Generic Shortest Path Algorithm</h3>
+<ul>
+ <li>Description of Generic S.P. Algorithm</li>
+ <ul>
+  <li>for v ∈ V, set all d[v] values in the graph to infinity; π(v) to nil</li>
+  <li>d[s] = 0; as its your source</li>
+  <li>Select an edge [somehow]</li>
+  <li>Relax Edge(u,v,w)</li>
+  <li>Continue until you can't relax edges anymore</li>
+ </ul>
+ <li>Two problems with Generic S.P. Algorithm</li>
+ <ul>
+  <li>Complexity could be exponential time (even for + edge weights)</li>
+  <ul>
+   <li>Dijkstra's Fixes this first problem</li>
+  </ul>
+  <li>Algorithm will not terminate if there is a negative weight cycle, reachable from the source</li>
+  <ul>
+   <li>Bellman-Ford was designed to fix this issue</li>
+ </ul>
+  <li>Polynomial time is great, exponential time is bad, infinite time gets you fired</li>
+ </ul>
+ <pre>
+ Bellman-Ford(G,W,S): => graph, weights, source
+  Initialize() => same as the generic case
+  for i = 1 to v - 1:
+   for each edge (u,v) ∈ E: => For each edge from vertex U to V contained within the list of edges
+    Relax(u,v,w) => Perform relaxation on vertecies</pre>
+</ul>
+ 
+
+
 <h2>Lecture 18: Speeding Up Dijkstra</h2>
 <h2>Lecture 19: Dynamic Programming I: Fibonacci, Shortest Paths</h2>
 <h2>Lecture 20: Dynamic Programming II: Text Justification, Blackjack</h2>
