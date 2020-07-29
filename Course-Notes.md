@@ -882,13 +882,15 @@ Dijkstra(g, w, s): => g is a graph, w is the weights, s is the starting vertex
  </ul>
   <li>Polynomial time is great, exponential time is bad, infinite time gets you fired</li>
  </ul>
- <pre>
- Bellman-Ford(G,W,S): => graph, weights, source
-  Initialize() => same as the generic case
-  for i = 1 to v - 1:
-   for each edge (u,v) ∈ E: => For each edge from vertex U to V contained within the list of edges
-    Relax(u,v,w) => Perform relaxation on vertecies</pre>
 </ul>
+<h3>Bellman-Ford Implementation</h3>
+<pre>
+Bellman-Ford(G,W,S): => graph, weights, source
+ Initialize() => same as the generic case
+ for i = 1 to v - 1:
+  for each edge (u,v) ∈ E: => For each edge from vertex U to V contained within the list of edges
+   Relax(u,v,w) => Perform relaxation on vertecies</pre>
+
  
 
 
