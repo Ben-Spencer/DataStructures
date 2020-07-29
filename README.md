@@ -3,6 +3,8 @@ This repository contains the knowledge I have accumulated about discrete matheme
 <h1>Table of Contents</h1> 
 <h2><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Data-Structures.md#data-structures">Data Structures</a></h2>
 <ul>
+  <li>Preface</li>
+  <li>Table of Contents</li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Data-Structures.md#definition">Definition</a></li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Data-Structures.md#why-learn-data-structures">Why Learn Data Structures?</a></li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Data-Structures.md#types-of-data-structures">Types of Data Structures</a></li>
