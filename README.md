@@ -26,6 +26,7 @@ This repository contains the knowledge I have accumulated about discrete matheme
           <li>Doubly Linked List</li>
           <li>Circular Linked List</li>
           <li>Doubly Circular Linked List</li>
+          <li>Skip List</li>
         </ul>
         <li>Stacks</li>
         <li>Queues</li>
