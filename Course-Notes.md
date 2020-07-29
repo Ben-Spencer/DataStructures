@@ -889,10 +889,32 @@ Bellman-Ford(G,W,S): => graph, weights, source
  Initialize() => same as the generic case
  for i = 1 to v - 1:
   for each edge (u,v) ∈ E: => For each edge from vertex U to V contained within the list of edges
-   Relax(u,v,w) => Perform relaxation on vertecies</pre>
-
- 
-
+   Relax(u,v,w) => Perform relaxation on vertecies
+  for each edge (u,v) ∈ E:
+   if d[v] > d[u] + w[u,v]:
+    report negative cycle exists</pre>
+<ul>
+<li>Bellman-Ford is O(VE)</li>
+<li>This means that if you have the chance to use Dijkstra's Algorithm, use that because it is linear, when using fibonacci heap for the priority queue</li>
+</ul>
+<h3>Bellman-Ford Proof</h3>
+<ul>
+ <li>Theorem: If G=(V,E) contains no negative weight cycles, then after Bellman-Ford finishes execution, d[v] = delta(s,v) for all v ∈ V</li>
+ <ul>
+  <li>Path P (V0, V1, V2..., Vk). k must be ≤ |V| - 1, otherwise there is a cycle. |V| is the total number of vertecies</li>
+  <li>Proof by induction: Let v be any Vertex (v ∈ V), p <v0,v1,v2,...,vk>, v0 = s; vk = V</li>
+  <li>This path P is a shortest path with min # of edges</li>
+  <li>No negative weight cycles implies that P is simple, which implies that vk ≤ |V|-1</li>
+  <li>After one pass through all edges E, we have d[v1] = delta[s,v1] because we will relax the edge (v0, v1) during the pass</li>
+  <li>After two passes, we have d[v2] = delta[s,v2] because we will relax the edge (v1, v2) during the pass</li>
+  <li>After k passes, we have d[vk] = delta[d,vk] beacause if you run through |v|-1 passes, all reachable vertices have delta values</li>
+ </ul>
+ <li>Corollary: If a value d[v] fails to converge after v-1 passes, there exists a negative weight cycle, reachable from s</li>
+ <ul>
+  <li>After |v|-1 passes, we find an edge that can be relaxed. This means the current shortest path from s to some vertex is not simple. Therefore, there must be a repeated vertex, or some cycle.</li>
+  <li>This cycle has to be a negative cycle, because you are still able to relax the vertecies</li>
+ </ul>
+</ul>
 
 <h2>Lecture 18: Speeding Up Dijkstra</h2>
 <h2>Lecture 19: Dynamic Programming I: Fibonacci, Shortest Paths</h2>
