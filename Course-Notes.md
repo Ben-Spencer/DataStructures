@@ -615,7 +615,8 @@ A CPU, or central processing unit, takes instructions from a program or applicat
 </ul>
 <h3>Karatsuba Multiplication</h3>
 <ul>
- <li>
+ <li>Karatsuba is faster than normal division. It's O(N^lg3), while normal division is O(N^2)</li>
+ <li>T(N) = 3T(N/2) + O(N)</li>
 </ul>
 
 <h2>Lecture 12: Square Roots, Newton's Method</h2>
