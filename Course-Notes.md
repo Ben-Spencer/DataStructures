@@ -917,6 +917,9 @@ Bellman-Ford(G,W,S): => graph, weights, source
 </ul>
 
 <h2>Lecture 18: Speeding Up Dijkstra</h2>
+<li>You want to find the shortest simple path between any/all destinations of v</li>
+
+
 <h2>Lecture 19: Dynamic Programming I: Fibonacci, Shortest Paths</h2>
 <h2>Lecture 20: Dynamic Programming II: Text Justification, Blackjack</h2>
 <h2>Lecture 21: Dynamic Programming III: Parenthesization, Edit Distance, Knapsack</h2>
