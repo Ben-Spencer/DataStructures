@@ -1,5 +1,7 @@
 <h1>Data Structures</h1>
-<h2>Definition</h2
+<h1>Preface</h1>
+<h1>Table of Contents</h1>
+<h2>Definition</h2>
 <ul><li>Data structures optimze data access and modification by efficiently organizing, managing, and storing data.</li></ul>
 <h2>Why Learn Data Structures?</h2>
 <ul>
