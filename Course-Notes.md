@@ -925,7 +925,59 @@ Bellman-Ford(G,W,S): => graph, weights, source
 <h2>Lecture 20: Dynamic Programming II: Text Justification, Blackjack</h2>
 <h2>Lecture 21: Dynamic Programming III: Parenthesization, Edit Distance, Knapsack</h2>
 <h2>Lecture 22: Dynamic Programming IV: Guitar Fingering, Tetris, Super Mario Bros.</h2>
+
 <h2>Lecture 23: Computational Complexity</h2>
+<h3>Types of Computational Complexity</h3>
+<ul>
+ <li>P is the set of all problems you can solve in polynomial time</li>
+ <li>EXP is the set of all problems you can solve in exponential time</li>
+ <li>R is the set of all problems solvable in finite time</li>
+</ul>
+<h3>Examples of Problems</h3>
+<ul>
+ <li>Negative weight cycle detection: P Time</li>
+ <li>NxN Chess: EXP Time -> Not P</li>
+ <li>Tetris: EXP Time -> Unknown P</li>
+ <li>Halting Problem: Given a computer program, does it ever stop running? -> Not in R</li>
+</ul>
+<h3>Decision Problems</h3>
+<ul>
+ <li>Decision problems are problems that result in a yes or no</li>
+ <li>Most decision problems are uncomputable in finite time -> Not in R</li>
+ <ul>
+  <li>Programs are essentially interpreters for binary strings. Therefore, a program is a binary string, or a natural integer, between 0 and infinity</li>
+  <li>Decision problems are a function that match inputs to yes or no</li>
+  <li>Decision problems are contained within a set of all real numbers, not a set of all natural integers</li>
+  <li>The set of real numbers is much larger than the set of integer numbers</li>
+  <li>Therefore, almost every decision problem is impossible to solve, by any program</li>
+ </ul>
+</ul>
+<h3>Nondeterministic Polynomials (NP)</h3>
+<ul>
+ <li>NP problems are a set of decision problems solvable in polynomial time, by a "lucky" algorithm</li>
+ <li>The nondeterministic model is not a model of real computation, but rather a theoretical model. It makes guesses and gives an output of yes or no. In this model, guesses are guarenteed to lead to a yes answer if possible</li>
+ <li>Tetris: Is there any way that the user can survive, given a specific set of blocks. If a yes is possible, NP will solve in polynomial time</li>
+ <li>Another definition of NP: NP are a set of decision problems with solutions that can be "checked" in polynomial time</li>
+ <li>Whenever the answer is yes, it is provable and checkable in polynomial time</li>
+ <li>Proof in tetris would be surviving the level</li>
+ <li>Most people believe P ≠ NP, but it has not been proven yet</li>
+</ul> 
+<h3>Hardness & Completeness</h3>
+<ul>
+ <li>NP-Hard means that a problem is as hard as every other problem in NP (this means it could also be harder than NP)</li>
+ <li>Tetris is an NP-Hard problem</li>
+ <li>Tetris is also NP-Complete</li>
+ <li>NP-Complete is both within P and NP, but definitely not R</li>
+ <li>In other words, when -Hard is added, it means greater than, when nothing is added it means less than, when -Complete is added, it means equal to</li>
+</ul>
+<h3>Reductions</h3>
+<ul>
+ <li>Convert a problem you don't know how to solve into a problem you do know how to solve</li>
+ <li>Example: Using dijkstra's algorithm, a weighted graph algorithm, to solve for an unweighted graph. Not efficient, but doable</li>
+ <li>Example: Longest path to shortest path: negate all the weights</li>
+</ul>
+
+
 <h2>Lecture 24: Topics in Algorithms Research</h2>
 
 <h1>Design and Analysis of Algorithms</h1>
