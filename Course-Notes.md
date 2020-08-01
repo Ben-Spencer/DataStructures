@@ -977,8 +977,19 @@ Bellman-Ford(G,W,S): => graph, weights, source
  <li>Example: Longest path to shortest path: negate all the weights</li>
 </ul>
 
-
 <h2>Lecture 24: Topics in Algorithms Research</h2>
+<ul>
+ <li>Geometric Folding Algorithms: Foldability and Design</li>
+ <ul>
+  <li>Foldability: Algorithms to fold a piece of paper into its completed form. Unfortunately, this is NP-Complete</li>
+  <li>Design: Create a shape and work backwards to making the folds in paper. Can be solved in polynomial time</li>
+  <li>There's an algorithm, given any set of polygons in the plane, you can fold and make one straight cut to get exactly those polygons</li>
+ </ul>
+ <li>Memory transfers from DRAM to SRAM take a long time. Therefore, large amounts of data are transferred in blocks, to make the slower time more acceptable</li>
+</ul>
+ 
+
+
 
 <h1>Design and Analysis of Algorithms</h1>
 <h2>Lecture 1: Course Overview, Interval Scheduling</h2>
