@@ -960,6 +960,61 @@ while Q ≠ 0:
 </ul>
 
 <h2>Lecture 19: Dynamic Programming I: Fibonacci, Shortest Paths</h2>
+<h3>Dynamic Programming</h3>
+<ul>
+ <li>Dynamic programming (DP) is a general, very powerful algorithm design technique</li>
+ <li>DP is especially good at, and intended for optimization problems, such as shortest path (Dijkstra's)</li>
+ <li>DP is an exhaustive search, which can achieve results in polynomial (P) time. It is a "careful brute force"</li>
+ <li>It's called dynamic programming, because Bellman (the same guy from the Bellman-Ford algorithm) tried to hide mathematical research under a cool name to receive funding</li>
+</ul>
+<h3>Fibonacci Numbers with DP</h3>
+<ul>
+ <li>Take a problem, split it into subproblems, solve the subproblems, then reuse the solution to subproblems</li>
+ <li>Fibonacci Number Equation: F1 = F2 = 1; Fn = Fn-1 + Fn-2</li>
+ <li>Naive Recursive Algorithm</li>
+ <pre>
+ fib(n):
+  if n <= 2:
+   f = 1
+  else:
+   f = fib(n-1) + fib(n-2)
+  return f</pre>
+ <li>This algorithm results in exponential time, so it's not a good algorithm</li>
+ <li>Memoized Dynamic Programming Algorithm</li>
+ <pre>
+ memo = {}
+ fib(n):
+  if n in memo:
+   return memo[n]
+  if n <= 2:
+   f = 1
+  else:
+   f = fib(n-1) + fib(n-2)
+  return f</pre>
+  <li>Memoization can be used in any recursive algorithm, and it essentially causes memoized calls instead of recursive calls, which cost constant time</li>
+  <li>The number of non-memoized calls is n, therefore, DP for fibonacci is O(n)</li>
+  <li>Memoization is called that because its like a memo pad where you write in the dictionary</li>
+</ul>
+<h3>General Dynamic Programming</h3>
+<ul>
+ <li>Dynamic Programming uses memoization to remember and re-use solutions to subproblems that help solve the problem</li>
+ <li>Therefore, dynamic programming can be thought of as recursion + memoization</li>
+ <li>The running time of all DP is the # of subproblems * the amount of time spent per subproblem</li>
+</ul>
+<h3>Bottom-Up DP Algorithm</h3>
+<pre>
+memo = {}
+for k in range(1,n+1):
+ if k <= 2: 
+  f = 1
+ else:
+  f = memo[k-1] + memo[k-2]
+  memo[k] = f
+ return memo[n]</pre>
+ <ul>
+  <li>The above algorithm yields the exact same results as the previous memoized dynamic programming recursive algorithm, except, it is likely better in practice due to using iterations rather than recursive function calls</li>
+  <li>What is happening is actually a topological sort of a subproblem dependency Directed Acyclic Graph (DAG)</li>
+
 <h2>Lecture 20: Dynamic Programming II: Text Justification, Blackjack</h2>
 <h2>Lecture 21: Dynamic Programming III: Parenthesization, Edit Distance, Knapsack</h2>
 <h2>Lecture 22: Dynamic Programming IV: Guitar Fingering, Tetris, Super Mario Bros.</h2>
