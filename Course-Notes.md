@@ -918,8 +918,46 @@ Bellman-Ford(G,W,S): => graph, weights, source
 </ul>
 
 <h2>Lecture 18: Speeding Up Dijkstra</h2>
-<li>You want to find the shortest simple path between any/all destinations of v</li>
-
+<h3>Types of Shortest Path Problems</h3>
+<ul>
+ <li>Single-Source, Single-Target</li>
+ <li>Single-Source to All Destinations</li>
+ <li>All-Pair Shortest Path</li>
+</ul>
+<h3>Dijkstra Pseudocode</h3>
+<pre>
+Initialize() <- d[s] = 0; d[u≠s] = ∞
+Q <- V[a]
+while Q ≠ 0:
+ Do Q <- Extract the minimum priority of Q
+ For each vertex, such that V is a part of Adj[u]
+ Relax(u, v, w) ->  π[v] <- u; d[v]=-1;
+ 
+ *Stop if u == t</pre>
+<h3>Bidirectional Search</h3>
+<ul>
+ <li>Source (s) and Target (t) are given. Alternate a forward search from s and a backward search from t (while following edges backward). Do one level at a time.</li>
+ <li>Two min-priority queues are needed for bidirectional search, one for each direction</li>
+ <li>df[u] is the distances for the forward search; πf is normal predecessor</li>
+ <li>db[u] is the distances for the backward search; πb is backward predecessor</li>
+ <li>The termination condition occurs when some vertex (u) has been processed both in the forward search and the backward search, and extracted from both priority queues (Qf and Qb)</li>
+ <li>Theory: The shortest path is found by using the extracted vertex (W) as a stopping point for πf and a starting point for πb. Both paths extend from u back through the predecessors and ultimately give the shortest path between s and t</li>
+ <ul>
+  <li>ABOVE IS WRONG: W may not be on the shortest path. Therefore, while the termination condition is correct, it must be augmented to yield the shortest path</li>
+  <li>The correct shortest path is done by finding a vertex (x) that isn't necessarily w, that is the minimum value of df[x]+db[x]</li>
+  <ul>
+   <li>Replace the W in the theory with the vertex (x)</li>
+  </ul>
+</ul>
+<h3>Heuristic Graph Modifications</h3>
+<ul>
+ <li>Goal Directed Search: Modify edge weights with potential functions</li>
+ <li>w'(u,v) = w(u,v) - λ(u) + λ(v)</li>
+ <li>Basically, you want to create a downhill gradient towards the target vertex by increasing the potential of vertecies in the incorrect direction and decreasing the weights of verticies in the correct direction. This makes dijkstra's run faster</li>
+ <li>Any path w'(p) = w(p) - λt(s) + λt(t)</li>
+ <li>Don't alter any shortest paths, what is currently the shortest path should remain the shortest path, regardless of potential weight alterations</li>
+ <li>Landmarks can be used to help find the potential weight alterations</li>
+</ul>
 
 <h2>Lecture 19: Dynamic Programming I: Fibonacci, Shortest Paths</h2>
 <h2>Lecture 20: Dynamic Programming II: Text Justification, Blackjack</h2>
