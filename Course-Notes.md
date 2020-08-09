@@ -7,23 +7,6 @@ Courses are available at the following links:
  <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/">Introduction to Algorithms</a></li>
  <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/">Design and Analysis of Algorithms</a></li>
  <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/">Advanced Data Structures</a></li>
- <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/">Artificial Intelligence</a></li>
- <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/">Computer Systems Security</a></li>
- <li><a href="https://www.coursera.org/specializations/software-design-architecture">Software Design and Architecture Specialization</a></li>
- <ul>
-  <li><a href="https://www.coursera.org/learn/object-oriented-design">Object-Oriented Design</a></li>
-  <li><a href="https://www.coursera.org/learn/design-patterns">Design Patterns</a></li>
-  <li><a href="https://www.coursera.org/learn/software-architecture">Software Architecture</a></li>
-  <li><a href="https://www.coursera.org/learn/service-oriented-architecture">Service Oriented Architecture</a></li>
- </ul>
- <li><a href="https://www.coursera.org/specializations/advanced-machine-learning-tensorflow-gcp">Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization</a></li>
- <ul>
-  <li><a href="https://www.coursera.org/learn/end-to-end-ml-tensorflow-gcp?specialization=advanced-machine-learning-tensorflow-gcp">End-to-End Machine Learning with TensorFlow on GCP</a></li>
-  <li><a href="https://www.coursera.org/learn/gcp-production-ml-systems?specialization=advanced-machine-learning-tensorflow-gcp">Production Machine Learning Systems</a></li>
-  <li><a href="https://www.coursera.org/learn/image-understanding-tensorflow-gcp?specialization=advanced-machine-learning-tensorflow-gcp">Image Understanding with TensorFlow on GCP</a></li>
-  <li><a href="https://www.coursera.org/learn/sequence-models-tensorflow-gcp?specialization=advanced-machine-learning-tensorflow-gcp">Sequence Models for Time Series and Natural Language Processing</a></li>
-  <li><a href="https://www.coursera.org/learn/recommendation-models-gcp">Recommendation Systems with TensorFlow on GCP</a></li>
- </ul>
 </ul>
 <br>
 <h1>Table of Contents</h1>
