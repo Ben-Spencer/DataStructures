@@ -908,8 +908,61 @@ for k in range(1,n+1):
  <li>However, this algorithm will never finish if there is a cycle in the graph</li>
  <li>To fix this, layer the graph so there are no more cycles. Then it is a DAG, but the number of vertex's is squared; thereby taking exponential v time</li>
 </ul>
+</ul>
 
 <h2>Lecture 20: Dynamic Programming II: Text Justification, Blackjack</h2>
+<h3>Review</h3>
+<ul>
+ <li>Dynamic Programming is a "careful brute force" methodology, that tries every solution intelligently</li>
+ <li>Dynamic Programming is a combination of guessing, recursion, and memoization</li>
+ <li>Dynamic Programming is always computing a shortest path in a DAG, even if it doesn't look like it</li>
+ <li>Time = # of subproblems * time / subproblem (treat all recursive calls as O(1), due to memoization)</li>
+</ul>
+<h3>5 "Easy" Steps to Dynamic Programming</h3>
+<ul>
+ <li>1. Define Subproblems</li>
+  <ul>
+   <li># of subproblems (n for fibonacci, V^2 for shortest path)</li>
+  </ul>
+ <li>2. Guess (part of the solution)</li>
+ <ul>
+   <li># of choices for the guess (1 for fibonacci, indegree(v) +1 for shortest path)</li>
+  </ul>
+ <li>3. Relate subproblem solutions with recurrance</li>
+ <ul>
+   <li>Time per Subproblem</li>
+  </ul>
+ <li>4. Build an algorithm (recursion & memoization or bottom-up approach)</li>
+ <ul>
+   <li>Check subproblem recurrance is acyclical (i.e. has topological order)</li>
+   <li>Total time is found</li>
+  </ul>
+ <li>5. Combine subproblems to solve the original problem</li>
+</ul>
+<h3>Text Justification</h3>
+<ul>
+ <li>Split text into "good" lines</li>
+ <li>Text is a list of words</li>
+ <li>Badness(i,j) => while i -> j are a line [2 cases: 1. if they don't fit the answer is infinity; 2. if they do fit, the answer is page width - total width ^3]</li>
+ <li>The goal is to minimize the badness of all the lines. Greedy strategies would work for packing in as many words as possible, but later lines may look bad as extra spaces must be used. Therefore, this problem is better solved with dynamic programming</li>
+ <li>1. Subproblem: suffix words [i:], since all the words starting after the last word in the first line remain</li>
+ <li>2. Guess: which word should the second line start? (O(n))</li>
+ <li>3. Recurrance: min(DP[i] for j in range(i+1, n+1)) [where i is the first word in the first line and j is the first word of the second line] (O(n))</li>
+ <li>4. Topological Order: Work from the end backwards; i = n, n-1, ..., 0; total time = O(n^2)</li>
+ <li>5. Solve Problem: DP(0) is solved</li>
+ <li>Parent Pointers: Remember which guess was best</li>
+ <li>Figuring out what to guess and what your subproblem is are the hardest part of dynamic programming, the rest is automatic</li>
+</ul>
+<h3>Blackjack</h3>
+<ul>
+ <li>Given a deck with c0, c1, ..., c-1 cards; 1 player vs dealer; $1 bet per hand; should you hit or stand</li>
+ <li>1. Subproblem: Suffix c[i:] of the cards (# of subproblems is n)</li>
+ <li>2. Guess: How many times should you hit in the first play? (# of choices ≤ n)</li>
+ <li>3. Recurrance: Blackjack(i) = max(outcome {-1,0,1}; + Blackjack(j) for # of hits in range(0, n) if valid play) where j is i + 4 + # of hits + # of dealer hits</li>
+ <li>4. Topological Order: Create a DAG from the outcomes</li>
+ <li>5. Solve Problem: Solve for max money earned</li>
+</ul>
+
 <h2>Lecture 21: Dynamic Programming III: Parenthesization, Edit Distance, Knapsack</h2>
 <h2>Lecture 22: Dynamic Programming IV: Guitar Fingering, Tetris, Super Mario Bros.</h2>
 
