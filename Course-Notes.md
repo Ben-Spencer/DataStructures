@@ -890,6 +890,24 @@ for k in range(1,n+1):
  <ul>
   <li>The above algorithm yields the exact same results as the previous memoized dynamic programming recursive algorithm, except, it is likely better in practice due to using iterations rather than recursive function calls</li>
   <li>What is happening is actually a topological sort of a subproblem dependency Directed Acyclic Graph (DAG)</li>
+  <li>Storage space can be saved by using a bottom-up DP algorithm</li>
+  </ul>
+<h3>Shortest Paths</li>
+<ul>
+ <li>Single source shortest path: delta(s,v) for all V</li>
+ <li>Guessing should be used if the answer is unknown. In dynamic programming, try all possible guesses and then choose the best one</li>
+ <ul>
+  <li>That's why dynamic programming is often used for optimization problems (finding min or max). You try all the answers and then conclude with the best</li> 
+ </ul>
+ <li>Given a graph with a source (s) and a target vertex (v), find the shortest path between the two</li>
+ <li>To do this, guess all the last edges (u) coming from v and check if there is a path from u to s</li>
+ <li>Therefore, delta(s,v) = min(delta(s,u) + delta(u,v))</li>
+ <li>This algorithm works, but is terrible as the time complexity is exponential</li>
+ <li>To improve it, add memoization, storing the delta(s,u) in a dictionary</li>
+ <li>For DAGs it runs in O(V+E) time</li>
+ <li>However, this algorithm will never finish if there is a cycle in the graph</li>
+ <li>To fix this, layer the graph so there are no more cycles. Then it is a DAG, but the number of vertex's is squared; thereby taking exponential v time</li>
+</ul>
 
 <h2>Lecture 20: Dynamic Programming II: Text Justification, Blackjack</h2>
 <h2>Lecture 21: Dynamic Programming III: Parenthesization, Edit Distance, Knapsack</h2>
