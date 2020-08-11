@@ -891,8 +891,8 @@ for k in range(1,n+1):
   <li>The above algorithm yields the exact same results as the previous memoized dynamic programming recursive algorithm, except, it is likely better in practice due to using iterations rather than recursive function calls</li>
   <li>What is happening is actually a topological sort of a subproblem dependency Directed Acyclic Graph (DAG)</li>
   <li>Storage space can be saved by using a bottom-up DP algorithm</li>
-  </ul>
-<h3>Shortest Paths</li>
+ </ul>
+<h3>Shortest Paths</h3>
 <ul>
  <li>Single source shortest path: delta(s,v) for all V</li>
  <li>Guessing should be used if the answer is unknown. In dynamic programming, try all possible guesses and then choose the best one</li>
