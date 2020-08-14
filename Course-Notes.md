@@ -1149,12 +1149,17 @@ Used for spell correction and DNA mutations
  </ul>
  <li>Memory transfers from DRAM to SRAM take a long time. Therefore, large amounts of data are transferred in blocks, to make the slower time more acceptable</li>
 </ul>
- 
-
-
 
 <h1>Design and Analysis of Algorithms</h1>
 <h2>Lecture 1: Course Overview, Interval Scheduling</h2>
+<h3>Course Overview</h3>
+<ul>
+ <li>Divide & Conquer</li>
+ <li>Optimization: Greedy, Dynamic Programming</li>
+ <li>Network Flow</li>
+ <li>Intractibility - Approximation</li>
+</ul>
+
 <h2>Lecture 2: Divide and Conquer: Convex Hull, Median Finding</h2>
 <h2>Lecture 3: Divide and Conquer: FFT</h2>
 <h2>Lecture 4: Divide and Conquer: van Emde Boas Trees</h2>
