@@ -1009,7 +1009,7 @@ The following subproblems will get through most dynamic programming problems:
  <li>Takes O(n^3) to complete this problem</li>
 </ul>
 <h3>Edit Distance (& LCS)</h3>
-<h4>Edit Distancec</h4>
+<h4>Edit Distance</h4>
 Used for spell correction and DNA mutations
 <ul>
  <li>Given two strings (x & y), what's the cheapest possible sequence of character edits to convert x -> y?</li>
