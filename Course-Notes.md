@@ -383,6 +383,10 @@ You can use type() to find what type the object is. This is helpful in debugging
 
 
 <h2>Lecture 5: Tuples, Lists, Aliasing, Mutability, and Cloning</h2>
+
+
+
+
 <h2>Lecture 6: Recursion and Dictionaries</h2>
 <h2>Lecture 7: Testing, Debugging, Exceptions, and Assertions</h2>
 <h2>Lecture 8: Object Oriented Programming</h2>
@@ -964,6 +968,60 @@ for k in range(1,n+1):
 </ul>
 
 <h2>Lecture 21: Dynamic Programming III: Parenthesization, Edit Distance, Knapsack</h2>
+<h3>Review</h3>
+<ul>
+ <li>1. Define subproblems</li>
+ <li>2. Guess</li>
+ <li>3. Recurrance</li>
+ <li>4. Recursive Algorithm / Bottom Up</li>
+ <li>5. Solve Original Problem</li>
+</ul>
+<h3>Subproblems for Strings</h3>
+The following subproblems will get through most dynamic programming problems:
+<ul>
+ <li>Suffixes x[i:] for all i. O(n)</li>
+ <ul>
+  <li>For suffixes, topological order is almost always right to left</li>
+ </ul>
+ <li>Prefixes x[:i] for all i. O(n)</li>
+ <ul>
+  <li>For prefixes, topological order is almost always left to right</li>
+ </ul>
+ <li>Consecutive Substrings x[i:j] for all i ≤ j. O(n^2)</li>
+ <ul>
+  <li>For substrings, topological order is almost always by increasing substring size</li>
+ </ul>
+ As a rule of thumb, prefixes and suffixes are not going to be used together in the same problem, without substrings being in the problem as well
+</ul>
+
+<h3>Parenthesization</h3>
+<ul>
+ <li>Optimal evaluation of associative expression</li>
+ <b>Subproblem</b>
+ <li>You have N matricies and want to compute their product</li>
+ <li>If you have a vertical column * horizontal row * vertical column, there are 2 ways you can add parentheses:</li>
+ <ul>
+  <li>1. (vertical column * horizontal row) * vertical column <= Results in a large matrix & is O(n^2)</li>
+  <li>2. vertical column * (horizontal row * vertical column) <= Results in a single vertical column & is O(n)</li>
+ </ul>
+ <li>Therefore, choice 2 is the optimal evaluation of the associative expression</li>
+ <li>What is the outermost / last multiplication to occur? (A0...Ak-1) * (Ak...An-1)</li>
+ <li>Take substrings of both (A0...Ak01) and (Ak...An-1).</li>
+ <li>Takes O(n^3) to complete this problem</li>
+</ul>
+<h3>Edit Distance (& LCS)</h3>
+<ul>
+ <li></li>
+</ul>
+<h3>Knapsack</h3>
+<ul>
+ <li></li>
+</ul>
+<h3>Pseudopolynomial Time</h3>
+<ul>
+ <li></li>
+</ul>
+
 <h2>Lecture 22: Dynamic Programming IV: Guitar Fingering, Tetris, Super Mario Bros.</h2>
 
 <h2>Lecture 23: Computational Complexity</h2>
