@@ -1055,6 +1055,38 @@ Used for spell correction and DNA mutations
 </ul>
 
 <h2>Lecture 22: Dynamic Programming IV: Guitar Fingering, Tetris, Super Mario Bros.</h2>
+<h3>2 Kinds of Guessing</h3>
+<ul>
+ <li>1. Guessing which subproblem to use to solve bigger subproblems</li>
+ <li>2. Add more subproblems to guess(remember) more features of the solution</li>
+</ul>
+<h3>Piano / Guitar Fingering</h3>
+<ul>
+ <li>Given sequence of n notes, and you want to find fingering for each note</li>
+ <li>Fingers: 1...F (F = 5 or 10 for humans)</li>
+ <li>Difficulty measure d(p,f,q,g) <- how difficult is it to transition from currently playing note p with finger f, to then play note q using finger g</li>
+ <li>1. Subproblem: how to play notes [i:]?</li>
+ <li>2. Guess: which finger to use for note i</li>
+ <li>3. Recurrance: DP(i) = min( DP[i+1] + difficulty(i,f,i+1,?) for f in 1...F <- impossible & guess is incorrect due to ?</li>
+ <li>1. New Subproblem: how to play notes [i:] when use f for notes [i]</li>
+ <li>2. New Guess: finger g for note [i+1]</li>
+ <li>3. New Recurrance: DP(i,f) = min( DP[i+1,g] + difficulty(i,f,i+1,g) for g in 1...F) <- impossible & guess is incorrect due to ?</li>
+ <li>4. Bottom Up (Topological Order): for i in reversed(range(n)): for f in 1...F:</li>
+ <li>5. Original Problem: min(DP(o,f) for f in 1...F)
+</ul>
+<h3>Tetris Training</h3>
+<ul>
+ <li>Given a sequence of n pieces that will fall. For each of them, must drop from the top. Full rows don't clear. Width of row is small. The board is initially empty. Can you survive the n pieces?</li>
+ <li>1. Subproblem: how to play suffix pieces [i:] given board skyline</li>
+ <ul><li># of subproblems: n*(h+1)^w</li></ul>
+ <li>2. Guess: what should happen with piece i <- 4*w choices, 3 rotations and positional arguments</li>
+</ul>
+<h3>Super Mario Bros.</h3>
+<ul>
+ <li>Given a level and a small w*h screen, solve super mario bros by dynamic programming</li>
+ <li>You need to know everything on screen c^w*h and mario's velocity v, score S, time left T, and screen vs level w</li>
+ <li>The total number of configurations is O(w * c^w*h * S * T)</li>
+</ul>
 
 <h2>Lecture 23: Computational Complexity</h2>
 <h3>Types of Computational Complexity</h3>
