@@ -997,7 +997,6 @@ The following subproblems will get through most dynamic programming problems:
 <h3>Parenthesization</h3>
 <ul>
  <li>Optimal evaluation of associative expression</li>
- <b>Subproblem</b>
  <li>You have N matricies and want to compute their product</li>
  <li>If you have a vertical column * horizontal row * vertical column, there are 2 ways you can add parentheses:</li>
  <ul>
@@ -1010,16 +1009,49 @@ The following subproblems will get through most dynamic programming problems:
  <li>Takes O(n^3) to complete this problem</li>
 </ul>
 <h3>Edit Distance (& LCS)</h3>
+<h4>Edit Distancec</h4>
+Used for spell correction and DNA mutations
 <ul>
- <li></li>
+ <li>Given two strings (x & y), what's the cheapest possible sequence of character edits to convert x -> y?</li>
+ <ul>
+  <li>Insert, delete, and replace are the allowed operations</li>
+  <li>1. Subproblem: edit distance on x[i:] & y[j:] for all i & j, yields O(|x| * |y|) for # of subproblems</li>
+  <li>2. Guess: You need the first character to match. To achieve this, there are 3 possible choices:</li>
+  <ul>
+   <li>1. replace x[i] with y[j]</li>
+   <li>2. insert y[j] in front of x[i]</li>
+   <li>3. delete x[i]</li>
+  </ul>
+  <li>3. Recurrance: </li>
+  <ul>
+   <li>DP(i,j) = min( (cost of replace x[i] with y[j]) + DP(i+1,j+1) ),</li>
+   <li>DP(i,j) = min( (cost of insert y[j]) + DP(i, j+1) ),</li>
+   <li>DP(i,j) = min( (cost of delete x[i] + DP(i+1,j) )</li>
+  </ul>
+  <li>4. Recursive Algorithm (Topological Order): Since this is a suffix problem, therefore, go from smaller to larger suffixes.</li>
+  <li>5. Solve the Original Problem: Solve for DP(0,0); takes O(|x| * |y|)</li>
+ </ul>
+</ul>
+<h4>Longest Common Subsequence</h4>
+<ul>
+ <li>Given two strings (x & y), what's the cheapest possible deletions of character edits to convert x -> y?</li>
+ <li><b>H</b>I<b>E</b>ROG<b>L</b>YPHO<b>LO</b>GY -> MIC<b>H</b>A<b>EL</b>ANGE<b>LO</b>. What is the longest common subsequence? HELLO
 </ul>
 <h3>Knapsack</h3>
 <ul>
- <li></li>
+ <li>List of items with a given size (si <- Integer) and value (Vi) that fit within the size of the sack (S)</li>
+ <li>You want to choose a subset of the items to fit within the bag that gives the highest possible value</li>
+ <li>1. Subproblem: suffix [i:] of items & remaining capacity X is greater than 0 in relation to S</li>
+ <ul>
+  <li># of subproblems: O(n*S)</li>
+ </ul>
+ <li>2. Guessing: Is item i included or not? <- 2 choices: yes or no</li>
+ <li>3. Recurrance: DP(i,X) = max(DP(i+1,X), DP(i+1, X-si)+Vi)</li>
+ <li>4. Recursive topological sort: O(n*S) PSEUDOPOLYNOMIAL</li>
 </ul>
 <h3>Pseudopolynomial Time</h3>
 <ul>
- <li></li>
+ <li>Pseudo meaning it is one of the numbers in the input * the size of the input. In between polynomial and exponential</li>
 </ul>
 
 <h2>Lecture 22: Dynamic Programming IV: Guitar Fingering, Tetris, Super Mario Bros.</h2>
