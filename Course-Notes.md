@@ -6,7 +6,6 @@ Courses are available at the following links:
  <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/">Introduction to Computational Thinking and Data Science</a></li>
  <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/">Introduction to Algorithms</a></li>
  <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/">Design and Analysis of Algorithms</a></li>
- <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/">Advanced Data Structures</a></li>
  <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/">Artificial Intelligence</a></li>
 </ul>
 <br>
@@ -99,31 +98,6 @@ Courses are available at the following links:
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-22-cryptography-encryption">Lecture 22: Cryptography: Encryption</a></li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-23-cache-oblivious-algorithms-medians-and-matrices">Lecture 23: Cache-Oblivious Algorithms: Medians and Matrices</a></li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-24-cache-oblivious-algorithms-searching-and-sorting">Lecture 24: Cache-Oblivious Algorithms: Searching and Sorting</a></li>
- </ul><br>
- <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#advanced-data-structures">Advanced Data Structures</a></li>
- <ul>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-1-persistent-data-structures">Lecture 1: Persistent Data Structures</a></li>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-2-retroactive-data-structures">Lecture 2: Retroactive Data Structures</a></li>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-3-geometric-data-structures-i">Lecture 3: Geometric Data Structures I</a></li>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-4-geometric-data-structures-ii">Lecture 4: Geometric Data Structures II</a></li>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-5-dynamic-optimality-i">Lecture 5: Dynamic Optimality I</a></li>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-6-dynamic-optimality-ii">Lecture 6: Dynamic Optimality II</a></li>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-7-memory-hierarchy-models">Lecture 7: Memory Hierarchy Models</a></li>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-8-cache-oblivious-structures-i">Lecture 8: Cache-Oblivious Structures I</a></li>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-9-cache-oblivious-structures-ii">Lecture 9: Cache-Oblivious Structures II</a></li>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-10-dictionaries">Lecture 10: Dictionaries</a></li>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-11-integer-models">Lecture 11: Integer Models</a></li>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-12-fusion-trees">Lecture 12: Fusion Trees</a></li>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-13-integer-lower-bounds">Lecture 13: Integer Lower Bounds</a></li>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-14-sorting-in-linear-time">Lecture 14: Sorting in Linear Time</a></li>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-15-static-trees">Lecture 15: Static Trees</a></li>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-16-strings">Lecture 16: Strings</a></li>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-17-succinct-structures-i">Lecture 17: Succinct Structures I</a></li>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-18-succinct-structures-ii">Lecture 18: Succinct Structures II</a></li>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-19-dynamic-graphs-i">Lecture 19: Dynamic Graphs I</a></li>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-20-dynamic-graphs-ii">Lecture 20: Dynamic Graphs II</a></li>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-21-dynamic-connectivity-lower-bound">Lecture 21: Dynamic Connectivity Lower Bound</a></li>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#lecture-22-history-of-memory-models">Lecture 22: History of Memory Models</a></li>
  </ul><br>
  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#artificial-intelligence">Artificial Intelligence</a></li>
  <ul>
@@ -1183,30 +1157,6 @@ Used for spell correction and DNA mutations
 <h2>Lecture 22: Cryptography: Encryption</h2>
 <h2>Lecture 23: Cache-Oblivious Algorithms: Medians and Matrices</h2>
 <h2>Lecture 24: Cache-Oblivious Algorithms: Searching and Sorting</h2>
-
-<h1>Advanced Data Structures</h1>
-<h2>Lecture 1: Persistent Data Structures</h2>
-<h2>Lecture 2: Retroactive Data Structures</h2>
-<h2>Lecture 3: Geometric Data Structures I</h2>
-<h2>Lecture 4: Geometric Data Structures II</h2>
-<h2>Lecture 5: Dynamic Optimality I</h2>
-<h2>Lecture 6: Dynamic Optimality II</h2>
-<h2>Lecture 7: Memory Hierarchy Models</h2>
-<h2>Lecture 8: Cache-Oblivious Structures I</h2>
-<h2>Lecture 9: Cache-Oblivious Structures II</h2>
-<h2>Lecture 10: Dictionaries</h2>
-<h2>Lecture 11: Integer Models</h2>
-<h2>Lecture 12: Fusion Trees</h2>
-<h2>Lecture 13: Integer Lower Bounds</h2>
-<h2>Lecture 14: Sorting in Linear Time</h2>
-<h2>Lecture 15: Static Trees</h2>
-<h2>Lecture 16: Strings</h2>
-<h2>Lecture 17: Succinct Structures I</h2>
-<h2>Lecture 18: Succinct Structures II</h2>
-<h2>Lecture 19: Dynamic Graphs I</h2>
-<h2>Lecture 20: Dynamic Graphs II</h2>
-<h2>Lecture 21: Dynamic Connectivity Lower Bound</h2>
-<h2>Lecture 22: History of Memory Models</h2>
 
 <h1>Artificial Intelligence</h1>
 <h2>Lecture 1: Introduction and Scope</h2>
