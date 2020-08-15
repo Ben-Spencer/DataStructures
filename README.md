@@ -129,6 +129,5 @@ This repository contains the knowledge I have accumulated about discrete matheme
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#introduction-to-computational-thinking-and-data-science">Introduction to Computational Thinking and Data Science</a></li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#introduction-to-algorithms">Introduction to Algorithms</a></li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#design-and-analysis-of-algorithms">Design and Analysis of Algorithms</a></li>
-  <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#advanced-data-structures">Advanced Data Structures</a></li>
   <li><a href="https://github.com/Ben-Spencer/Interview-Preparation/blob/master/Course-Notes.md#artificial-intelligence">Artificial Intelligence</a></li>
 </ul>
